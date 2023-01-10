@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- An automation script to help user getting started with Mobile automation testing.
+- Script Content: Click &quot;START ALARM SERVICE&quot; and click &quot;STOP ALARM SERVICE&quot;, verify alert show is correct</description>
+   <name>Verify Correct Alarm Message</name>
+   <tag></tag>
+   <comment>Story: Verify correct alarm message
+Given that user has started an application
+And he navigates the application to Activity form
+When he taps on the Custom Dialog button
+Then the correct dialog message should be displayed</comment>
+   <testCaseGuid>7863351b-9de3-4c4f-823d-9497925136c3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fac105da-700f-41e2-80ba-35c60cdb620c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f80e1392-bbc6-47d1-b4f8-2d2b0e9d5400</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cdc8d7ad-6986-461c-ae5e-6f0589813318</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'com.hmh.api'</defaultValue>
+      <description></description>
+      <id>fac105da-700f-41e2-80ba-35c60cdb620c</id>
+      <masked>false</masked>
+      <name>appPackage</name>
+   </variable>
+   <variable>
+      <defaultValue>'.ApiDemos'</defaultValue>
+      <description></description>
+      <id>f80e1392-bbc6-47d1-b4f8-2d2b0e9d5400</id>
+      <masked>false</masked>
+      <name>appActivity</name>
+   </variable>
+   <variable>
+      <defaultValue>[('platformVersion') : '8.0.0', ('deviceName') : 'SM-G965F', ('platformName') : 'Android']</defaultValue>
+      <description></description>
+      <id>cdc8d7ad-6986-461c-ae5e-6f0589813318</id>
+      <masked>false</masked>
+      <name>deviceInformation</name>
+   </variable>
+</TestCaseEntity>
