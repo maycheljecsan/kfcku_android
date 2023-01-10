@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,,,,2023-01-10 14:15:37,2023-01-10 14:18:01,2m - 24.113s,PASSED
+,,,,,,,
+Test Cases/Login Phone Number,,,,2023-01-10 14:15:37,2023-01-10 14:16:51,1m - 13.854s,PASSED
+"startApplication(""C:\Users\Ahadian Rifky\Downloads\KFC-3064_app-hkStaging-debug.apk"", true)",,Start application on current selected android device,,2023-01-10 14:15:37,2023-01-10 14:16:24,46.899s,PASSED
+"tap(findTestObject(""Login/android.widget.Button - Izinkan""), 0)",,,,2023-01-10 14:16:24,2023-01-10 14:16:27,2.736s,PASSED
+"tap(findTestObject(""Login/android.widget.Button - Izinkan""), 0)",,,,2023-01-10 14:16:27,2023-01-10 14:16:33,6.183s,PASSED
+"tap(findTestObject(""Login/android.widget.TextView - Lewati""), 0)",,,,2023-01-10 14:16:33,2023-01-10 14:16:34,0.782s,PASSED
+"tap(findTestObject(""Login/android.widget.TextView - Profil""), 0)",,,,2023-01-10 14:16:34,2023-01-10 14:16:37,3.164s,PASSED
+"tap(findTestObject(""Login/android.widget.EditText - Masukkan nomor handphone Anda""), 0)",,,,2023-01-10 14:16:37,2023-01-10 14:16:39,2.169s,PASSED
+"setText(findTestObject(""Login/android.widget.EditText - Masukkan nomor handphone Anda""), ""081211287377"", 0)",,,,2023-01-10 14:16:39,2023-01-10 14:16:42,3.289s,PASSED
+"tap(findTestObject(""Login/android.widget.EditText - Ketik kata sandi Anda""), 0)",,,,2023-01-10 14:16:42,2023-01-10 14:16:43,0.746s,PASSED
+"setText(findTestObject(""Login/android.widget.EditText - Ketik kata sandi Anda""), ""pass111"", 0)",,,,2023-01-10 14:16:43,2023-01-10 14:16:46,2.307s,PASSED
+pressBack(),,,,2023-01-10 14:16:46,2023-01-10 14:16:46,0.533s,PASSED
+"tap(findTestObject(""Login/android.widget.Button - Masuk""), 0)",,,,2023-01-10 14:16:46,2023-01-10 14:16:47,1.422s,PASSED
+closeApplication(),,,,2023-01-10 14:16:47,2023-01-10 14:16:51,3.233s,PASSED
+,,,,,,,
+Test Cases/Login Social Media,,,,2023-01-10 14:16:51,2023-01-10 14:18:01,1m - 9.989s,PASSED
+"startApplication(""C:\Users\Ahadian Rifky\Downloads\KFC-3064_app-hkStaging-debug.apk"", true)",,Start application on current selected android device,,2023-01-10 14:16:51,2023-01-10 14:17:34,42.637s,PASSED
+"tap(findTestObject(""Login/android.widget.Button - Izinkan""), 0)",,,,2023-01-10 14:17:34,2023-01-10 14:17:36,2.612s,PASSED
+"tap(findTestObject(""Login/android.widget.Button - Izinkan""), 0)",,,,2023-01-10 14:17:36,2023-01-10 14:17:39,2.754s,PASSED
+"tap(findTestObject(""Login/android.widget.TextView - Lewati""), 0)",,,,2023-01-10 14:17:39,2023-01-10 14:17:41,1.713s,PASSED
+delay(3),,,,2023-01-10 14:17:41,2023-01-10 14:17:44,3.026s,PASSED
+"tap(findTestObject(""Login/android.widget.TextView - Profil""), 0)",,,,2023-01-10 14:17:44,2023-01-10 14:17:45,1.386s,PASSED
+"tap(findTestObject(""Login Social Media/android.widget.Button - Masuk dengan Google""), 0)",,,,2023-01-10 14:17:45,2023-01-10 14:17:48,3.048s,PASSED
+"tap(findTestObject(""Login Social Media/android.widget.TextView - jecsanmaychelgmail.com""), 0)",,,,2023-01-10 14:17:48,2023-01-10 14:17:53,4.879s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-01-10 14:17:53,2023-01-10 14:17:56,3.020s,PASSED
+pressBack(),,,,2023-01-10 14:17:56,2023-01-10 14:17:57,1.292s,PASSED
+closeApplication(),,,,2023-01-10 14:17:57,2023-01-10 14:18:01,3.310s,PASSED
