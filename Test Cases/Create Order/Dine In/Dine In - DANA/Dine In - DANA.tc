@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Case</name>
+   <name>Dine In - DANA</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>4ed4b6b4-d99e-4892-95b6-0f1acf1a9585</testCaseGuid>
+   <testCaseGuid>b0fb30a3-5caa-416e-b5e1-e17cc0f603fb</testCaseGuid>
 </TestCaseEntity>

@@ -15,14 +15,14 @@
       <guid>35d794d2-0ce8-4f02-bd8a-c0a0e5f2cd60</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Phone Number</testCaseId>
+      <testCaseId>Test Cases/Login KFCKU Apps/Login Phone Number</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>1ca7a4dc-c1d5-424f-87c7-617f4cf0a314</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Social Media</testCaseId>
+      <testCaseId>Test Cases/Login KFCKU Apps/Login Social Media</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

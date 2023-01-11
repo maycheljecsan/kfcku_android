@@ -26,7 +26,9 @@ Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
 
 Mobile.tap(findTestObject('Login/android.widget.TextView - Lewati'), 0)
 
-Mobile.tap(findTestObject('Login/android.widget.TextView - Profil'), 0)
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Login/android.widget.TextView - Profile'), 0)
 
 Mobile.tap(findTestObject('Login/android.widget.EditText - Masukkan nomor handphone Anda'), 0)
 
