@@ -17,5 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Start application on current selected android device'
-Mobile.startExistingApplication("com.kfc.mobile.hkStaging")
+//'Start application on current selected android device'
+//Mobile.startExistingApplication('com.kfc.mobile.hkStaging')
+
+WebUI.callTestCase(findTestCase('Login KFCKU Apps/Login Social Media'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.scrollToText(DINE - IN)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.swipe(300, 300, 300, 300).call('DINE-IN', 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap('DINE-IN', 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap('MT HARYONO', 0)
+

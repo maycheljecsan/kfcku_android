@@ -42,5 +42,7 @@ Mobile.pressBack()
 
 Mobile.tap(findTestObject('Login/android.widget.Button - Masuk'), 0)
 
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.closeApplication()
 

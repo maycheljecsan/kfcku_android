@@ -32,11 +32,14 @@ Mobile.tap(findTestObject('Login/android.widget.TextView - Profil'), 0)
 
 Mobile.tap(findTestObject('Login Social Media/android.widget.Button - Masuk dengan Google'), 0)
 
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Login Social Media/android.widget.TextView - jecsanmaychelgmail.com'), 0)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.pressBack()
 
-Mobile.closeApplication()
+
+//Mobile.closeApplication()
 
