@@ -18,29 +18,14 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //'Start application on current selected android device'
-//Mobile.startExistingApplication('com.kfc.mobile.hkStaging')
+Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Login KFCKU Apps/Login Social Media'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Login KFCKU Apps/T8375 - Login Social Media'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Order Dine In/android.widget.TextView - Beranda'), 5)
 
-//Mobile.startApplication('C:\\Users\\Ahadian Rifky\\Downloads\\apps.apk', true)
+Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - Beranda'), 5)
 
-//Mobile.pressBack()
-
-//Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - Profil'), 0)
-//
-//Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.Button - Masuk dengan Google'), 0)
-//
-//Mobile.pressBack()
-//
-//Mobile.tap(findTestObject(''), 0)
-//
-//Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - jecsanmaychelgmail.com'), 0)
-
-Mobile.pressBack()
-
-Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - Beranda'), 0)
-
-Mobile.scrollToText('HARI INI LAPAR? AYO PESAN')
+Mobile.swipe(281, 655, 434, 161)
 
 Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - DINE-IN'), 0)
 
@@ -53,5 +38,24 @@ Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - MT HARYONO JAKARTA'), 0)
 
-Mobile.closeApplication()
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Order Dine In/android.widget.FrameLayout'), 0)
+
+Mobile.pressBack()
+
+Mobile.tap(findTestObject('Order Dine In/android.widget.Button - Add'), 0)
+
+//Mobile.scrollToText('Continue', FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Order Dine In/Order/android.widget.Button - Lanjut'), 0)
+
+Mobile.tap(findTestObject('Order Dine In/Order/android.widget.LinearLayout'), 0)
+
+Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis'), 0)
+
+Mobile.tap(findTestObject('Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis'), 0)
+
+Mobile.swipe(281, 655, 434, 161)
+
+Mobile.tap(findTestObject('Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis'), 0)
 

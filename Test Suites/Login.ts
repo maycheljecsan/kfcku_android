@@ -22,7 +22,7 @@
       <guid>1ca7a4dc-c1d5-424f-87c7-617f4cf0a314</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login KFCKU Apps/Login Social Media</testCaseId>
+      <testCaseId>Test Cases/Login KFCKU Apps/T8375 - Login Social Media</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

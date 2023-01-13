@@ -18,18 +18,17 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Start application on current selected android device'
-Mobile.startApplication('C:\\Users\\Ahadian Rifky\\Downloads\\apps.apk', true)
+Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.delay(10)
 
-Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
-
-Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
-
-Mobile.tap(findTestObject('Login/android.widget.TextView - Lewati'), 0)
-
-Mobile.delay(3)
-
+//Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
+//
+//Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
+//
+//Mobile.tap(findTestObject('Login/android.widget.TextView - Lewati'), 0)
+//
+//Mobile.delay(3)
 Mobile.tap(findTestObject('Login/android.widget.TextView - Profil'), 0)
 
 Mobile.tap(findTestObject('Login Social Media/android.widget.Button - Masuk dengan Google'), 0)
@@ -39,6 +38,4 @@ Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 Mobile.tap(findTestObject('Login Social Media/android.widget.TextView - jecsanmaychelgmail.com'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.pressBack()
 
