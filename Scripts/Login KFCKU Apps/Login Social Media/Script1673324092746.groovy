@@ -18,7 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Start application on current selected android device'
-Mobile.startApplication('C:\\Users\\Ahadian Rifky\\Downloads\\KFC-3064_app-hkStaging-debug.apk', true)
+Mobile.startApplication('C:\\Users\\Ahadian Rifky\\Downloads\\apps.apk', true)
+
+Mobile.delay(10)
 
 Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
 
@@ -39,7 +41,4 @@ Mobile.tap(findTestObject('Login Social Media/android.widget.TextView - jecsanma
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.pressBack()
-
-
-//Mobile.closeApplication()
 

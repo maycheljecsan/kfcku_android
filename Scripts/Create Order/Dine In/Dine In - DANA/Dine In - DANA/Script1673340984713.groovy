@@ -22,19 +22,36 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login KFCKU Apps/Login Social Media'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+//Mobile.startApplication('C:\\Users\\Ahadian Rifky\\Downloads\\apps.apk', true)
 
-Mobile.scrollToText(DINE - IN)
+//Mobile.pressBack()
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+//Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - Profil'), 0)
+//
+//Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.Button - Masuk dengan Google'), 0)
+//
+//Mobile.pressBack()
+//
+//Mobile.tap(findTestObject(''), 0)
+//
+//Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - jecsanmaychelgmail.com'), 0)
 
-Mobile.swipe(300, 300, 300, 300).call('DINE-IN', 0)
+Mobile.pressBack()
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - Beranda'), 0)
 
-Mobile.tap('DINE-IN', 0)
+Mobile.scrollToText('HARI INI LAPAR? AYO PESAN')
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - DINE-IN'), 0)
 
-Mobile.tap('MT HARYONO', 0)
+Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - Cari Gerai KFC'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Order Dine In/android.widget.EditText - Cari Gerai KFC'), 'MT Haryono', 
+    0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - MT HARYONO JAKARTA'), 0)
+
+Mobile.closeApplication()
 
