@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>android.widget.TextView - E-Wallet  E-Money</name>
+   <name>android.widget.ImageButton</name>
    <tag></tag>
-   <elementGuidId>7869c905-d889-4540-9777-49e7b8110c49</elementGuidId>
+   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,8 +11,8 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>android.widget.TextView</value>
-      <webElementGuid>de70eb52-7c21-408b-910d-a9496121c20a</webElementGuid>
+      <value>android.widget.ImageButton</value>
+      <webElementGuid>83731405-0a97-4045-9d23-c5d4e59a8c0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,23 +20,15 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>efe2fc3a-2274-454b-9edb-6e9a84bf105f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>E-Wallet / E-Money</value>
-      <webElementGuid>e88342b8-0925-4e2a-b17d-c24cefde14bd</webElementGuid>
+      <webElementGuid>3c9e8765-db35-4d69-8683-3db99883d537</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.kfc.mobile.hkStaging:id/tvPaymentGroup</value>
-      <webElementGuid>04162b6f-8c2e-4cb8-a547-e8fbc99c553a</webElementGuid>
+      <value>com.kfc.mobile.hkStaging:id/h5_tv_nav_back</value>
+      <webElementGuid>e7163cb3-9b24-4bc5-b092-5a15ca0e749a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +36,15 @@
       <name>package</name>
       <type>Main</type>
       <value>com.kfc.mobile.hkStaging</value>
-      <webElementGuid>da0d7f4d-db04-42fe-874c-46cf74dbf7ec</webElementGuid>
+      <webElementGuid>f75f8989-2575-441d-9b58-16c9791a314c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>content-desc</name>
+      <type>Main</type>
+      <value>Back</value>
+      <webElementGuid>c3495bf5-caf9-4f19-ba83-f77ccb46769c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f85bdc65-06ff-4d0e-950c-ec9ecfc306c5</webElementGuid>
+      <webElementGuid>501aa763-3398-4f7f-8af3-9ade195da2f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,15 +60,15 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>56f689d9-99a3-49be-a57a-487708b8cb7c</webElementGuid>
+      <webElementGuid>109e3f55-18aa-4aed-9b4f-e9227a3fe44d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>clickable</name>
       <type>Main</type>
-      <value>false</value>
-      <webElementGuid>11cacfd0-3ff2-4c0f-9015-ea1ec3cb4912</webElementGuid>
+      <value>true</value>
+      <webElementGuid>0a021102-6c81-42da-953d-7865ecfbe728</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,15 +76,15 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>032e07bd-bb19-48c9-9ffb-ab69abef4703</webElementGuid>
+      <webElementGuid>e336d52c-668d-4e24-9527-26f5a18e56dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>focusable</name>
       <type>Main</type>
-      <value>false</value>
-      <webElementGuid>e4108cbe-f8b9-4f26-8716-fb5159746b5c</webElementGuid>
+      <value>true</value>
+      <webElementGuid>1b355579-1a8f-4e42-b65c-cddf3c2f4346</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>71173354-6c1a-4f66-aa57-d66e5696dd80</webElementGuid>
+      <webElementGuid>9a5ac692-9e08-4d30-a296-c270f6d55041</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>2a355fb3-aca8-4fe6-a5b3-2251ba35f638</webElementGuid>
+      <webElementGuid>9cef79d8-9b62-48f5-9ad0-67e6918a4686</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>936affac-aa6f-47b9-8c17-c6d54e441ef5</webElementGuid>
+      <webElementGuid>6b7e5954-31f0-45dd-847a-99e57a687b5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>20424de1-eaa0-4b89-983d-af2fe2b8d576</webElementGuid>
+      <webElementGuid>0bfde80f-3571-491f-a735-c61ba6b271e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,47 +124,47 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>fe5466c1-8585-4169-8ba5-5960a9ef4b99</webElementGuid>
+      <webElementGuid>6476fefb-17b9-4af5-8c43-07a25a6d9152</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>32</value>
-      <webElementGuid>00b53df7-d7d4-42e4-a6c2-eb37f70bc7f0</webElementGuid>
+      <value>0</value>
+      <webElementGuid>dfa0c63c-e5f4-4fa3-a314-eca487d5a135</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>764</value>
-      <webElementGuid>c0df2ec6-03f7-4ea2-83d7-7183d63c2dce</webElementGuid>
+      <value>36</value>
+      <webElementGuid>2341432e-6aa9-4360-9398-54d77bc6b311</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>208</value>
-      <webElementGuid>42913cb8-f503-4513-9f96-933739cbf435</webElementGuid>
+      <value>96</value>
+      <webElementGuid>0f3e0c86-6824-4fcc-b6df-6dcc55a751a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>34</value>
-      <webElementGuid>305881df-e07f-462f-abe1-da0256235054</webElementGuid>
+      <value>96</value>
+      <webElementGuid>0c343406-c05c-47bb-bbc2-ffe73140ba85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[32,764][240,798]</value>
-      <webElementGuid>1b2dd222-d7b5-44aa-b35e-25693c53fcfb</webElementGuid>
+      <value>[0,36][96,132]</value>
+      <webElementGuid>8e5f28fa-7c8d-4885-a2bf-a8d1c09ec297</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -172,16 +172,24 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>79c0e233-8f9e-4949-b5a6-6096100a0729</webElementGuid>
+      <webElementGuid>f75a7dcb-107a-4334-b102-ddf6c316e6d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>9328d763-4cb1-48aa-8a88-86f7caad544b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[5]/android.widget.TextView[1]</value>
-      <webElementGuid>0bbf7168-caee-4590-9889-0bff5a6d5e11</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.ImageButton[1]</value>
+      <webElementGuid>7728a730-0d18-4d2e-9846-f9704ad7f0ab</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = 'E-Wallet / E-Money' or . = 'E-Wallet / E-Money') and @resource-id = 'com.kfc.mobile.hkStaging:id/tvPaymentGroup']</locator>
+   <locator>//*[@class = 'android.widget.ImageButton' and @resource-id = 'com.kfc.mobile.hkStaging:id/h5_tv_nav_back' and (@text = '' or . = '')]</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>
