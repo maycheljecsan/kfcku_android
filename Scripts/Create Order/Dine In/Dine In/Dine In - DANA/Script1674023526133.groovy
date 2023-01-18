@@ -116,6 +116,8 @@ Mobile.tap(findTestObject('Order Dine In/Payment/android.widget.Button - Simpan'
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.swipe(281, 500, 434, 161)
+
 Mobile.tap(findTestObject('Order Dine In/Payment/android.widget.Button - Pesan Sekarang'), 10)
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)

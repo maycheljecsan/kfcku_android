@@ -3,7 +3,7 @@
    <description></description>
    <name>android.widget.ImageView (3)</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>34325772-d479-4628-a6a4-006d94165f61</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -12,7 +12,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.ImageView</value>
-      <webElementGuid>7ee4e4d8-293a-487f-8fa0-6b5e56177750</webElementGuid>
+      <webElementGuid>c39ed9f8-fbf4-4ea2-a398-da1189338ec7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,7 +20,7 @@
       <name>index</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>6c45b2f7-c3f9-4f93-8eb4-0cae71271506</webElementGuid>
+      <webElementGuid>84e64afc-e48d-4541-95ff-e23f5b3775f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +28,7 @@
       <name>resource-id</name>
       <type>Main</type>
       <value>com.kfc.mobile.hkStaging:id/ivPay</value>
-      <webElementGuid>ab80294f-a0ae-4358-9061-1a62bf656179</webElementGuid>
+      <webElementGuid>91226490-3671-4bb4-992e-64f1ac21c145</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,7 +36,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.kfc.mobile.hkStaging</value>
-      <webElementGuid>5b3ee489-4161-4fb1-8519-077dd8df769e</webElementGuid>
+      <webElementGuid>c7619ec6-b074-44c1-a77a-30fe9edf7536</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +44,7 @@
       <name>content-desc</name>
       <type>Main</type>
       <value>KFC</value>
-      <webElementGuid>a8a424ed-e869-4397-bb63-e1b204d5c242</webElementGuid>
+      <webElementGuid>cb4f93fb-a39e-46d2-9725-9f727b5c2441</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,7 +52,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>514df59b-e42a-4712-aef4-b6786cedf876</webElementGuid>
+      <webElementGuid>6a4385d1-e0ed-4800-89f2-c6566e7d6746</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,7 +60,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f5b33805-4514-49c9-889a-d7c96293e076</webElementGuid>
+      <webElementGuid>4c5467ec-3dbf-431f-bd01-257c843a8553</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -68,7 +68,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d870f48f-ec2d-4548-8012-56649cf979d1</webElementGuid>
+      <webElementGuid>db923486-4243-42f4-89ed-126be88bf90e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -76,7 +76,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>330b5f30-b8a5-4a8d-90db-c674416c7eef</webElementGuid>
+      <webElementGuid>ce70d342-9cad-41ab-be7b-f6b6cedfe551</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -84,7 +84,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>11ad32a9-f2c7-4add-8ff1-f04882c697f7</webElementGuid>
+      <webElementGuid>cb153cc0-6fca-4eaa-b353-40e2c919749f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -92,7 +92,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>dba651f1-6b49-42ba-be21-127e52e11cbe</webElementGuid>
+      <webElementGuid>959f090f-b305-468f-8c79-1727a87e5b72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -100,7 +100,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>67d2d7e1-4c07-4e23-b44a-9c7501959942</webElementGuid>
+      <webElementGuid>40c8fe6d-9dfc-4123-87a7-1ab8fabba8ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -108,7 +108,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>de87ce04-854e-424e-b46e-b1bce1f85772</webElementGuid>
+      <webElementGuid>845ef0d0-b504-40c4-9484-e1208cf0b620</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -116,7 +116,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>db861cae-a8d1-4092-aa0b-d01288dc8e9a</webElementGuid>
+      <webElementGuid>30db8c8f-b0ef-4921-829e-d3a3f775acf3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -124,7 +124,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>a367f3bc-6c4d-408b-8065-a21df5d8e522</webElementGuid>
+      <webElementGuid>51da369a-cdc7-47f6-b667-43ff6f6b5130</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -132,7 +132,7 @@
       <name>x</name>
       <type>Main</type>
       <value>64</value>
-      <webElementGuid>1d433528-59ba-4991-bd57-eb6b3d8bd533</webElementGuid>
+      <webElementGuid>fbcdc3dc-a25c-4243-b0de-4e7f886d4ad0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -140,7 +140,7 @@
       <name>y</name>
       <type>Main</type>
       <value>869</value>
-      <webElementGuid>80ba51e5-fe96-453c-a905-c83ac7ba4991</webElementGuid>
+      <webElementGuid>4e181351-9293-4602-81b6-a4ffba0c3697</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -148,7 +148,7 @@
       <name>width</name>
       <type>Main</type>
       <value>178</value>
-      <webElementGuid>b54d38c0-a55a-4287-808f-5dac31074567</webElementGuid>
+      <webElementGuid>def51f55-e26d-4102-afac-86f918433db9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -156,7 +156,7 @@
       <name>height</name>
       <type>Main</type>
       <value>48</value>
-      <webElementGuid>0f12bf68-0821-4309-b8ef-d6581ebd7050</webElementGuid>
+      <webElementGuid>81a1b3c3-dca9-4c2a-b61b-84b95fc4f738</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -164,7 +164,7 @@
       <name>bounds</name>
       <type>Main</type>
       <value>[64,869][242,917]</value>
-      <webElementGuid>6c8ef7e2-b280-419d-bc99-06d6bb5ca15b</webElementGuid>
+      <webElementGuid>770dc414-d54e-4b13-956b-baddbd4c1330</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -172,7 +172,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>8a097cf0-1620-4bfe-8c58-e9a1a8a770ea</webElementGuid>
+      <webElementGuid>36a6065e-cbb9-4376-bf10-c7eb3ba68014</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -180,7 +180,7 @@
       <name>text</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>738ce9f1-cb5c-44fc-9e6c-c258cae5b2c8</webElementGuid>
+      <webElementGuid>65fc805c-cbf8-436b-9796-dfdf6d74fad3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -188,8 +188,8 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[6]/android.widget.ImageView[1]</value>
-      <webElementGuid>f2128d9c-c313-4cc3-995c-d5078f11c9df</webElementGuid>
+      <webElementGuid>781a3948-1201-46ae-969f-e238beabc378</webElementGuid>
    </webElementProperties>
-   <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[6]/android.widget.ImageView[1]</locator>
+   <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[6]/android.widget.ImageView[1][count(. | //*[@class = 'android.widget.ImageView' and @index = '1' and @resource-id = 'com.kfc.mobile.hkStaging:id/ivPay' and @package = 'com.kfc.mobile.hkStaging' and @content-desc = 'KFC' and @checkable = 'false' and @checked = 'false' and @clickable = 'false' and @enabled = 'true' and @focusable = 'false' and @focused = 'false' and @scrollable = 'false' and @long-clickable = 'false' and @password = 'false' and @selected = 'true' and @x = '64' and @y = '869' and @width = '178' and @height = '48' and @bounds = '[64,869][242,917]' and @displayed = 'true' and (@text = '' or . = '')]) = count(//*[@class = 'android.widget.ImageView' and @index = '1' and @resource-id = 'com.kfc.mobile.hkStaging:id/ivPay' and @package = 'com.kfc.mobile.hkStaging' and @content-desc = 'KFC' and @checkable = 'false' and @checked = 'false' and @clickable = 'false' and @enabled = 'true' and @focusable = 'false' and @focused = 'false' and @scrollable = 'false' and @long-clickable = 'false' and @password = 'false' and @selected = 'true' and @x = '64' and @y = '869' and @width = '178' and @height = '48' and @bounds = '[64,869][242,917]' and @displayed = 'true' and (@text = '' or . = '')])]</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>
