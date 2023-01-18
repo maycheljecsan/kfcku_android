@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Dine In Gopay</name>
+   <name>Take Away - Gopay</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ba8f8393-2da7-4ee5-85bc-3f739d199cb1</testCaseGuid>
+   <testCaseGuid>99fd5fb9-44d2-4a3c-bb3b-0928c3cdf4b2</testCaseGuid>
 </TestCaseEntity>
