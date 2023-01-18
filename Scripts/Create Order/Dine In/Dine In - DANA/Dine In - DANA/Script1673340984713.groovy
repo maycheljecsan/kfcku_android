@@ -88,24 +88,27 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.swipe(281, 500, 434, 161)
 
-Mobile.tap(findTestObject('Order Dine In/Payment/imgPayment/android.widget.ImageView (1)'), 5)
+//Mobile.tap(findTestObject('Order Dine In/Payment/imgPayment/android.widget.ImageView (1)'), 5)
+TestObject testObjectOne = new TestObject()
 
-//TestObject testObjectOne = new TestObject()
-//testObjectOne.addProperty("xpath", ConditionType.EQUALS, "//android.widget.ViewGroup[@resource-id='clPaymentInfo']/*[@class='android.view.ViewGroup' and @index='1']")
-//Mobile.tap(testObjectOne, 5)
+testObjectOne.addProperty('xpath', ConditionType.EQUALS, '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[3]/android.widget.ImageView[1]')
+
+Mobile.tap(testObjectOne, 5)
+
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.swipe(281, 500, 434, 161)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject('Order Dine In/Payment/imgPayment/android.widget.ImageView (4)'), 'DANA')
+TestObject testObjectTwo = new TestObject()
 
-Mobile.tap(findTestObject('Order Dine In/Payment/imgPayment/android.widget.ImageView (4)'), 5)
+testObjectTwo.addProperty('xpath', ConditionType.EQUALS, '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[4]')
 
-//TestObject testObjectTwo = new TestObject()
-//testObjectTwo.addProperty("xpath", ConditionType.EQUALS, "//android.widget.ViewGroup[@resource-id='clPaymentInfo']/*[@class='android.view.ViewGroup' and @index='6']")
-//Mobile.tap(testObjectTwo, 5)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(testObjectTwo, 5)
+
 //Mobile.scrollToText('Simpan')
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
@@ -126,5 +129,11 @@ Mobile.waitForElementPresent(findTestObject('Order Dine In/Payment/android.widge
 
 Mobile.tap(findTestObject('Order Dine In/Payment/android.widget.ImageButton'), 10)
 
-Mobile.tap(findTestObject('Order Dine In/Payment/android.widget.ImageView'), 10)
+Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.TextView - OKE'), 5)
+
+Mobile.tap(findTestObject('Order Dine In/Order/android.widget.TextView - OKE'), 10)
+
+Mobile.scrollToText('TOTAL', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.closeApplication()
 
