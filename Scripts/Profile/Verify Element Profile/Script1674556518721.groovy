@@ -20,29 +20,23 @@ import org.openqa.selenium.Keys as Keys
 //'Start application on current selected android device'
 Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
+Mobile.waitForElementPresent(findTestObject('Profile/android.widget.TextView - Profil'), 5)
 
-Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
+Mobile.tap(findTestObject('Profile/android.widget.TextView - Profil'), 5)
 
-Mobile.tap(findTestObject('Login/android.widget.TextView - Lewati'), 0)
+Mobile.verifyElementVisible(findTestObject('Profile/Header Profile/android.widget.ImageView'), 0)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Profile/Header Profile/android.widget.TextView - 081211287377'), 0)
 
-Mobile.tap(findTestObject('Login/android.widget.TextView - Profile'), 0)
+Mobile.verifyElementVisible(findTestObject('Profile/Header Profile/android.widget.TextView - MIKE'), 0)
 
-Mobile.tap(findTestObject('Login/android.widget.EditText - Masukkan nomor handphone Anda'), 0)
+Mobile.verifyElementVisible(findTestObject('Profile/Header Profile/android.widget.TextView - Terdaftar sejak'), 0)
 
-Mobile.setText(findTestObject('Login/android.widget.EditText - Masukkan nomor handphone Anda'), '081211287377', 0)
+Mobile.scrollToText('Version', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Login/android.widget.EditText - Ketik kata sandi Anda'), 0)
+Mobile.verifyElementVisible(findTestObject('Profile/Informasi Pribadi/android.widget.ImageView'), 0)
 
-Mobile.setText(findTestObject('Login/android.widget.EditText - Ketik kata sandi Anda'), 'pass111', 0)
+Mobile.verifyElementVisible(findTestObject('Profile/Informasi Pribadi/android.widget.TextView - INFORMASI PRIBADI'), 0)
 
-Mobile.pressBack()
-
-Mobile.tap(findTestObject('Login/android.widget.Button - Masuk'), 0)
-
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.closeApplication()
+Mobile.verifyElementVisible(findTestObject('Profile/Informasi Pribadi/android.widget.TextView - Ubah Profil'), 0)
 
