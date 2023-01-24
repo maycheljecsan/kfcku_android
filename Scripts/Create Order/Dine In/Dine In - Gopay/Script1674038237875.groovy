@@ -39,7 +39,7 @@ Mobile.hideKeyboard()
 Mobile.waitForElementPresent(findTestObject('Object Repository/Order Dine In/android.widget.TextView - MT HARYONO JAKARTA'), 
     5)
 
-Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - MT HARYONO JAKARTA'), 0)
+Mobile.tap(findTestObject('Order Dine In/Order/android.widget.Button - Pilih Gerai'), 5)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
@@ -52,6 +52,8 @@ Mobile.pressBack()
 Mobile.waitForElementPresent(findTestObject('Order Dine In/android.widget.Button - Add'), 5)
 
 Mobile.tap(findTestObject('Order Dine In/android.widget.Button - Add'), 5)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.Button - Lanjut'), 5)
 

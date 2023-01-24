@@ -40,7 +40,7 @@ Mobile.hideKeyboard()
 Mobile.waitForElementPresent(findTestObject('Object Repository/Order Dine In/android.widget.TextView - MT HARYONO JAKARTA'), 
     5)
 
-Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - MT HARYONO JAKARTA'), 0)
+Mobile.tap(findTestObject('Order Dine In/Order/android.widget.Button - Pilih Gerai'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
@@ -54,10 +54,14 @@ Mobile.waitForElementPresent(findTestObject('Order Dine In/android.widget.Button
 
 Mobile.tap(findTestObject('Order Dine In/android.widget.Button - Add'), 5)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.Button - Lanjut'), 5)
 
 //Mobile.scrollToText('Continue', FailureHandling.STOP_ON_FAILURE)
 Mobile.tap(findTestObject('Order Dine In/Order/android.widget.Button - Lanjut'), 5)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.LinearLayout'), 5)
 
@@ -67,14 +71,20 @@ Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.
 
 Mobile.tap(findTestObject('Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis'), 5)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 //Mobile.swipe(281, 655, 434, 161)
 Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.Button - Pilih Sekarang'), 10)
 
 Mobile.tap(findTestObject('Order Dine In/Order/android.widget.Button - Pilih Sekarang'), 10)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.Button - TAMBAHKAN'), 10)
 
 Mobile.tap(findTestObject('Order Dine In/Order/android.widget.Button - TAMBAHKAN'), 5)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Order Dine In/Order/android.widget.Button - Lanjutkan'), 5)
 
@@ -122,9 +132,9 @@ Mobile.tap(findTestObject('Order Dine In/Payment/android.widget.Button - Pesan S
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('Order Dine In/Payment/android.widget.Button - BAYAR Rp157.500'), 5)
+Mobile.waitForElementPresent(findTestObject('Order Dine In/Payment/imgPayment/android.view.View'), 5)
 
-Mobile.tap(findTestObject('Order Dine In/Payment/android.widget.Button - BAYAR Rp157.500'), 10)
+Mobile.tap(findTestObject('Order Dine In/Payment/android.view.View'), 10)
 
 Mobile.waitForElementPresent(findTestObject('Order Dine In/Payment/android.widget.TextView - Konfirmasi pembayaran Anda'), 
     5)
