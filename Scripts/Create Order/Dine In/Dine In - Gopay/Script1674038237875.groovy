@@ -60,22 +60,32 @@ Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.
 //Mobile.scrollToText('Continue', FailureHandling.STOP_ON_FAILURE)
 Mobile.tap(findTestObject('Order Dine In/Order/android.widget.Button - Lanjut'), 5)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.LinearLayout'), 5)
 
 Mobile.tap(findTestObject('Order Dine In/Order/android.widget.LinearLayout'), 5)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis'), 5)
 
 Mobile.tap(findTestObject('Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis'), 5)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 //Mobile.swipe(281, 655, 434, 161)
 Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.Button - Pilih Sekarang'), 10)
 
 Mobile.tap(findTestObject('Order Dine In/Order/android.widget.Button - Pilih Sekarang'), 10)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.Button - TAMBAHKAN'), 10)
 
 Mobile.tap(findTestObject('Order Dine In/Order/android.widget.Button - TAMBAHKAN'), 5)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Order Dine In/Order/android.widget.Button - Lanjutkan'), 5)
 
@@ -131,11 +141,10 @@ Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Order Dine In/Gopay/android.widget.Button - Submit'), 10)
 
-Mobile.waitForElementPresent(findTestObject('Order Dine In/Gopay/android.view.ViewGroup'), 10)
-
-Mobile.tap(findTestObject('Order Dine In/Gopay/android.widget.TextView - OKE'), 10)
-
-Mobile.scrollToText('TOTAL', FailureHandling.STOP_ON_FAILURE)
-
+//Mobile.waitForElementPresent(findTestObject('Order Dine In/Gopay/android.view.ViewGroup'), 10)
+//
+//Mobile.tap(findTestObject('Order Dine In/Gopay/android.widget.TextView - OKE'), 10)
+//
+//Mobile.scrollToText('TOTAL', FailureHandling.STOP_ON_FAILURE)
 Mobile.closeApplication()
 

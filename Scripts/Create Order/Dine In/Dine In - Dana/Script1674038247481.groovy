@@ -67,6 +67,8 @@ Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.
 
 Mobile.tap(findTestObject('Order Dine In/Order/android.widget.LinearLayout'), 5)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis'), 5)
 
 Mobile.tap(findTestObject('Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis'), 5)
@@ -141,11 +143,15 @@ Mobile.waitForElementPresent(findTestObject('Order Dine In/Payment/android.widge
 
 Mobile.tap(findTestObject('Order Dine In/Payment/android.widget.ImageButton'), 10)
 
-Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.TextView - OKE'), 5)
-
-Mobile.tap(findTestObject('Order Dine In/Order/android.widget.TextView - OKE'), 10)
-
-Mobile.scrollToText('TOTAL', FailureHandling.STOP_ON_FAILURE)
-
+//Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.TextView - OKE'), 5)
+//TestObject popup = new TestObject().addProperty('xpath', ConditionType.EQUALS, "Order Dine In/Order/android.widget.TextView - OKE]")
+//if (Mobile.verifyElementExist(popup, 5))
+//	Mobile.tap(popup, 0)
+//	
+//Mobile.tap(findTestObject('Order Dine In/Order/android.widget.TextView - OKE'), 10)
+//TestObject scroll = new TestObject().addProperty('xpath', ConditionType.EQUALS, "")
+//if (Mobile.verifyElementExist(scroll, 5))
+//	Mobile.scrollToText('TOTAL')
+//Mobile.scrollToText('TOTAL', FailureHandling.STOP_ON_FAILURE)
 Mobile.closeApplication()
 

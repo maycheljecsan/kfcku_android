@@ -20,25 +20,22 @@ import org.openqa.selenium.Keys as Keys
 //'Start application on current selected android device'
 Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
+//Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
+//
+//Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
+//
+//Mobile.tap(findTestObject('Login/android.widget.TextView - Lewati'), 0)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
+Mobile.tap(findTestObject('Profile/android.widget.TextView - Profil'), 5)
 
-Mobile.tap(findTestObject('Login/android.widget.TextView - Lewati'), 0)
+Mobile.setText(findTestObject('Login/android.widget.EditText - Masukkan nomor handphone Anda'), '081399674746', 0)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Login/android.widget.TextView - Profile'), 0)
-
-Mobile.tap(findTestObject('Login/android.widget.EditText - Masukkan nomor handphone Anda'), 0)
-
-Mobile.setText(findTestObject('Login/android.widget.EditText - Masukkan nomor handphone Anda'), '081211287377', 0)
-
-Mobile.tap(findTestObject('Login/android.widget.EditText - Ketik kata sandi Anda'), 0)
+Mobile.hideKeyboard()
 
 Mobile.setText(findTestObject('Login/android.widget.EditText - Ketik kata sandi Anda'), 'pass111', 0)
 
-Mobile.pressBack()
+Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Login/android.widget.Button - Masuk'), 0)
 
