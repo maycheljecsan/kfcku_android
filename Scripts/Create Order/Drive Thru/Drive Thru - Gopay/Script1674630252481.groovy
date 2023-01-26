@@ -62,10 +62,9 @@ Mobile.setText(findTestObject('Object Repository/Order Dine In/android.widget.Ed
 
 Mobile.hideKeyboard()
 
-Mobile.waitForElementPresent(findTestObject('Object Repository/Order Dine In/android.widget.TextView - MT HARYONO JAKARTA'), 
-    5)
+Mobile.waitForElementPresent(findTestObject('Order Dine In/android.widget.TextView - MT HARYONO JAKARTA'), 5)
 
-Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - MT HARYONO JAKARTA'), 0)
+Mobile.tap(findTestObject('Order Dine In/Order/android.widget.Button - Pilih Gerai'), 5)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
@@ -119,16 +118,6 @@ Mobile.tap(findTestObject('Order Dine In/Order/android.widget.Button - Lanjutkan
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('DRT Payment/android.widget.EditText - Mohon untuk mengisi nomor'), 5)
-
-Mobile.tap(findTestObject('DRT Payment/android.widget.EditText - Mohon untuk mengisi nomor'), 5)
-
-Mobile.setText(findTestObject('DRT Payment/android.widget.EditText - Mohon untuk mengisi nomor'), 'B 2345 CRV', 5)
-
-Mobile.hideKeyboard()
-
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
 Mobile.scrollToText('TOTAL', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Order Dine In/Payment/android.widget.TextView - Lihat Semua'), 5)
@@ -139,7 +128,7 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 //Mobile.tap(findTestObject('Order Dine In/Payment/imgPayment/android.widget.ImageView (1)'), 5)
 TestObject testObjectOne = new TestObject()
 
-testObjectOne.addProperty('xpath', ConditionType.EQUALS, '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[3]/android.widget.ImageView[1]')
+testObjectOne.addProperty('xpath', ConditionType.EQUALS, '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[3]')
 
 Mobile.tap(testObjectOne, 5)
 

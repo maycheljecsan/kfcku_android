@@ -1,0 +1,316 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create Order,,,,2023-01-25 16:48:48,2023-01-25 17:02:49,14m - 1.771s,ERROR
+,,,,,,,
+Test Cases/Create Order/Dine In/Dine In - Dana,,,,2023-01-25 16:48:48,2023-01-25 16:51:33,2m - 45.476s,PASSED
+"startExistingApplication(""com.kfc.mobile.hkStaging"", STOP_ON_FAILURE)",,,,2023-01-25 16:48:48,2023-01-25 16:49:10,21.619s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/android.widget.TextView - Beranda""), 5)",,,,2023-01-25 16:49:10,2023-01-25 16:49:12,1.707s,PASSED
+"tap(findTestObject(""Object Repository/Order Dine In/android.widget.TextView - Beranda""), 5)",,,,2023-01-25 16:49:12,2023-01-25 16:49:12,0.455s,PASSED
+"swipe(281, 500, 434, 161)",,,,2023-01-25 16:49:12,2023-01-25 16:49:13,1.166s,PASSED
+"tap(findTestObject(""Object Repository/Order Dine In/android.widget.TextView - DINE-IN""), 5)",,,,2023-01-25 16:49:13,2023-01-25 16:49:14,1.209s,PASSED
+"tap(findTestObject(""Object Repository/Order Dine In/android.widget.TextView - Cari Gerai KFC""), 5)",,,,2023-01-25 16:49:14,2023-01-25 16:49:17,2.961s,PASSED
+"setText(findTestObject(""Object Repository/Order Dine In/android.widget.EditText - Cari Gerai KFC""), ""MT Haryono"", 5)",,,,2023-01-25 16:49:17,2023-01-25 16:49:22,4.231s,PASSED
+hideKeyboard(),,,,2023-01-25 16:49:22,2023-01-25 16:49:24,2.811s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Order Dine In/android.widget.TextView - MT HARYONO JAKARTA""), 5)",,,,2023-01-25 16:49:24,2023-01-25 16:49:30,5.167s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - Pilih Gerai""), 0)",,,,2023-01-25 16:49:30,2023-01-25 16:49:30,0.375s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:49:30,2023-01-25 16:49:35,5.024s,PASSED
+"tap(findTestObject(""Order Dine In/android.widget.FrameLayout""), 5)",,,,2023-01-25 16:49:35,2023-01-25 16:49:36,0.603s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:49:36,2023-01-25 16:49:41,5.004s,PASSED
+pressBack(),,,,2023-01-25 16:49:41,2023-01-25 16:49:42,1.045s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/android.widget.Button - Add""), 5)",,,,2023-01-25 16:49:42,2023-01-25 16:49:42,0.650s,PASSED
+"tap(findTestObject(""Order Dine In/android.widget.Button - Add""), 5)",,,,2023-01-25 16:49:42,2023-01-25 16:49:43,0.310s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:49:43,2023-01-25 16:49:48,5.013s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.Button - Lanjut""), 5)",,,,2023-01-25 16:49:48,2023-01-25 16:49:48,0.251s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - Lanjut""), 5)",,,,2023-01-25 16:49:48,2023-01-25 16:49:48,0.315s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:49:48,2023-01-25 16:49:53,5.017s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.LinearLayout""), 5)",,,,2023-01-25 16:49:53,2023-01-25 16:49:54,0.658s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.LinearLayout""), 5)",,,,2023-01-25 16:49:54,2023-01-25 16:49:55,0.788s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:49:55,2023-01-25 16:50:00,5.005s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis""), 5)",,,,2023-01-25 16:50:00,2023-01-25 16:50:00,0.215s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis""), 5)",,,,2023-01-25 16:50:00,2023-01-25 16:50:00,0.230s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:50:00,2023-01-25 16:50:05,5.013s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.Button - Pilih Sekarang""), 10)",,,,2023-01-25 16:50:05,2023-01-25 16:50:06,0.920s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - Pilih Sekarang""), 10)",,,,2023-01-25 16:50:06,2023-01-25 16:50:06,0.306s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:50:06,2023-01-25 16:50:11,5.012s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.Button - TAMBAHKAN""), 10)",,,,2023-01-25 16:50:11,2023-01-25 16:50:12,0.750s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - TAMBAHKAN""), 5)",,,,2023-01-25 16:50:12,2023-01-25 16:50:13,0.716s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:50:13,2023-01-25 16:50:18,5.017s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - Lanjutkan""), 5)",,,,2023-01-25 16:50:18,2023-01-25 16:50:18,0.406s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:50:18,2023-01-25 16:50:23,5.017s,PASSED
+"scrollToText(""TOTAL"", STOP_ON_FAILURE)",,,,2023-01-25 16:50:23,2023-01-25 16:50:29,5.709s,PASSED
+"tap(findTestObject(""Order Dine In/Payment/android.widget.TextView - Lihat Semua""), 5)",,,,2023-01-25 16:50:29,2023-01-25 16:50:30,1.333s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:50:30,2023-01-25 16:50:35,5.013s,PASSED
+"swipe(281, 500, 434, 161)",,,,2023-01-25 16:50:35,2023-01-25 16:50:36,1.131s,PASSED
+testObjectOne = new com.kms.katalon.core.testobject.TestObject(),,,,2023-01-25 16:50:36,2023-01-25 16:50:36,0.000s,PASSED
+"testObjectOne.addProperty(""xpath"", EQUALS, ""//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[3]/android.widget.ImageView[1]"")",,,,2023-01-25 16:50:36,2023-01-25 16:50:36,0.012s,PASSED
+"tap(testObjectOne, 5)",,,,2023-01-25 16:50:36,2023-01-25 16:50:37,0.233s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:50:37,2023-01-25 16:50:42,5.012s,PASSED
+"swipe(281, 500, 434, 161)",,,,2023-01-25 16:50:42,2023-01-25 16:50:43,1.124s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:50:43,2023-01-25 16:50:48,5.012s,PASSED
+testObjectTwo = new com.kms.katalon.core.testobject.TestObject(),,,,2023-01-25 16:50:48,2023-01-25 16:50:48,0.001s,PASSED
+"testObjectTwo.addProperty(""xpath"", EQUALS, ""//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[4]"")",,,,2023-01-25 16:50:48,2023-01-25 16:50:48,0.000s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:50:48,2023-01-25 16:50:53,5.006s,PASSED
+"tap(testObjectTwo, 5)",,,,2023-01-25 16:50:53,2023-01-25 16:50:53,0.222s,PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2023-01-25 16:50:53,2023-01-25 16:51:03,10.006s,PASSED
+"tap(findTestObject(""Order Dine In/Payment/android.widget.Button - Simpan""), 5)",,,,2023-01-25 16:51:03,2023-01-25 16:51:04,0.903s,PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2023-01-25 16:51:04,2023-01-25 16:51:14,10.014s,PASSED
+"swipe(281, 500, 434, 161)",,,,2023-01-25 16:51:14,2023-01-25 16:51:15,1.116s,PASSED
+"tap(findTestObject(""Order Dine In/Payment/android.widget.Button - Pesan Sekarang""), 10)",,,,2023-01-25 16:51:15,2023-01-25 16:51:16,1.088s,PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2023-01-25 16:51:16,2023-01-25 16:51:26,10.004s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Payment/imgPayment/android.view.View""), 5)",,,,2023-01-25 16:51:26,2023-01-25 16:51:27,0.323s,PASSED
+"tap(findTestObject(""Order Dine In/Payment/android.view.View""), 10)",,,,2023-01-25 16:51:27,2023-01-25 16:51:27,0.307s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Payment/android.widget.TextView - Konfirmasi pembayaran Anda""), 10)",,,,2023-01-25 16:51:27,2023-01-25 16:51:27,0.269s,PASSED
+"tap(findTestObject(""Order Dine In/Payment/android.widget.ImageButton""), 10)",,,,2023-01-25 16:51:27,2023-01-25 16:51:32,4.721s,PASSED
+closeApplication(),,,,2023-01-25 16:51:32,2023-01-25 16:51:33,1.404s,PASSED
+,,,,,,,
+Test Cases/Create Order/Dine In/Dine In - Gopay,,,,2023-01-25 16:51:33,2023-01-25 16:54:14,2m - 40.991s,PASSED
+"startExistingApplication(""com.kfc.mobile.hkStaging"", STOP_ON_FAILURE)",,,,2023-01-25 16:51:34,2023-01-25 16:51:50,16.831s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/android.widget.TextView - Beranda""), 5)",,,,2023-01-25 16:51:50,2023-01-25 16:51:51,1.015s,PASSED
+"tap(findTestObject(""Object Repository/Order Dine In/android.widget.TextView - Beranda""), 5)",,,,2023-01-25 16:51:51,2023-01-25 16:51:53,1.507s,PASSED
+"swipe(281, 500, 434, 161)",,,,2023-01-25 16:51:53,2023-01-25 16:51:54,1.133s,PASSED
+"tap(findTestObject(""Object Repository/Order Dine In/android.widget.TextView - DINE-IN""), 5)",,,,2023-01-25 16:51:54,2023-01-25 16:51:56,1.823s,PASSED
+"tap(findTestObject(""Object Repository/Order Dine In/android.widget.TextView - Cari Gerai KFC""), 5)",,,,2023-01-25 16:51:56,2023-01-25 16:51:59,3.107s,PASSED
+"setText(findTestObject(""Object Repository/Order Dine In/android.widget.EditText - Cari Gerai KFC""), ""MT Haryono"", 5)",,,,2023-01-25 16:51:59,2023-01-25 16:52:03,4.444s,PASSED
+hideKeyboard(),,,,2023-01-25 16:52:03,2023-01-25 16:52:06,2.782s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Order Dine In/android.widget.TextView - MT HARYONO JAKARTA""), 5)",,,,2023-01-25 16:52:06,2023-01-25 16:52:11,5.136s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - Pilih Gerai""), 5)",,,,2023-01-25 16:52:11,2023-01-25 16:52:12,0.342s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:52:12,2023-01-25 16:52:17,5.010s,PASSED
+"tap(findTestObject(""Order Dine In/android.widget.FrameLayout""), 5)",,,,2023-01-25 16:52:17,2023-01-25 16:52:17,0.516s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:52:17,2023-01-25 16:52:22,5.015s,PASSED
+pressBack(),,,,2023-01-25 16:52:22,2023-01-25 16:52:23,0.920s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/android.widget.Button - Add""), 5)",,,,2023-01-25 16:52:23,2023-01-25 16:52:24,0.631s,PASSED
+"tap(findTestObject(""Order Dine In/android.widget.Button - Add""), 5)",,,,2023-01-25 16:52:24,2023-01-25 16:52:24,0.297s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:52:24,2023-01-25 16:52:29,5.004s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.Button - Lanjut""), 5)",,,,2023-01-25 16:52:29,2023-01-25 16:52:29,0.280s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - Lanjut""), 5)",,,,2023-01-25 16:52:29,2023-01-25 16:52:30,0.288s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:52:30,2023-01-25 16:52:35,5.011s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.LinearLayout""), 5)",,,,2023-01-25 16:52:35,2023-01-25 16:52:36,0.815s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.LinearLayout""), 5)",,,,2023-01-25 16:52:36,2023-01-25 16:52:36,0.334s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:52:36,2023-01-25 16:52:41,5.006s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis""), 5)",,,,2023-01-25 16:52:41,2023-01-25 16:52:42,1.174s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis""), 5)",,,,2023-01-25 16:52:42,2023-01-25 16:52:42,0.235s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:52:42,2023-01-25 16:52:47,5.006s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.Button - Pilih Sekarang""), 10)",,,,2023-01-25 16:52:47,2023-01-25 16:52:48,0.454s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - Pilih Sekarang""), 10)",,,,2023-01-25 16:52:48,2023-01-25 16:52:48,0.290s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:52:48,2023-01-25 16:52:53,5.014s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.Button - TAMBAHKAN""), 10)",,,,2023-01-25 16:52:53,2023-01-25 16:52:54,0.741s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - TAMBAHKAN""), 5)",,,,2023-01-25 16:52:54,2023-01-25 16:52:54,0.273s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:52:54,2023-01-25 16:52:59,5.017s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - Lanjutkan""), 5)",,,,2023-01-25 16:52:59,2023-01-25 16:53:00,1.060s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:53:00,2023-01-25 16:53:05,5.016s,PASSED
+"scrollToText(""TOTAL"", STOP_ON_FAILURE)",,,,2023-01-25 16:53:05,2023-01-25 16:53:10,5.074s,PASSED
+"tap(findTestObject(""Order Dine In/Payment/android.widget.TextView - Lihat Semua""), 5)",,,,2023-01-25 16:53:10,2023-01-25 16:53:12,1.750s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:53:12,2023-01-25 16:53:17,5.005s,PASSED
+"swipe(281, 500, 434, 161)",,,,2023-01-25 16:53:17,2023-01-25 16:53:18,1.151s,PASSED
+testObjectOne = new com.kms.katalon.core.testobject.TestObject(),,,,2023-01-25 16:53:18,2023-01-25 16:53:18,0.000s,PASSED
+"testObjectOne.addProperty(""xpath"", EQUALS, ""//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[3]/android.widget.ImageView[1]"")",,,,2023-01-25 16:53:18,2023-01-25 16:53:18,0.000s,PASSED
+"tap(testObjectOne, 5)",,,,2023-01-25 16:53:18,2023-01-25 16:53:18,0.239s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:53:18,2023-01-25 16:53:23,5.011s,PASSED
+"swipe(281, 500, 434, 161)",,,,2023-01-25 16:53:23,2023-01-25 16:53:25,1.098s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:53:25,2023-01-25 16:53:30,5.008s,PASSED
+testObjectTwo = new com.kms.katalon.core.testobject.TestObject(),,,,2023-01-25 16:53:30,2023-01-25 16:53:30,0.002s,PASSED
+"testObjectTwo.addProperty(""xpath"", EQUALS, ""//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[3]"")",,,,2023-01-25 16:53:30,2023-01-25 16:53:30,0.000s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:53:30,2023-01-25 16:53:35,5.009s,PASSED
+"tap(testObjectTwo, 5)",,,,2023-01-25 16:53:35,2023-01-25 16:53:35,0.225s,PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2023-01-25 16:53:35,2023-01-25 16:53:45,10.012s,PASSED
+"tap(findTestObject(""Order Dine In/Payment/android.widget.Button - Simpan""), 5)",,,,2023-01-25 16:53:45,2023-01-25 16:53:46,0.943s,PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2023-01-25 16:53:46,2023-01-25 16:53:56,10.014s,PASSED
+"tap(findTestObject(""Order Dine In/Payment/android.widget.Button - Pesan Sekarang""), 10)",,,,2023-01-25 16:53:56,2023-01-25 16:53:56,0.555s,PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2023-01-25 16:53:56,2023-01-25 16:54:06,10.007s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Gopay/android.widget.TextView - GoPay - Web""), 10)",,,,2023-01-25 16:54:06,2023-01-25 16:54:07,0.923s,PASSED
+"tap(findTestObject(""Order Dine In/Gopay/android.widget.EditText""), 10)",,,,2023-01-25 16:54:07,2023-01-25 16:54:07,0.254s,PASSED
+"setText(findTestObject(""Order Dine In/Gopay/android.widget.EditText""), ""654321"", 5)",,,,2023-01-25 16:54:07,2023-01-25 16:54:10,2.532s,PASSED
+hideKeyboard(),,,,2023-01-25 16:54:10,2023-01-25 16:54:13,2.711s,PASSED
+"tap(findTestObject(""Order Dine In/Gopay/android.widget.Button - Submit""), 10)",,,,2023-01-25 16:54:13,2023-01-25 16:54:13,0.386s,PASSED
+closeApplication(),,,,2023-01-25 16:54:13,2023-01-25 16:54:14,1.185s,PASSED
+,,,,,,,
+Test Cases/Create Order/Drive Thru/Drive Thru - Dana,,,,2023-01-25 16:54:14,2023-01-25 16:56:08,1m - 53.620s,ERROR
+"startExistingApplication(""com.kfc.mobile.hkStaging"", STOP_ON_FAILURE)",,,,2023-01-25 16:54:15,2023-01-25 16:54:31,16.674s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/android.widget.TextView - Beranda""), 5)",,,,2023-01-25 16:54:31,2023-01-25 16:54:32,1.108s,PASSED
+"tap(findTestObject(""Object Repository/Order Dine In/android.widget.TextView - Beranda""), 5)",,,,2023-01-25 16:54:32,2023-01-25 16:54:35,2.085s,PASSED
+"swipe(281, 600, 434, 90)",,,,2023-01-25 16:54:35,2023-01-25 16:54:36,1.130s,PASSED
+device_Height = getDeviceHeight(),,Get Device Height and Store in to device_height variable,,2023-01-25 16:54:36,2023-01-25 16:54:36,0.133s,PASSED
+device_Width = getDeviceWidth(),,Get Width Height and Store in to device_Width variable,,2023-01-25 16:54:36,2023-01-25 16:54:36,0.099s,PASSED
+startY = device_Height / 2,,Storing the value in startY variable by dividing device height by 2 Because Y coordinates are constant,,2023-01-25 16:54:36,2023-01-25 16:54:36,0.000s,PASSED
+endY = startY,,Here startY and endY values are equal for Horizontal Swiping for that assigning startX value to endX,,2023-01-25 16:54:36,2023-01-25 16:54:36,0.000s,PASSED
+startX = device_Width * 0.30,,Storing the value in startX variable,,2023-01-25 16:54:36,2023-01-25 16:54:36,0.000s,PASSED
+endX = device_Width * 0.70,,Storing the value in endX variable,,2023-01-25 16:54:36,2023-01-25 16:54:36,0.000s,PASSED
+"swipe(endX, startY, startX, endY)",,Here Y constant for Swipe Horizontal Right to Left,,2023-01-25 16:54:36,2023-01-25 16:54:37,1.167s,PASSED
+"waitForElementPresent(findTestObject(""Order Type/android.widget.TextView - DRIVE-THRU""), 10)",,,,2023-01-25 16:54:37,2023-01-25 16:54:38,0.617s,PASSED
+"tap(findTestObject(""Order Type/android.widget.TextView - DRIVE-THRU""), 5)",,,,2023-01-25 16:54:38,2023-01-25 16:54:38,0.491s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/android.widget.EditText - Cari Gerai KFC""), 5)",,,,2023-01-25 16:54:38,2023-01-25 16:54:44,5.428s,PASSED
+"tap(findTestObject(""Object Repository/Order Dine In/android.widget.TextView - Cari Gerai KFC""), 5)",,,,2023-01-25 16:54:44,2023-01-25 16:54:44,0.325s,PASSED
+"setText(findTestObject(""Object Repository/Order Dine In/android.widget.EditText - Cari Gerai KFC""), ""MT Haryono"", 5)",,,,2023-01-25 16:54:44,2023-01-25 16:54:48,4.270s,PASSED
+hideKeyboard(),,,,2023-01-25 16:54:48,2023-01-25 16:54:51,2.769s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/android.widget.TextView - MT HARYONO JAKARTA""), 5)",,,,2023-01-25 16:54:51,2023-01-25 16:54:56,5.357s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - Pilih Gerai""), 5)",,,,2023-01-25 16:54:56,2023-01-25 16:54:57,0.312s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:54:57,2023-01-25 16:55:02,5.006s,PASSED
+"tap(findTestObject(""Order Dine In/android.widget.FrameLayout""), 5)",,,,2023-01-25 16:55:02,2023-01-25 16:55:02,0.752s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:55:02,2023-01-25 16:55:07,5.004s,PASSED
+pressBack(),,,,2023-01-25 16:55:07,2023-01-25 16:55:08,0.486s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/android.widget.Button - Add""), 5)",,,,2023-01-25 16:55:08,2023-01-25 16:55:09,0.643s,PASSED
+"tap(findTestObject(""Order Dine In/android.widget.Button - Add""), 5)",,,,2023-01-25 16:55:09,2023-01-25 16:55:09,0.282s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:55:09,2023-01-25 16:55:14,5.006s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.Button - Lanjut""), 5)",,,,2023-01-25 16:55:14,2023-01-25 16:55:14,0.563s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - Lanjut""), 5)",,,,2023-01-25 16:55:14,2023-01-25 16:55:15,0.327s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:55:15,2023-01-25 16:55:20,5.006s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.LinearLayout""), 5)",,,,2023-01-25 16:55:20,2023-01-25 16:55:20,0.699s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.LinearLayout""), 5)",,,,2023-01-25 16:55:20,2023-01-25 16:55:21,0.332s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis""), 5)",,,,2023-01-25 16:55:21,2023-01-25 16:55:23,2.427s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis""), 5)",,,,2023-01-25 16:55:23,2023-01-25 16:55:23,0.272s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:55:23,2023-01-25 16:55:28,5.004s,PASSED
+"waitForElementPresent(findTestObject(""DRT Payment/android.widget.EditText - Mohon untuk mengisi nomor""), 5)",,,,2023-01-25 16:55:28,2023-01-25 16:55:29,0.892s,PASSED
+"setText(findTestObject(""DRT Payment/android.widget.EditText - Mohon untuk mengisi nomor""), ""B 1223 YTH"", 5)",,,,2023-01-25 16:55:29,2023-01-25 16:55:32,3.021s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:55:32,2023-01-25 16:55:37,5.005s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.Button - Pilih Sekarang""), 10)",,,,2023-01-25 16:55:37,2023-01-25 16:55:38,1.128s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - Pilih Sekarang""), 10)",,,,2023-01-25 16:55:38,2023-01-25 16:55:39,0.328s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:55:39,2023-01-25 16:55:44,5.015s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.Button - TAMBAHKAN""), 10)",,,,2023-01-25 16:55:44,2023-01-25 16:55:45,0.705s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - TAMBAHKAN""), 5)",,,,2023-01-25 16:55:45,2023-01-25 16:55:45,0.283s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:55:45,2023-01-25 16:55:50,5.011s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - Lanjutkan""), 5)",,,,2023-01-25 16:55:50,2023-01-25 16:55:51,0.863s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:55:51,2023-01-25 16:55:56,5.011s,PASSED
+"scrollToText(""TOTAL"", STOP_ON_FAILURE)",,,,2023-01-25 16:55:56,2023-01-25 16:56:01,5.723s,PASSED
+"tap(findTestObject(""Order Dine In/Payment/android.widget.TextView - Lihat Semua""), 5)",,,,2023-01-25 16:56:01,2023-01-25 16:56:02,0.319s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:56:02,2023-01-25 16:56:07,5.005s,PASSED
+"swipe(281, 500, 434, 161)",,,,2023-01-25 16:56:07,2023-01-25 16:56:08,1.131s,PASSED
+testObjectOne = new com.kms.katalon.core.testobject.TestObject(),,,,2023-01-25 16:56:08,2023-01-25 16:56:08,0.001s,PASSED
+"testObjectOne.addProperty(""xpath"", EQUALS, ""//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[3]/android.widget.ImageView[1]"")",,,,2023-01-25 16:56:08,2023-01-25 16:56:08,0.008s,ERROR
+,,,,,,,
+Test Cases/Create Order/Drive Thru/Drive Thru - Gopay,,,,2023-01-25 16:56:08,2023-01-25 16:57:17,1m - 9.156s,FAILED
+"startExistingApplication(""com.kfc.mobile.hkStaging"", STOP_ON_FAILURE)",,,,2023-01-25 16:56:08,2023-01-25 16:56:22,13.755s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/android.widget.TextView - Beranda""), 5)",,,,2023-01-25 16:56:22,2023-01-25 16:56:24,1.949s,PASSED
+"tap(findTestObject(""Object Repository/Order Dine In/android.widget.TextView - Beranda""), 5)",,,,2023-01-25 16:56:24,2023-01-25 16:56:25,0.427s,PASSED
+"swipe(281, 600, 434, 90)",,,,2023-01-25 16:56:25,2023-01-25 16:56:26,1.138s,PASSED
+device_Height = getDeviceHeight(),,Get Device Height and Store in to device_height variable,,2023-01-25 16:56:26,2023-01-25 16:56:26,0.121s,PASSED
+device_Width = getDeviceWidth(),,Get Width Height and Store in to device_Width variable,,2023-01-25 16:56:26,2023-01-25 16:56:26,0.122s,PASSED
+startY = device_Height / 2,,Storing the value in startY variable by dividing device height by 2 Because Y coordinates are constant,,2023-01-25 16:56:26,2023-01-25 16:56:26,0.000s,PASSED
+endY = startY,,Here startY and endY values are equal for Horizontal Swiping for that assigning startX value to endX,,2023-01-25 16:56:26,2023-01-25 16:56:26,0.000s,PASSED
+startX = device_Width * 0.30,,Storing the value in startX variable,,2023-01-25 16:56:26,2023-01-25 16:56:26,0.000s,PASSED
+endX = device_Width * 0.70,,Storing the value in endX variable,,2023-01-25 16:56:26,2023-01-25 16:56:26,0.007s,PASSED
+"swipe(endX, startY, startX, endY)",,Here Y constant for Swipe Horizontal Right to Left,,2023-01-25 16:56:26,2023-01-25 16:56:27,1.161s,PASSED
+"waitForElementPresent(findTestObject(""Order Type/android.widget.TextView - DRIVE-THRU""), 10)",,,,2023-01-25 16:56:27,2023-01-25 16:56:28,0.465s,PASSED
+"tap(findTestObject(""Order Type/android.widget.TextView - DRIVE-THRU""), 5)",,,,2023-01-25 16:56:28,2023-01-25 16:56:28,0.497s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/android.widget.EditText - Cari Gerai KFC""), 5)",,,,2023-01-25 16:56:28,2023-01-25 16:56:34,5.444s,PASSED
+"tap(findTestObject(""Object Repository/Order Dine In/android.widget.TextView - Cari Gerai KFC""), 5)",,,,2023-01-25 16:56:34,2023-01-25 16:56:34,0.782s,PASSED
+"setText(findTestObject(""Object Repository/Order Dine In/android.widget.EditText - Cari Gerai KFC""), ""MT Haryono"", 5)",,,,2023-01-25 16:56:34,2023-01-25 16:56:38,3.489s,PASSED
+hideKeyboard(),,,,2023-01-25 16:56:38,2023-01-25 16:56:41,2.787s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Order Dine In/android.widget.TextView - MT HARYONO JAKARTA""), 5)",,,,2023-01-25 16:56:41,2023-01-25 16:56:46,5.203s,PASSED
+"tap(findTestObject(""Object Repository/Order Dine In/android.widget.TextView - MT HARYONO JAKARTA""), 0)",,,,2023-01-25 16:56:46,2023-01-25 16:57:17,31.259s,FAILED
+,,,,,,,
+Test Cases/Create Order/Take Away/Take Away - Dana,,,,2023-01-25 16:57:17,2023-01-25 16:59:58,2m - 41.352s,PASSED
+"startExistingApplication(""com.kfc.mobile.hkStaging"", STOP_ON_FAILURE)",,,,2023-01-25 16:57:17,2023-01-25 16:57:32,14.465s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/android.widget.TextView - Beranda""), 5)",,,,2023-01-25 16:57:32,2023-01-25 16:57:33,0.743s,PASSED
+"tap(findTestObject(""Object Repository/Order Dine In/android.widget.TextView - Beranda""), 5)",,,,2023-01-25 16:57:33,2023-01-25 16:57:33,0.479s,PASSED
+"swipe(281, 500, 434, 161)",,,,2023-01-25 16:57:33,2023-01-25 16:57:34,1.139s,PASSED
+"tap(findTestObject(""Order Type/android.widget.TextView - TAKE AWAY""), 5)",,,,2023-01-25 16:57:34,2023-01-25 16:57:35,0.738s,PASSED
+"tap(findTestObject(""Object Repository/Order Dine In/android.widget.TextView - Cari Gerai KFC""), 5)",,,,2023-01-25 16:57:35,2023-01-25 16:57:38,2.627s,PASSED
+"setText(findTestObject(""Object Repository/Order Dine In/android.widget.EditText - Cari Gerai KFC""), ""MT Haryono"", 5)",,,,2023-01-25 16:57:38,2023-01-25 16:57:42,3.996s,PASSED
+hideKeyboard(),,,,2023-01-25 16:57:42,2023-01-25 16:57:45,3.059s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Order Dine In/android.widget.TextView - MT HARYONO JAKARTA""), 5)",,,,2023-01-25 16:57:45,2023-01-25 16:57:50,5.184s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - Pilih Gerai""), 0)",,,,2023-01-25 16:57:50,2023-01-25 16:57:51,0.802s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:57:51,2023-01-25 16:57:56,5.009s,PASSED
+"tap(findTestObject(""Order Dine In/android.widget.FrameLayout""), 5)",,,,2023-01-25 16:57:56,2023-01-25 16:57:57,1.342s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:57:57,2023-01-25 16:58:02,5.015s,PASSED
+pressBack(),,,,2023-01-25 16:58:02,2023-01-25 16:58:02,0.175s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/android.widget.Button - Add""), 5)",,,,2023-01-25 16:58:02,2023-01-25 16:58:03,0.640s,PASSED
+"tap(findTestObject(""Order Dine In/android.widget.Button - Add""), 5)",,,,2023-01-25 16:58:03,2023-01-25 16:58:03,0.313s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:58:03,2023-01-25 16:58:08,5.012s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.Button - Lanjut""), 5)",,,,2023-01-25 16:58:08,2023-01-25 16:58:09,0.471s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - Lanjut""), 5)",,,,2023-01-25 16:58:09,2023-01-25 16:58:09,0.343s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:58:09,2023-01-25 16:58:14,5.007s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.LinearLayout""), 5)",,,,2023-01-25 16:58:14,2023-01-25 16:58:15,0.672s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.LinearLayout""), 5)",,,,2023-01-25 16:58:15,2023-01-25 16:58:15,0.300s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis""), 5)",,,,2023-01-25 16:58:15,2023-01-25 16:58:17,2.143s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis""), 5)",,,,2023-01-25 16:58:17,2023-01-25 16:58:17,0.258s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:58:17,2023-01-25 16:58:22,5.008s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.Button - Pilih Sekarang""), 10)",,,,2023-01-25 16:58:22,2023-01-25 16:58:24,1.241s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - Pilih Sekarang""), 10)",,,,2023-01-25 16:58:24,2023-01-25 16:58:24,0.324s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:58:24,2023-01-25 16:58:29,5.009s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.Button - TAMBAHKAN""), 10)",,,,2023-01-25 16:58:29,2023-01-25 16:58:29,0.391s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - TAMBAHKAN""), 5)",,,,2023-01-25 16:58:29,2023-01-25 16:58:30,0.279s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:58:30,2023-01-25 16:58:35,5.002s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - Lanjutkan""), 5)",,,,2023-01-25 16:58:35,2023-01-25 16:58:36,0.878s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:58:36,2023-01-25 16:58:41,5.006s,PASSED
+"scrollToText(""TOTAL"", STOP_ON_FAILURE)",,,,2023-01-25 16:58:41,2023-01-25 16:58:46,5.310s,PASSED
+"tap(findTestObject(""Order Dine In/Payment/android.widget.TextView - Lihat Semua""), 5)",,,,2023-01-25 16:58:46,2023-01-25 16:58:46,0.328s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:58:46,2023-01-25 16:58:51,5.005s,PASSED
+"swipe(281, 500, 434, 161)",,,,2023-01-25 16:58:51,2023-01-25 16:58:52,1.112s,PASSED
+testObjectOne = new com.kms.katalon.core.testobject.TestObject(),,,,2023-01-25 16:58:52,2023-01-25 16:58:52,0.000s,PASSED
+"testObjectOne.addProperty(""xpath"", EQUALS, ""//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[3]/android.widget.ImageView[1]"")",,,,2023-01-25 16:58:52,2023-01-25 16:58:52,0.001s,PASSED
+"tap(testObjectOne, 5)",,,,2023-01-25 16:58:52,2023-01-25 16:58:53,0.241s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:58:53,2023-01-25 16:58:58,5.007s,PASSED
+"swipe(281, 500, 434, 161)",,,,2023-01-25 16:58:58,2023-01-25 16:58:59,1.121s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:58:59,2023-01-25 16:59:04,5.013s,PASSED
+testObjectTwo = new com.kms.katalon.core.testobject.TestObject(),,,,2023-01-25 16:59:04,2023-01-25 16:59:04,0.001s,PASSED
+"testObjectTwo.addProperty(""xpath"", EQUALS, ""//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[4]"")",,,,2023-01-25 16:59:04,2023-01-25 16:59:04,0.000s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 16:59:04,2023-01-25 16:59:09,5.003s,PASSED
+"tap(testObjectTwo, 5)",,,,2023-01-25 16:59:09,2023-01-25 16:59:09,0.387s,PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2023-01-25 16:59:09,2023-01-25 16:59:19,10.015s,PASSED
+"tap(findTestObject(""Order Dine In/Payment/android.widget.Button - Simpan""), 5)",,,,2023-01-25 16:59:19,2023-01-25 16:59:19,0.301s,PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2023-01-25 16:59:19,2023-01-25 16:59:29,10.016s,PASSED
+"swipe(281, 500, 434, 161)",,,,2023-01-25 16:59:29,2023-01-25 16:59:31,1.135s,PASSED
+"tap(findTestObject(""Order Dine In/Payment/android.widget.Button - Pesan Sekarang""), 10)",,,,2023-01-25 16:59:31,2023-01-25 16:59:31,0.288s,PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2023-01-25 16:59:31,2023-01-25 16:59:41,10.003s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Payment/imgPayment/android.view.View""), 5)",,,,2023-01-25 16:59:41,2023-01-25 16:59:41,0.355s,PASSED
+"tap(findTestObject(""Order Dine In/Payment/android.view.View""), 10)",,,,2023-01-25 16:59:41,2023-01-25 16:59:42,1.295s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Payment/android.widget.TextView - Konfirmasi pembayaran Anda""), 10)",,,,2023-01-25 16:59:42,2023-01-25 16:59:43,0.313s,PASSED
+"tap(findTestObject(""Order Dine In/Payment/android.widget.ImageButton""), 10)",,,,2023-01-25 16:59:43,2023-01-25 16:59:47,4.476s,PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2023-01-25 16:59:47,2023-01-25 16:59:57,10.011s,PASSED
+closeApplication(),,,,2023-01-25 16:59:57,2023-01-25 16:59:58,1.120s,PASSED
+,,,,,,,
+Test Cases/Create Order/Take Away/Take Away - Gopay,,,,2023-01-25 16:59:58,2023-01-25 17:02:49,2m - 50.873s,FAILED
+"startExistingApplication(""com.kfc.mobile.hkStaging"", STOP_ON_FAILURE)",,,,2023-01-25 16:59:59,2023-01-25 17:00:16,17.496s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/android.widget.TextView - Beranda""), 5)",,,,2023-01-25 17:00:16,2023-01-25 17:00:18,1.454s,PASSED
+"tap(findTestObject(""Object Repository/Order Dine In/android.widget.TextView - Beranda""), 5)",,,,2023-01-25 17:00:18,2023-01-25 17:00:19,1.359s,PASSED
+"swipe(281, 500, 434, 161)",,,,2023-01-25 17:00:19,2023-01-25 17:00:20,1.111s,PASSED
+"tap(findTestObject(""Order Type/android.widget.TextView - TAKE AWAY""), 5)",,,,2023-01-25 17:00:20,2023-01-25 17:00:21,0.782s,PASSED
+"tap(findTestObject(""Object Repository/Order Dine In/android.widget.TextView - Cari Gerai KFC""), 5)",,,,2023-01-25 17:00:21,2023-01-25 17:00:23,2.177s,PASSED
+"setText(findTestObject(""Object Repository/Order Dine In/android.widget.EditText - Cari Gerai KFC""), ""MT Haryono"", 5)",,,,2023-01-25 17:00:23,2023-01-25 17:00:27,3.762s,PASSED
+hideKeyboard(),,,,2023-01-25 17:00:27,2023-01-25 17:00:30,2.959s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Order Dine In/android.widget.TextView - MT HARYONO JAKARTA""), 5)",,,,2023-01-25 17:00:30,2023-01-25 17:00:35,5.141s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - Pilih Gerai""), 5)",,,,2023-01-25 17:00:35,2023-01-25 17:00:35,0.329s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 17:00:35,2023-01-25 17:00:40,5.010s,PASSED
+"tap(findTestObject(""Order Dine In/android.widget.FrameLayout""), 5)",,,,2023-01-25 17:00:40,2023-01-25 17:00:41,0.291s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 17:00:41,2023-01-25 17:00:46,5.007s,PASSED
+pressBack(),,,,2023-01-25 17:00:46,2023-01-25 17:00:47,1.108s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/android.widget.Button - Add""), 5)",,,,2023-01-25 17:00:47,2023-01-25 17:00:48,1.125s,PASSED
+"tap(findTestObject(""Order Dine In/android.widget.Button - Add""), 5)",,,,2023-01-25 17:00:48,2023-01-25 17:00:48,0.306s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 17:00:48,2023-01-25 17:00:53,5.001s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.Button - Lanjut""), 5)",,,,2023-01-25 17:00:53,2023-01-25 17:00:54,0.262s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - Lanjut""), 5)",,,,2023-01-25 17:00:54,2023-01-25 17:00:54,0.307s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 17:00:54,2023-01-25 17:00:59,5.011s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.LinearLayout""), 5)",,,,2023-01-25 17:00:59,2023-01-25 17:00:59,0.288s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.LinearLayout""), 5)",,,,2023-01-25 17:00:59,2023-01-25 17:00:59,0.325s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 17:00:59,2023-01-25 17:01:04,5.012s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis""), 5)",,,,2023-01-25 17:01:04,2023-01-25 17:01:05,0.465s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis""), 5)",,,,2023-01-25 17:01:05,2023-01-25 17:01:05,0.240s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 17:01:05,2023-01-25 17:01:10,5.010s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.Button - Pilih Sekarang""), 10)",,,,2023-01-25 17:01:10,2023-01-25 17:01:11,1.001s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - Pilih Sekarang""), 10)",,,,2023-01-25 17:01:11,2023-01-25 17:01:11,0.296s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 17:01:11,2023-01-25 17:01:16,5.014s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Order/android.widget.Button - TAMBAHKAN""), 10)",,,,2023-01-25 17:01:16,2023-01-25 17:01:17,0.749s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - TAMBAHKAN""), 5)",,,,2023-01-25 17:01:17,2023-01-25 17:01:18,0.287s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 17:01:18,2023-01-25 17:01:23,5.003s,PASSED
+"tap(findTestObject(""Order Dine In/Order/android.widget.Button - Lanjutkan""), 5)",,,,2023-01-25 17:01:23,2023-01-25 17:01:23,0.872s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 17:01:23,2023-01-25 17:01:28,5.018s,PASSED
+"scrollToText(""TOTAL"", STOP_ON_FAILURE)",,,,2023-01-25 17:01:28,2023-01-25 17:01:34,5.210s,PASSED
+"tap(findTestObject(""Order Dine In/Payment/android.widget.TextView - Lihat Semua""), 5)",,,,2023-01-25 17:01:34,2023-01-25 17:01:34,0.330s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 17:01:34,2023-01-25 17:01:39,5.008s,PASSED
+"swipe(281, 500, 434, 161)",,,,2023-01-25 17:01:39,2023-01-25 17:01:40,1.107s,PASSED
+testObjectOne = new com.kms.katalon.core.testobject.TestObject(),,,,2023-01-25 17:01:40,2023-01-25 17:01:40,0.000s,PASSED
+"testObjectOne.addProperty(""xpath"", EQUALS, ""//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[3]/android.widget.ImageView[1]"")",,,,2023-01-25 17:01:40,2023-01-25 17:01:40,0.000s,PASSED
+"tap(testObjectOne, 5)",,,,2023-01-25 17:01:40,2023-01-25 17:01:40,0.305s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 17:01:40,2023-01-25 17:01:45,5.008s,PASSED
+"swipe(281, 500, 434, 161)",,,,2023-01-25 17:01:45,2023-01-25 17:01:47,1.121s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 17:01:47,2023-01-25 17:01:52,5.004s,PASSED
+testObjectTwo = new com.kms.katalon.core.testobject.TestObject(),,,,2023-01-25 17:01:52,2023-01-25 17:01:52,0.000s,PASSED
+"testObjectTwo.addProperty(""xpath"", EQUALS, ""//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[3]"")",,,,2023-01-25 17:01:52,2023-01-25 17:01:52,0.001s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-25 17:01:52,2023-01-25 17:01:57,5.014s,PASSED
+"tap(testObjectTwo, 5)",,,,2023-01-25 17:01:57,2023-01-25 17:01:57,0.445s,PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2023-01-25 17:01:57,2023-01-25 17:02:07,10.007s,PASSED
+"tap(findTestObject(""Order Dine In/Payment/android.widget.Button - Simpan""), 5)",,,,2023-01-25 17:02:07,2023-01-25 17:02:07,0.290s,PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2023-01-25 17:02:07,2023-01-25 17:02:17,10.007s,PASSED
+"tap(findTestObject(""Order Dine In/Payment/android.widget.Button - Pesan Sekarang""), 10)",,,,2023-01-25 17:02:17,2023-01-25 17:02:18,1.205s,PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2023-01-25 17:02:18,2023-01-25 17:02:28,10.007s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/Gopay/android.widget.TextView - GoPay - Web""), 10)",,,,2023-01-25 17:02:28,2023-01-25 17:02:39,10.121s,PASSED
+"tap(findTestObject(""Order Dine In/Gopay/android.widget.EditText""), 10)",,,,2023-01-25 17:02:39,2023-01-25 17:02:49,10.674s,FAILED
