@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>T8375 - Login Social Media</name>
+   <name>Login Social Media</name>
    <tag></tag>
    <integratedEntity>
       <productName>com.katalon.plugin.testrail.TestRailIntegration</productName>

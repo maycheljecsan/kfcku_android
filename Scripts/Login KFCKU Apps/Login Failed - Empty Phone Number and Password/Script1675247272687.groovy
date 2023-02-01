@@ -17,25 +17,38 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Start application on current selected android device'
 Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
-
-Mobile.delay(10)
 
 //Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
 //
 //Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
 //
 //Mobile.tap(findTestObject('Login/android.widget.TextView - Lewati'), 0)
-//
-//Mobile.delay(3)
-Mobile.tap(findTestObject('Login/android.widget.TextView - Profil'), 0)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Login Social Media/android.widget.Button - Masuk dengan Google'), 0)
+Mobile.tap(findTestObject('Profile/android.widget.TextView - Profil'), 5)
+
+Mobile.setText(findTestObject('Login/android.widget.EditText - Masukkan nomor handphone Anda'), '', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.setText(findTestObject('Login/android.widget.EditText - Ketik kata sandi Anda'), '', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Login/android.widget.Button - Masuk'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementVisible(findTestObject('Login/Login Failed/android.widget.TextView - nullPhone'), 3)
+
+Mobile.verifyElementText(findTestObject('Login/Login Failed/android.widget.TextView - nullPhone'), 'Mohon masukkan nomor handphone Anda')
+
+Mobile.verifyElementVisible(findTestObject('Login/Login Failed/android.widget.TextView - nullPass'), 3)
+
+Mobile.verifyElementText(findTestObject('Login/Login Failed/android.widget.TextView - nullPass'), 'Masukkan kata sandi Anda yang benar')
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Login Social Media/android.widget.TextView - jecsanmaychelgmail.com'), 0)
-
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.closeApplication()
 

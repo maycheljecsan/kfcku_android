@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create Order,,,,2023-02-01 16:31:21,2023-02-01 16:32:49,1m - 28.696s,FAILED
+,,,,,,,
+Test Cases/Login KFCKU Apps/Login Phone Number,,,,2023-02-01 16:31:21,2023-02-01 16:32:12,50.424s,FAILED
+"startExistingApplication(""com.kfc.mobile.hkStaging"", STOP_ON_FAILURE)",,,,2023-02-01 16:31:22,2023-02-01 16:31:46,23.761s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-02-01 16:31:46,2023-02-01 16:31:51,5.108s,PASSED
+"tap(findTestObject(""Profile/android.widget.TextView - Profil""), 5)",,,,2023-02-01 16:31:51,2023-02-01 16:31:53,1.798s,PASSED
+"setText(findTestObject(""Login/android.widget.EditText - Masukkan nomor handphone Anda""), ""081399674746"", 0)",,,,2023-02-01 16:31:53,2023-02-01 16:31:57,4.161s,PASSED
+hideKeyboard(),,,,2023-02-01 16:31:57,2023-02-01 16:31:58,1.548s,PASSED
+"setText(findTestObject(""Login/android.widget.EditText - Ketik kata sandi Anda""), ""pass111"", 0)",,,,2023-02-01 16:31:58,2023-02-01 16:32:00,2.051s,PASSED
+hideKeyboard(),,,,2023-02-01 16:32:00,2023-02-01 16:32:02,1.357s,PASSED
+"tap(findTestObject(""Login/android.widget.Button - Masuk""), 0)",,,,2023-02-01 16:32:02,2023-02-01 16:32:02,0.499s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-02-01 16:32:02,2023-02-01 16:32:05,3.008s,PASSED
+"tap(findTestObject(""Profile/android.widget.TextView - Profil""), 5)",,,,2023-02-01 16:32:05,2023-02-01 16:32:12,6.530s,FAILED
+,,,,,,,
+Test Cases/Login KFCKU Apps/Login Social Media,,,,2023-02-01 16:32:12,2023-02-01 16:32:49,37.813s,PASSED
+"startExistingApplication(""com.kfc.mobile.hkStaging"", STOP_ON_FAILURE)",,Start application on current selected android device,,2023-02-01 16:32:12,2023-02-01 16:32:26,14.149s,PASSED
+delay(10),,,,2023-02-01 16:32:26,2023-02-01 16:32:36,10.005s,PASSED
+"tap(findTestObject(""Login/android.widget.TextView - Profil""), 0)",,,,2023-02-01 16:32:36,2023-02-01 16:32:37,0.843s,PASSED
+"tap(findTestObject(""Login Social Media/android.widget.Button - Masuk dengan Google""), 0)",,,,2023-02-01 16:32:37,2023-02-01 16:32:40,2.477s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-02-01 16:32:40,2023-02-01 16:32:43,3.015s,PASSED
+"tap(findTestObject(""Login Social Media/android.widget.TextView - jecsanmaychelgmail.com""), 0)",,,,2023-02-01 16:32:43,2023-02-01 16:32:44,1.884s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-02-01 16:32:44,2023-02-01 16:32:49,5.010s,PASSED

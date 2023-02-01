@@ -20,7 +20,7 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.callTestCase(findTestCase('Login KFCKU Apps/T8375 - Login Social Media'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Login KFCKU Apps/Login Social Media'), [:], FailureHandling.STOP_ON_FAILURE)
 Mobile.waitForElementPresent(findTestObject('Order Dine In/android.widget.TextView - Beranda'), 5)
 
 Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - Beranda'), 5)

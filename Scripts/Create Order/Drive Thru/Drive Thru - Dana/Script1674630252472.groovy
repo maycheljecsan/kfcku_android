@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.callTestCase(findTestCase('Login KFCKU Apps/T8375 - Login Social Media'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Login KFCKU Apps/Login Social Media'), [:], FailureHandling.STOP_ON_FAILURE)
 Mobile.waitForElementPresent(findTestObject('Order Dine In/android.widget.TextView - Beranda'), 5)
 
 Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - Beranda'), 5)
@@ -126,7 +126,6 @@ Mobile.tap(findTestObject('Order Dine In/Payment/android.widget.TextView - Lihat
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 //Mobile.swipe(281, 500, 434, 161)
-
 //Mobile.tap(findTestObject('Order Dine In/Payment/imgPayment/android.widget.ImageView (1)'), 5)
 TestObject testObjectOne = new TestObject()
 
@@ -176,5 +175,5 @@ Mobile.tap(findTestObject('Order Dine In/Order/android.widget.TextView - OKE'), 
 
 Mobile.scrollToText('TOTAL', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.closeApplication()
+WebUI.acceptAlert()
 

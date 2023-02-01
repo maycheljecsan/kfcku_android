@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="248.006" tests="5" failures="0" errors="0">
+   <testsuite name="Login" tests="5" failures="0" errors="0" time="248.006" skipped="0" timestamp="2023-02-01 17:23:23" hostname="Ahadian Rifky - NKC-23" id="Test Suites/Auth/Login">
+      <properties>
+         <property name="deviceName" value="OPPO CPH1801 (Android 7.1.1)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ahadian Rifky\\Downloads\\Katalon_Studio_Windows_64-8.5.5\\Katalon_Studio_Windows_64-8.5.5\\git.github.com\\maycheljecsan\\kfckuapps_katalon.git\\kfcku_android\\Reports\\20230201_172319\\Auth\\Login\\20230201_172319"/>
+         <property name="logFiles" value="C:\\Users\\Ahadian Rifky\\Downloads\\Katalon_Studio_Windows_64-8.5.5\\Katalon_Studio_Windows_64-8.5.5\\git.github.com\\maycheljecsan\\kfckuapps_katalon.git\\kfcku_android\\Reports\\20230201_172319\\Auth\\Login\\20230201_172319\\appium.log, C:\\Users\\Ahadian Rifky\\Downloads\\Katalon_Studio_Windows_64-8.5.5\\Katalon_Studio_Windows_64-8.5.5\\git.github.com\\maycheljecsan\\kfckuapps_katalon.git\\kfcku_android\\Reports\\20230201_172319\\Auth\\Login\\20230201_172319\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ahadian Rifky - NKC-23"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="CPH1801"/>
+         <property name="hostAddress" value="172.10.9.59"/>
+         <property name="deviceManufacturer" value="OPPO"/>
+         <property name="deviceId" value="aa14e06a"/>
+         <property name="deviceName" value="OPPO CPH1801 (Android 7.1.1)"/>
+         <property name="deviceOSVersion" value="7.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Login KFCKU Apps/Failed Login - Empty Phone Number and Password" time="55.747" classname="Test Cases/Login KFCKU Apps/Failed Login - Empty Phone Number and Password" status="PASSED">
+         <system-out><![CDATA[2023-02-01 17:23:23 - [TEST_CASE][PASSED] - Test Cases/Login KFCKU Apps/Failed Login - Empty Phone Number and Password: Test Cases/Login KFCKU Apps/Failed Login - Empty Phone Number and Password
+
+2023-02-01 17:23:24 - [TEST_STEP][PASSED] - startExistingApplication("com.kfc.mobile.hkStaging", STOP_ON_FAILURE): Starting app with application ID: 'com.kfc.mobile.hkStaging'
+
+2023-02-01 17:23:25 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.kfc.mobile.hkStaging']
+
+2023-02-01 17:23:25 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.kfc.mobile.presentation.home.HomeActivity']
+
+2023-02-01 17:23:25 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-02-01 17:23:25 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-02-01 17:23:25 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-02-01 17:23:27 - [MESSAGE][INFO] - Appium server started on port 52,396
+
+2023-02-01 17:23:47 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2023-02-01 17:23:48 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfc.mobile.hkStaging'
+
+2023-02-01 17:23:48 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-02-01 17:23:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-02-01 17:23:53 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/android.widget.TextView - Profil"), 5): Tapped on element 'Object Repository/Profile/android.widget.TextView - Profil'
+
+2023-02-01 17:23:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/android.widget.TextView - Profil'
+
+2023-02-01 17:23:55 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Masukkan nomor handphone Anda"), "", 0): Text '' has been set to element 'Object Repository/Login/android.widget.EditText - Masukkan nomor handphone Anda'
+
+2023-02-01 17:23:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-01 17:23:58 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Login/android.widget.EditText - Masukkan nomor handphone Anda'
+
+2023-02-01 17:23:58 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-02-01 17:23:59 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-02-01 17:23:59 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Ketik kata sandi Anda"), "", 0): Text '' has been set to element 'Object Repository/Login/android.widget.EditText - Ketik kata sandi Anda'
+
+2023-02-01 17:23:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-01 17:24:03 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Login/android.widget.EditText - Ketik kata sandi Anda'
+
+2023-02-01 17:24:03 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-02-01 17:24:04 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-02-01 17:24:04 - [TEST_STEP][PASSED] - tap(findTestObject("Login/android.widget.Button - Masuk"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - Masuk'
+
+2023-02-01 17:24:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-01 17:24:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - Masuk'
+
+2023-02-01 17:24:06 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-02-01 17:24:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-02-01 17:24:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login/Login Failed/android.widget.TextView - nullPhone"), 3): Element 'Object Repository/Login/Login Failed/android.widget.TextView - nullPhone' is visible
+
+2023-02-01 17:24:12 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Login Failed/android.widget.TextView - nullPhone' is visible
+
+2023-02-01 17:24:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/Login Failed/android.widget.TextView - nullPhone"), "Mohon masukkan nomor handphone Anda"): Actual text and expected text of test object 'Object Repository/Login/Login Failed/android.widget.TextView - nullPhone' are matched.
+
+2023-02-01 17:24:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Failed/android.widget.TextView - nullPhone' are matched.
+
+2023-02-01 17:24:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login/Login Failed/android.widget.TextView - nullPass"), 3): Element 'Object Repository/Login/Login Failed/android.widget.TextView - nullPass' is visible
+
+2023-02-01 17:24:14 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Login Failed/android.widget.TextView - nullPass' is visible
+
+2023-02-01 17:24:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/Login Failed/android.widget.TextView - nullPass"), "Masukkan kata sandi Anda yang benar"): Actual text and expected text of test object 'Object Repository/Login/Login Failed/android.widget.TextView - nullPass' are matched.
+
+2023-02-01 17:24:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Failed/android.widget.TextView - nullPass' are matched.
+
+2023-02-01 17:24:15 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-02-01 17:24:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-01 17:24:18 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-02-01 17:24:19 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login KFCKU Apps/Login Failed - Phone Number Not Registered" time="42.567" classname="Test Cases/Login KFCKU Apps/Login Failed - Phone Number Not Registered" status="PASSED">
+         <system-out><![CDATA[2023-02-01 17:24:19 - [TEST_CASE][PASSED] - Test Cases/Login KFCKU Apps/Login Failed - Phone Number Not Registered: Test Cases/Login KFCKU Apps/Login Failed - Phone Number Not Registered
+
+2023-02-01 17:24:20 - [TEST_STEP][PASSED] - startExistingApplication("com.kfc.mobile.hkStaging", STOP_ON_FAILURE): Starting app with application ID: 'com.kfc.mobile.hkStaging'
+
+2023-02-01 17:24:20 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.kfc.mobile.hkStaging']
+
+2023-02-01 17:24:20 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.kfc.mobile.presentation.home.HomeActivity']
+
+2023-02-01 17:24:20 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-02-01 17:24:20 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-02-01 17:24:20 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-02-01 17:24:22 - [MESSAGE][INFO] - Appium server started on port 52,616
+
+2023-02-01 17:24:37 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2023-02-01 17:24:38 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfc.mobile.hkStaging'
+
+2023-02-01 17:24:38 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-02-01 17:24:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-02-01 17:24:43 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/android.widget.TextView - Profil"), 5): Tapped on element 'Object Repository/Profile/android.widget.TextView - Profil'
+
+2023-02-01 17:24:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/android.widget.TextView - Profil'
+
+2023-02-01 17:24:44 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Masukkan nomor handphone Anda"), "081211287388", 0): Text '081211287388' has been set to element 'Object Repository/Login/android.widget.EditText - Masukkan nomor handphone Anda'
+
+2023-02-01 17:24:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-01 17:24:48 - [MESSAGE][PASSED] - Text '081211287388' has been set to element 'Object Repository/Login/android.widget.EditText - Masukkan nomor handphone Anda'
+
+2023-02-01 17:24:48 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-02-01 17:24:50 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-02-01 17:24:50 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Ketik kata sandi Anda"), "pass123", 0): Text 'pass123' has been set to element 'Object Repository/Login/android.widget.EditText - Ketik kata sandi Anda'
+
+2023-02-01 17:24:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-01 17:24:52 - [MESSAGE][PASSED] - Text 'pass123' has been set to element 'Object Repository/Login/android.widget.EditText - Ketik kata sandi Anda'
+
+2023-02-01 17:24:52 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-02-01 17:24:53 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-02-01 17:24:53 - [TEST_STEP][PASSED] - tap(findTestObject("Login/android.widget.Button - Masuk"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - Masuk'
+
+2023-02-01 17:24:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-01 17:24:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - Masuk'
+
+2023-02-01 17:24:54 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-02-01 17:24:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-02-01 17:24:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login/android.widget.TextView - Nomor handphone Anda belum terdaftar"), 3): Element 'Object Repository/Login/android.widget.TextView - Nomor handphone Anda belum terdaftar' is visible
+
+2023-02-01 17:25:01 - [MESSAGE][PASSED] - Element 'Object Repository/Login/android.widget.TextView - Nomor handphone Anda belum terdaftar' is visible
+
+2023-02-01 17:25:01 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-02-01 17:25:02 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login KFCKU Apps/Login Failed - Wrong Password" time="44.051" classname="Test Cases/Login KFCKU Apps/Login Failed - Wrong Password" status="PASSED">
+         <system-out><![CDATA[2023-02-01 17:25:02 - [TEST_CASE][PASSED] - Test Cases/Login KFCKU Apps/Login Failed - Wrong Password: Test Cases/Login KFCKU Apps/Login Failed - Wrong Password
+
+2023-02-01 17:25:02 - [TEST_STEP][PASSED] - startExistingApplication("com.kfc.mobile.hkStaging", STOP_ON_FAILURE): Starting app with application ID: 'com.kfc.mobile.hkStaging'
+
+2023-02-01 17:25:02 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.kfc.mobile.hkStaging']
+
+2023-02-01 17:25:02 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.kfc.mobile.presentation.home.HomeActivity']
+
+2023-02-01 17:25:02 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-02-01 17:25:02 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-02-01 17:25:03 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-02-01 17:25:05 - [MESSAGE][INFO] - Appium server started on port 52,836
+
+2023-02-01 17:25:21 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2023-02-01 17:25:22 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfc.mobile.hkStaging'
+
+2023-02-01 17:25:22 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-02-01 17:25:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-02-01 17:25:27 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/android.widget.TextView - Profil"), 5): Tapped on element 'Object Repository/Profile/android.widget.TextView - Profil'
+
+2023-02-01 17:25:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/android.widget.TextView - Profil'
+
+2023-02-01 17:25:29 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Masukkan nomor handphone Anda"), "081211287377", 0): Text '081211287377' has been set to element 'Object Repository/Login/android.widget.EditText - Masukkan nomor handphone Anda'
+
+2023-02-01 17:25:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-01 17:25:33 - [MESSAGE][PASSED] - Text '081211287377' has been set to element 'Object Repository/Login/android.widget.EditText - Masukkan nomor handphone Anda'
+
+2023-02-01 17:25:33 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-02-01 17:25:34 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-02-01 17:25:34 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Ketik kata sandi Anda"), "qwerty123", 0): Text 'qwerty123' has been set to element 'Object Repository/Login/android.widget.EditText - Ketik kata sandi Anda'
+
+2023-02-01 17:25:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-01 17:25:35 - [MESSAGE][PASSED] - Text 'qwerty123' has been set to element 'Object Repository/Login/android.widget.EditText - Ketik kata sandi Anda'
+
+2023-02-01 17:25:35 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-02-01 17:25:37 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-02-01 17:25:37 - [TEST_STEP][PASSED] - tap(findTestObject("Login/android.widget.Button - Masuk"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - Masuk'
+
+2023-02-01 17:25:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-01 17:25:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - Masuk'
+
+2023-02-01 17:25:38 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-02-01 17:25:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-01 17:25:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login/android.widget.TextView - Kata sandi yang Anda masukkan salah"), 3): Element 'Object Repository/Login/android.widget.TextView - Kata sandi yang Anda masukkan salah' is visible
+
+2023-02-01 17:25:41 - [MESSAGE][PASSED] - Element 'Object Repository/Login/android.widget.TextView - Kata sandi yang Anda masukkan salah' is visible
+
+2023-02-01 17:25:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/android.widget.TextView - Kata sandi yang Anda masukkan salah"), "Kata sandi yang Anda masukkan salah"): Actual text and expected text of test object 'Object Repository/Login/android.widget.TextView - Kata sandi yang Anda masukkan salah' are matched.
+
+2023-02-01 17:25:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/android.widget.TextView - Kata sandi yang Anda masukkan salah' are matched.
+
+2023-02-01 17:25:42 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-02-01 17:25:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-01 17:25:45 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-02-01 17:25:46 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login KFCKU Apps/Login Social Media" time="60.471" classname="Test Cases/Login KFCKU Apps/Login Social Media" status="PASSED">
+         <system-out><![CDATA[2023-02-01 17:25:46 - [TEST_CASE][PASSED] - Test Cases/Login KFCKU Apps/Login Social Media: Test Cases/Login KFCKU Apps/Login Social Media
+
+2023-02-01 17:25:46 - [TEST_STEP][PASSED] - startExistingApplication("com.kfc.mobile.hkStaging", STOP_ON_FAILURE): Starting app with application ID: 'com.kfc.mobile.hkStaging'
+
+2023-02-01 17:25:46 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.kfc.mobile.hkStaging']
+
+2023-02-01 17:25:46 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.kfc.mobile.presentation.home.HomeActivity']
+
+2023-02-01 17:25:46 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-02-01 17:25:46 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-02-01 17:25:47 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-02-01 17:25:48 - [MESSAGE][INFO] - Appium server started on port 53,036
+
+2023-02-01 17:26:04 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2023-02-01 17:26:05 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfc.mobile.hkStaging'
+
+2023-02-01 17:26:05 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-02-01 17:26:15 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-02-01 17:26:15 - [TEST_STEP][PASSED] - tap(findTestObject("Login/android.widget.TextView - Profil"), 0): Tapped on element 'Object Repository/Login/android.widget.TextView - Profil'
+
+2023-02-01 17:26:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-01 17:26:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.TextView - Profil'
+
+2023-02-01 17:26:17 - [TEST_STEP][PASSED] - tap(findTestObject("Login Social Media/android.widget.Button - Masuk dengan Google"), 0): Tapped on element 'Object Repository/Login Social Media/android.widget.Button - Masuk dengan Google'
+
+2023-02-01 17:26:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-01 17:26:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Social Media/android.widget.Button - Masuk dengan Google'
+
+2023-02-01 17:26:20 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-02-01 17:26:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-01 17:26:23 - [TEST_STEP][PASSED] - tap(findTestObject("Login Social Media/android.widget.TextView - jecsanmaychelgmail.com"), 0): Tapped on element 'Object Repository/Login Social Media/android.widget.TextView - jecsanmaychelgmail.com'
+
+2023-02-01 17:26:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-01 17:26:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Social Media/android.widget.TextView - jecsanmaychelgmail.com'
+
+2023-02-01 17:26:23 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-02-01 17:26:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-02-01 17:26:28 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-02-01 17:26:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-02-01 17:26:33 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/android.widget.TextView - Profil"), 5): Tapped on element 'Object Repository/Profile/android.widget.TextView - Profil'
+
+2023-02-01 17:26:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/android.widget.TextView - Profil'
+
+2023-02-01 17:26:34 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-02-01 17:26:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-01 17:26:37 - [TEST_STEP][PASSED] - swipe(281, 500, 434, 161): Swiped from 281,500 to 434,161
+
+2023-02-01 17:26:38 - [MESSAGE][PASSED] - Swiped from 281,500 to 434,161
+
+2023-02-01 17:26:38 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-02-01 17:26:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-01 17:26:41 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/Perangkat/android.widget.TextView - Keluar"), 5): Tapped on element 'Object Repository/Profile/Perangkat/android.widget.TextView - Keluar'
+
+2023-02-01 17:26:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/Perangkat/android.widget.TextView - Keluar'
+
+2023-02-01 17:26:42 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-02-01 17:26:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-01 17:26:45 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/Perangkat/android.widget.TextView - Ya"), 5): Tapped on element 'Object Repository/Profile/Perangkat/android.widget.TextView - Ya'
+
+2023-02-01 17:26:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/Perangkat/android.widget.TextView - Ya'
+
+2023-02-01 17:26:45 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-02-01 17:26:46 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login KFCKU Apps/Login Phone Number" time="44.716" classname="Test Cases/Login KFCKU Apps/Login Phone Number" status="PASSED">
+         <system-out><![CDATA[2023-02-01 17:26:46 - [TEST_CASE][PASSED] - Test Cases/Login KFCKU Apps/Login Phone Number: Test Cases/Login KFCKU Apps/Login Phone Number
+
+2023-02-01 17:26:47 - [TEST_STEP][PASSED] - startExistingApplication("com.kfc.mobile.hkStaging", STOP_ON_FAILURE): Starting app with application ID: 'com.kfc.mobile.hkStaging'
+
+2023-02-01 17:26:47 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.kfc.mobile.hkStaging']
+
+2023-02-01 17:26:47 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.kfc.mobile.presentation.home.HomeActivity']
+
+2023-02-01 17:26:47 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-02-01 17:26:47 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-02-01 17:26:47 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-02-01 17:26:50 - [MESSAGE][INFO] - Appium server started on port 53,250
+
+2023-02-01 17:27:05 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2023-02-01 17:27:06 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfc.mobile.hkStaging'
+
+2023-02-01 17:27:06 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-02-01 17:27:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-02-01 17:27:11 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/android.widget.TextView - Profil"), 5): Tapped on element 'Object Repository/Profile/android.widget.TextView - Profil'
+
+2023-02-01 17:27:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/android.widget.TextView - Profil'
+
+2023-02-01 17:27:12 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Masukkan nomor handphone Anda"), "081211287377", 0): Text '081211287377' has been set to element 'Object Repository/Login/android.widget.EditText - Masukkan nomor handphone Anda'
+
+2023-02-01 17:27:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-01 17:27:16 - [MESSAGE][PASSED] - Text '081211287377' has been set to element 'Object Repository/Login/android.widget.EditText - Masukkan nomor handphone Anda'
+
+2023-02-01 17:27:16 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-02-01 17:27:17 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-02-01 17:27:17 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Ketik kata sandi Anda"), "pass123", 0): Text 'pass123' has been set to element 'Object Repository/Login/android.widget.EditText - Ketik kata sandi Anda'
+
+2023-02-01 17:27:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-01 17:27:19 - [MESSAGE][PASSED] - Text 'pass123' has been set to element 'Object Repository/Login/android.widget.EditText - Ketik kata sandi Anda'
+
+2023-02-01 17:27:19 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-02-01 17:27:20 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-02-01 17:27:20 - [TEST_STEP][PASSED] - tap(findTestObject("Login/android.widget.Button - Masuk"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - Masuk'
+
+2023-02-01 17:27:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-01 17:27:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - Masuk'
+
+2023-02-01 17:27:21 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-02-01 17:27:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-02-01 17:27:26 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/android.widget.TextView - Profil"), 5): Tapped on element 'Object Repository/Profile/android.widget.TextView - Profil'
+
+2023-02-01 17:27:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/android.widget.TextView - Profil'
+
+2023-02-01 17:27:27 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-02-01 17:27:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-01 17:27:30 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-02-01 17:27:31 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-01 17:23:23 - [TEST_SUITE][PASSED] - Login: Test Cases/Login KFCKU Apps/Login Phone Number]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
