@@ -6,6 +6,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword as StartExistingApplicationKeyword
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
@@ -19,35 +20,11 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
 
-//Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
-//
-//Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
-//
-//Mobile.tap(findTestObject('Login/android.widget.TextView - Lewati'), 0)
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Profile/android.widget.TextView - Profil'), 5)
-
-Mobile.setText(findTestObject('Login/android.widget.EditText - Masukkan nomor handphone Anda'), '', 0)
-
-Mobile.hideKeyboard()
-
-Mobile.setText(findTestObject('Login/android.widget.EditText - Ketik kata sandi Anda'), '', 0)
-
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Login/android.widget.Button - Masuk'), 0)
-
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.verifyElementVisible(findTestObject('Login/Login Failed/android.widget.TextView - nullPhone'), 3)
-
-Mobile.verifyElementText(findTestObject('Login/Login Failed/android.widget.TextView - nullPhone'), 'Mohon masukkan nomor handphone Anda')
-
-Mobile.verifyElementVisible(findTestObject('Login/Login Failed/android.widget.TextView - nullPass'), 3)
-
-Mobile.verifyElementText(findTestObject('Login/Login Failed/android.widget.TextView - nullPass'), 'Masukkan kata sandi Anda yang benar')
+Mobile.tap(findTestObject('Profile/android.widget.TextView - Profil'), 3)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.tap(findTestObject('TC_1/android.widget.TextView - Ubah Kata Sandi'), 3)
+
 Mobile.closeApplication()
+

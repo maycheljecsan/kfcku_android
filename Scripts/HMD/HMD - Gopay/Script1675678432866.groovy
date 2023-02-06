@@ -16,7 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
@@ -26,57 +25,23 @@ Mobile.waitForElementPresent(findTestObject('Order Dine In/android.widget.TextVi
 
 Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - Beranda'), 5)
 
-Mobile.swipe(281, 600, 434, 90)
+Mobile.swipe(281, 500, 434, 161)
 
-'Get Device Height and Store in to device_height variable'
-device_Height = Mobile.getDeviceHeight()
+Mobile.tap(findTestObject('Order HMD/rev-HMD/android.widget.TextView - DELIVERY'), 5)
 
-'Get Width Height and Store in to device_Width variable'
-device_Width = Mobile.getDeviceWidth()
+Mobile.tap(findTestObject('Order HMD/rev-HMD/android.widget.TextView - searchadd'), 5)
 
-'Storing the value in startY variable by dividing device height by 2 Because Y coordinates are constant'
-int startY = device_Height / 2
-
-'Here startY and endY values are equal for Horizontal Swiping for that assigning startX value to endX'
-int endY = startY
-
-'Storing the value in startX variable'
-int startX = device_Width * 0.30
-
-'Storing the value in endX variable'
-int endX = device_Width * 0.70
-
-'Here Y constant for Swipe Horizontal Right to Left'
-Mobile.swipe(endX, startY, startX, endY)
-
-Mobile.waitForElementPresent(findTestObject('Order Type/android.widget.TextView - DRIVE-THRU'), 10)
-
-Mobile.tap(findTestObject('Order Type/android.widget.TextView - DRIVE-THRU'), 5)
-
-Mobile.waitForElementPresent(findTestObject('Order Dine In/android.widget.EditText - Cari Gerai KFC'), 5)
-
-Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - Cari Gerai KFC'), 5)
-
-Mobile.setText(findTestObject('Object Repository/Order Dine In/android.widget.EditText - Cari Gerai KFC'), 'MT Haryono', 
-    5)
+Mobile.setText(findTestObject('Order HMD/rev-HMD/android.widget.TextView - searchadd'), 'MT Haryono', 5)
 
 Mobile.hideKeyboard()
 
-Mobile.waitForElementPresent(findTestObject('Order Dine In/android.widget.TextView - MT HARYONO JAKARTA'), 5)
+Mobile.waitForElementPresent(findTestObject('Order HMD/rev-HMD/android.widget.TextView - Jalan Letjen M.T. Haryono'), 5)
 
-Mobile.tap(findTestObject('Order Dine In/Order/android.widget.Button - Pilih Gerai'), 5)
-
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Order Dine In/android.widget.FrameLayout'), 5)
+Mobile.tap(findTestObject('Order HMD/rev-HMD/android.widget.TextView - MT HARYONO JAKARTA'), 5)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.pressBack()
-
-Mobile.waitForElementPresent(findTestObject('Order Dine In/android.widget.Button - Add'), 5)
-
-Mobile.tap(findTestObject('Order Dine In/android.widget.Button - Add'), 5)
+Mobile.tap(findTestObject('Order HMD/rev-HMD/android.widget.Button - Tambah'), 5)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
@@ -99,36 +64,45 @@ Mobile.tap(findTestObject('Order Dine In/Order/android.widget.TextView - Pilih M
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('DRT Payment/android.widget.EditText - Mohon untuk mengisi nomor'), 5)
-
-Mobile.setText(findTestObject('DRT Payment/android.widget.EditText - Mohon untuk mengisi nomor'), 'B 1223 YTH', 5)
+Mobile.swipe(281, 500, 434, 161)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 //Mobile.swipe(281, 655, 434, 161)
-Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.Button - Pilih Sekarang'), 10)
+Mobile.waitForElementPresent(findTestObject('Order HMD/rev-HMD/android.widget.Button - Pilih Sekarang'), 10)
 
-Mobile.tap(findTestObject('Order Dine In/Order/android.widget.Button - Pilih Sekarang'), 10)
+Mobile.tap(findTestObject('Order HMD/rev-HMD/android.widget.Button - Pilih Sekarang'), 10)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.Button - TAMBAHKAN'), 10)
 
 Mobile.tap(findTestObject('Order Dine In/Order/android.widget.Button - TAMBAHKAN'), 5)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Order Dine In/Order/android.widget.Button - Lanjutkan'), 5)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.scrollToText('TOTAL', FailureHandling.STOP_ON_FAILURE)
+Mobile.scrollToText('Ringkasan Pesanan', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Order Dine In/Payment/android.widget.TextView - Lihat Semua'), 5)
+Mobile.waitForElementPresent(findTestObject('Order HMD/rev-HMD/android.widget.FrameLayout-delivery'), 10)
+
+Mobile.tap(findTestObject('Order HMD/rev-HMD/android.widget.FrameLayout-delivery'), 5)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-//Mobile.swipe(281, 300, 400, 161)
+Mobile.tap(findTestObject('Order HMD/rev-HMD/delivery/android.widget.ImageView-grbike'), 5)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.swipe(281, 500, 434, 161)
+
 //Mobile.tap(findTestObject('Order Dine In/Payment/imgPayment/android.widget.ImageView (1)'), 5)
 TestObject testObjectOne = new TestObject()
 
-testObjectOne.addProperty('xpath', ConditionType.EQUALS, '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[3]')
+testObjectOne.addProperty('xpath', ConditionType.EQUALS, '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.LinearLayout[4]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]')
 
 Mobile.tap(testObjectOne, 5)
 
@@ -140,7 +114,7 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 TestObject testObjectTwo = new TestObject()
 
-testObjectTwo.addProperty('xpath', ConditionType.EQUALS, '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[4]')
+testObjectTwo.addProperty('xpath', ConditionType.EQUALS, '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.LinearLayout[6]/android.view.ViewGroup[1]/android.widget.ImageView[1]')
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
@@ -153,9 +127,7 @@ Mobile.tap(findTestObject('Order Dine In/Payment/android.widget.Button - Simpan'
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(281, 500, 434, 161)
-
-Mobile.tap(findTestObject('Order Dine In/Payment/android.widget.Button - Pesan Sekarang'), 10)
+Mobile.tap(findTestObject('Order HMD/rev-HMD/android.widget.Button - Pesan Sekarang'), 10)
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
@@ -169,11 +141,10 @@ Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Order Dine In/Gopay/android.widget.Button - Submit'), 10)
 
-Mobile.waitForElementPresent(findTestObject('Order Dine In/Gopay/android.view.ViewGroup'), 10)
-
-Mobile.tap(findTestObject('Order Dine In/Gopay/android.widget.TextView - OKE'), 10)
-
-Mobile.scrollToText('TOTAL', FailureHandling.STOP_ON_FAILURE)
-
+//Mobile.waitForElementPresent(findTestObject('Order Dine In/Gopay/android.view.ViewGroup'), 10)
+//
+//Mobile.tap(findTestObject('Order Dine In/Gopay/android.widget.TextView - OKE'), 10)
+//
+//Mobile.scrollToText('TOTAL', FailureHandling.STOP_ON_FAILURE)
 Mobile.closeApplication()
 

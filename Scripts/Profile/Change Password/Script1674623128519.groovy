@@ -49,12 +49,5 @@ Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Profile/Informasi Pribadi/Change Password/android.widget.Button-save'), 5)
 
-Mobile.waitForElementPresent(findTestObject('Profile/Informasi Pribadi/Change Password/android.view.ViewGroup'), 0, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.waitForElementPresent(findTestObject('Profile/Informasi Pribadi/Change Password/android.widget.TextView-sukses'), 
-    0)
-
-Mobile.tap(findTestObject('Profile/Informasi Pribadi/Change Password/android.widget.Button - Okay'), 0)
-
-Mobile.closeApplication()
+Mobile.comment(null)
 

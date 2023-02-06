@@ -74,6 +74,10 @@ Mobile.tap(findTestObject('Order Dine In/Order/android.widget.TextView - Pilih M
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.swipe(281, 500, 434, 161)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 //Mobile.swipe(281, 655, 434, 161)
 Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.Button - Pilih Sekarang'), 10)
 
