@@ -36,6 +36,7 @@ Mobile.setText(findTestObject('Object Repository/Order Dine In/android.widget.Ed
 
 Mobile.hideKeyboard()
 
+
 Mobile.waitForElementPresent(findTestObject('Object Repository/Order Dine In/android.widget.TextView - MT HARYONO JAKARTA'), 
     5)
 
@@ -76,12 +77,9 @@ Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.swipe(281, 500, 434, 161)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Order HMD/rev-HMD/android.widget.Button - Pilih Sekarang'), 10)
 
-//Mobile.swipe(281, 655, 434, 161)
-Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.Button - Pilih Sekarang'), 10)
-
-Mobile.tap(findTestObject('Order Dine In/Order/android.widget.Button - Pilih Sekarang'), 10)
+Mobile.tap(findTestObject('Order HMD/rev-HMD/android.widget.Button - Pilih Sekarang'), 10)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
@@ -97,33 +95,21 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.scrollToText('TOTAL', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Order Dine In/Order/Revamp/android.widget.FrameLayout - payment method'), 5)
+Mobile.tap(findTestObject('Order Dine In/Order/android.widget.LinearLayout-paymethod'), 5)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.swipe(281, 500, 434, 161)
 
 Mobile.tap(findTestObject('Order Dine In/Order/Revamp/android.view.ViewGroup - gopay'), 5)
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Order Dine In/Payment/android.widget.Button - Simpan'), 5)
+Mobile.tap(findTestObject('Order Dine In/Order/Revamp/android.widget.Button - Simpan'), 5)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Order Dine In/Payment/android.widget.Button - Pesan Sekarang'), 10)
+Mobile.tap(findTestObject('Order Dine In/Order/Revamp/android.widget.Button - Pesan Sekarang'), 5)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
-
-//Mobile.waitForElementPresent(findTestObject('Order Dine In/Gopay/android.widget.TextView - GoPay - Web'), 10)
-//
-//Mobile.tap(findTestObject('Order Dine In/Gopay/android.widget.EditText'), 10)
-//
-//Mobile.setText(findTestObject('Order Dine In/Gopay/android.widget.EditText'), '654321', 5)
-//
-//Mobile.hideKeyboard()
-//
-//Mobile.tap(findTestObject('Order Dine In/Gopay/android.widget.Button - Submit'), 10)
 

@@ -96,7 +96,7 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.scrollToText('TOTAL', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Order Dine In/Order/Revamp/android.widget.FrameLayout - payment method'), 5)
+Mobile.tap(findTestObject('Order Dine In/Order/android.widget.LinearLayout-paymethod'), 5)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 

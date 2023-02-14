@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Order PNP,,,,2023-02-08 15:42:42,2023-02-08 15:43:49,1m - 7.872s,FAILED
+,,,,,,,
+Test Cases/Create Order/Dine In/Dine In - Dana,,,,2023-02-08 15:42:42,2023-02-08 15:43:12,29.935s,FAILED
+"startExistingApplication(""com.kfc.mobile.hkStaging"", STOP_ON_FAILURE)",,,,2023-02-08 15:42:42,2023-02-08 15:43:07,24.363s,PASSED
+"waitForElementPresent(findTestObject(""Order Dine In/android.widget.TextView - Beranda""), 5)",,,,2023-02-08 15:43:07,2023-02-08 15:43:10,2.722s,PASSED
+"tap(findTestObject(""Object Repository/Order Dine In/android.widget.TextView - Beranda""), 5)",,,,2023-02-08 15:43:10,2023-02-08 15:43:11,0.980s,PASSED
+"swipe(281, 500, 434, 161)",,,,2023-02-08 15:43:11,2023-02-08 15:43:12,1.152s,PASSED
+"tap(findTestObject(""Object Repository/Order Dine In/android.widget.TextView - DINE-IN""), 5)",,,,2023-02-08 15:43:12,2023-02-08 15:43:12,0.217s,FAILED
+,,,,,,,
+Test Cases/Create Order/Dine In/Dine In - Gopay,,,,2023-02-08 15:43:12,2023-02-08 15:43:28,16.041s,FAILED
+"startExistingApplication(""com.kfc.mobile.hkStaging"", STOP_ON_FAILURE)",,,,2023-02-08 15:43:12,2023-02-08 15:43:28,15.613s,FAILED
+,,,,,,,
+Test Cases/Create Order/Take Away/Take Away - Dana,,,,2023-02-08 15:43:28,2023-02-08 15:43:39,10.606s,FAILED
+"startExistingApplication(""com.kfc.mobile.hkStaging"", STOP_ON_FAILURE)",,,,2023-02-08 15:43:29,2023-02-08 15:43:39,10.071s,FAILED
+,,,,,,,
+Test Cases/Create Order/Take Away/Take Away - Gopay,,,,2023-02-08 15:43:39,2023-02-08 15:43:49,10.828s,FAILED
+"startExistingApplication(""com.kfc.mobile.hkStaging"", STOP_ON_FAILURE)",,,,2023-02-08 15:43:39,2023-02-08 15:43:49,10.329s,FAILED
