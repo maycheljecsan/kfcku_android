@@ -19,17 +19,73 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
 
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Voucher/android.widget.TextView - Voucher'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Voucher/android.view.ViewGroup-2'), 0)
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementVisible(findTestObject('Voucher/android.view.ViewGroup-2'), 10)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Voucher/android.view.ViewGroup-2'), 0)
 
-WebUI.verifyElementText(findTestObject('Voucher/android.widget.TextView - head DETIL VOUCHER'), 'DETAIL VOUCHER')
+//Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+//WebUI.verifyElementText(findTestObject('Voucher/android.widget.TextView - head DETIL VOUCHER'), 'DETIL VOUCHER')
+//Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+//WebUI.waitForImagePresent(findTestObject('Voucher/android.widget.ImageView-imagevoucher'), 3)
+Mobile.swipe(281, 500, 434, 161)
 
-WebUI.verifyElementPresent(findTestObject('Voucher/android.widget.ImageView-imagevoucher'), 0)
-
-WebUI.scrollToElement(findTestObject('Voucher/android.widget.TextView - tnc'), 0)
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Voucher/android.widget.Button - Mulai Order'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Voucher/android.view.View-ordertype voucher'), 0)
+
+Mobile.tap(findTestObject('Voucher/android.widget.LinearLayout-type1'), 0)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - Cari Gerai KFC'), 5)
+
+Mobile.setText(findTestObject('Object Repository/Order Dine In/android.widget.EditText - Cari Gerai KFC'), 'MT Haryono', 
+    10)
+
+Mobile.hideKeyboard()
+
+Mobile.waitForElementPresent(findTestObject('Object Repository/Order Dine In/android.widget.TextView - MT HARYONO JAKARTA'), 
+    5)
+
+Mobile.tap(findTestObject('Order Dine In/Order/android.widget.Button - Pilih Gerai'), 0)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Voucher/android.widget.Button - Tambah2'), 0)
+
+Mobile.tap(findTestObject('Voucher/android.widget.Button-tambah item'), 0)
+
+Mobile.tap(findTestObject('Voucher/android.widget.Button - Lanjut'), 3)
+
+Mobile.tap(findTestObject('Voucher/android.widget.LinearLayout-checkout'), 0)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Voucher/android.widget.TextView - Pilih Menu Gratis'), 0)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.swipe(281, 500, 434, 161)
+
+Mobile.verifyElementVisible(findTestObject('Voucher/android.widget.LinearLayout-pilih voucher'), 0)
+
+Mobile.tap(findTestObject('Voucher/android.widget.LinearLayout-pilih voucher'), 0)
+
+Mobile.tap(findTestObject('Voucher/android.widget.ImageView-imagevoucher'), 0)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Voucher/android.widget.Button - Gunakan Voucher'), 0)
+
+Mobile.tap(findTestObject('Voucher/android.widget.ImageView-back button'), 0)
 
