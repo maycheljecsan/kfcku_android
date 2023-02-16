@@ -89,3 +89,5 @@ Mobile.tap(findTestObject('Voucher/android.widget.Button - Gunakan Voucher'), 0)
 
 Mobile.tap(findTestObject('Voucher/android.widget.ImageView-back button'), 0)
 
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
