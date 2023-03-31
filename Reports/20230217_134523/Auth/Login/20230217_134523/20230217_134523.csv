@@ -1,0 +1,63 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,,,,2023-02-17 13:45:38,2023-02-17 13:49:22,3m - 44.869s,FAILED
+,,,,,,,
+Test Cases/Login KFCKU Apps/Login Failed - Empty Phone Number and Password,,,,2023-02-17 13:45:38,2023-02-17 13:46:50,1m - 11.661s,PASSED
+"startExistingApplication(""com.kfc.mobile.hkStaging"", STOP_ON_FAILURE)",,,,2023-02-17 13:45:39,2023-02-17 13:46:22,43.614s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-02-17 13:46:22,2023-02-17 13:46:27,5.074s,PASSED
+"tap(findTestObject(""Profile/android.widget.TextView - Profil""), 5)",,,,2023-02-17 13:46:27,2023-02-17 13:46:30,3.122s,PASSED
+"setText(findTestObject(""Login/android.widget.EditText - Masukkan nomor handphone Anda""), """", 0)",,,,2023-02-17 13:46:30,2023-02-17 13:46:34,3.957s,PASSED
+hideKeyboard(),,,,2023-02-17 13:46:34,2023-02-17 13:46:36,1.393s,PASSED
+"setText(findTestObject(""Login/android.widget.EditText - Ketik kata sandi Anda""), """", 0)",,,,2023-02-17 13:46:36,2023-02-17 13:46:37,1.468s,PASSED
+hideKeyboard(),,,,2023-02-17 13:46:37,2023-02-17 13:46:38,0.776s,PASSED
+"tap(findTestObject(""Login/android.widget.Button - Masuk""), 0)",,,,2023-02-17 13:46:38,2023-02-17 13:46:39,0.603s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-02-17 13:46:39,2023-02-17 13:46:44,5.013s,PASSED
+"verifyElementVisible(findTestObject(""Login/Login Failed/android.widget.TextView - nullPhone""), 3)",,,,2023-02-17 13:46:44,2023-02-17 13:46:44,0.435s,PASSED
+"verifyElementText(findTestObject(""Login/Login Failed/android.widget.TextView - nullPhone""), ""Mohon masukkan nomor handphone Anda"")",,,,2023-02-17 13:46:44,2023-02-17 13:46:45,0.477s,PASSED
+"verifyElementVisible(findTestObject(""Login/Login Failed/android.widget.TextView - nullPass""), 3)",,,,2023-02-17 13:46:45,2023-02-17 13:46:45,0.525s,PASSED
+"verifyElementText(findTestObject(""Login/Login Failed/android.widget.TextView - nullPass""), ""Masukkan kata sandi Anda yang benar"")",,,,2023-02-17 13:46:45,2023-02-17 13:46:46,0.384s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-02-17 13:46:46,2023-02-17 13:46:49,3.020s,PASSED
+closeApplication(),,,,2023-02-17 13:46:49,2023-02-17 13:46:50,1.144s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-17 13:46:50,2023-02-17 13:46:50,0.042s,PASSED
+,,,,,,,
+Test Cases/Login KFCKU Apps/Login Failed - Wrong Password,,,,2023-02-17 13:46:50,2023-02-17 13:47:31,40.972s,FAILED
+"startExistingApplication(""com.kfc.mobile.hkStaging"", STOP_ON_FAILURE)",,,,2023-02-17 13:46:50,2023-02-17 13:47:10,19.844s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-02-17 13:47:10,2023-02-17 13:47:15,5.012s,PASSED
+"tap(findTestObject(""Profile/android.widget.TextView - Profil""), 5)",,,,2023-02-17 13:47:15,2023-02-17 13:47:18,2.618s,PASSED
+"setText(findTestObject(""Login/android.widget.EditText - Masukkan nomor handphone Anda""), ""081211287377"", 0)",,,,2023-02-17 13:47:18,2023-02-17 13:47:21,3.116s,PASSED
+hideKeyboard(),,,,2023-02-17 13:47:21,2023-02-17 13:47:22,0.508s,PASSED
+"setText(findTestObject(""Login/android.widget.EditText - Ketik kata sandi Anda""), ""qwerty123"", 0)",,,,2023-02-17 13:47:22,2023-02-17 13:47:22,0.955s,PASSED
+hideKeyboard(),,,,2023-02-17 13:47:22,2023-02-17 13:47:23,0.584s,PASSED
+"tap(findTestObject(""Login/android.widget.Button - Masuk""), 0)",,,,2023-02-17 13:47:23,2023-02-17 13:47:24,0.452s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-02-17 13:47:24,2023-02-17 13:47:27,3.007s,PASSED
+"verifyElementVisible(findTestObject(""Login/android.widget.TextView - Kata sandi yang Anda masukkan salah""), 3)",,,,2023-02-17 13:47:27,2023-02-17 13:47:31,4.182s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-02-17 13:47:31,2023-02-17 13:47:31,0.003s,PASSED
+,,,,,,,
+Test Cases/Login KFCKU Apps/Login Failed - Phone Number Not Registered,,,,2023-02-17 13:47:31,2023-02-17 13:48:11,40.074s,FAILED
+"startExistingApplication(""com.kfc.mobile.hkStaging"", STOP_ON_FAILURE)",,,,2023-02-17 13:47:32,2023-02-17 13:47:48,16.848s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-02-17 13:47:48,2023-02-17 13:47:53,5.006s,PASSED
+"tap(findTestObject(""Profile/android.widget.TextView - Profil""), 5)",,,,2023-02-17 13:47:53,2023-02-17 13:47:56,2.645s,PASSED
+"setText(findTestObject(""Login/android.widget.EditText - Masukkan nomor handphone Anda""), ""081211287388"", 0)",,,,2023-02-17 13:47:56,2023-02-17 13:47:59,2.645s,PASSED
+hideKeyboard(),,,,2023-02-17 13:47:59,2023-02-17 13:47:59,0.555s,PASSED
+"setText(findTestObject(""Login/android.widget.EditText - Ketik kata sandi Anda""), ""pass123"", 0)",,,,2023-02-17 13:47:59,2023-02-17 13:48:01,1.433s,PASSED
+hideKeyboard(),,,,2023-02-17 13:48:01,2023-02-17 13:48:01,0.502s,PASSED
+"tap(findTestObject(""Login/android.widget.Button - Masuk""), 0)",,,,2023-02-17 13:48:01,2023-02-17 13:48:02,0.518s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-02-17 13:48:02,2023-02-17 13:48:07,5.008s,PASSED
+"verifyElementVisible(findTestObject(""Login/android.widget.TextView - Nomor handphone Anda belum terdaftar""), 3)",,,,2023-02-17 13:48:07,2023-02-17 13:48:11,4.112s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-02-17 13:48:11,2023-02-17 13:48:11,0.005s,PASSED
+,,,,,,,
+Test Cases/Login KFCKU Apps/Login Social Media,,,,2023-02-17 13:48:11,2023-02-17 13:48:30,19.661s,FAILED
+"startExistingApplication(appPackage, STOP_ON_FAILURE)",,Start application on current selected android device,,2023-02-17 13:48:12,2023-02-17 13:48:30,18.858s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-02-17 13:48:30,2023-02-17 13:48:30,0.007s,PASSED
+,,,,,,,
+Test Cases/Login KFCKU Apps/Login Phone Number,,,,2023-02-17 13:48:30,2023-02-17 13:49:22,51.958s,FAILED
+"startExistingApplication(""com.kfc.mobile.hkStaging"", STOP_ON_FAILURE)",,,,2023-02-17 13:48:32,2023-02-17 13:48:52,20.883s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-02-17 13:48:52,2023-02-17 13:48:57,5.011s,PASSED
+"tap(findTestObject(""Profile/android.widget.TextView - Profil""), 5)",,,,2023-02-17 13:48:57,2023-02-17 13:49:02,4.654s,PASSED
+"setText(findTestObject(""Login/android.widget.EditText - Masukkan nomor handphone Anda""), ""081211287377"", 0)",,,,2023-02-17 13:49:02,2023-02-17 13:49:06,4.133s,PASSED
+hideKeyboard(),,,,2023-02-17 13:49:06,2023-02-17 13:49:07,0.707s,PASSED
+"setText(findTestObject(""Login/android.widget.EditText - Ketik kata sandi Anda""), ""pass111"", 0)",,,,2023-02-17 13:49:07,2023-02-17 13:49:09,1.781s,PASSED
+hideKeyboard(),,,,2023-02-17 13:49:09,2023-02-17 13:49:10,1.186s,PASSED
+"tap(findTestObject(""Login/android.widget.Button - Masuk""), 0)",,,,2023-02-17 13:49:10,2023-02-17 13:49:11,0.770s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-02-17 13:49:11,2023-02-17 13:49:16,5.010s,PASSED
+"tap(findTestObject(""Profile/android.widget.TextView - Profil""), 5)",,,,2023-02-17 13:49:16,2023-02-17 13:49:22,6.780s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-02-17 13:49:22,2023-02-17 13:49:22,0.001s,PASSED

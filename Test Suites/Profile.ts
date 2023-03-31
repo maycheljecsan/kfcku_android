@@ -22,7 +22,7 @@
          <masked>false</masked>
          <name>password</name>
       </iterationNameVariable>
-      <testCaseId>Test Cases/Profile/Change Password</testCaseId>
+      <testCaseId>Test Cases/Staging/Profile/Change Password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

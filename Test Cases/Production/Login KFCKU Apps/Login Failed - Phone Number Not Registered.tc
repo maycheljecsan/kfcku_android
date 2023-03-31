@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Failed - Phone Number Not Registered</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c56b1e01-b2a5-42dc-ad14-48c5430e3760</testCaseGuid>
+</TestCaseEntity>

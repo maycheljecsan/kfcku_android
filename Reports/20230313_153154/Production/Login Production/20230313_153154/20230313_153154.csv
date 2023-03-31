@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Production,,,,2023-03-13 15:32:05,2023-03-13 15:33:44,1m - 39.241s,PASSED
+,,,,,,,
+Test Cases/Production/Login KFCKU Apps/Login Failed - Empty Phone Number and Password,,,,2023-03-13 15:32:05,2023-03-13 15:32:59,54.214s,PASSED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-03-13 15:32:05,2023-03-13 15:32:32,26.792s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-03-13 15:32:32,2023-03-13 15:32:37,5.048s,PASSED
+pressBack(),,,,2023-03-13 15:32:37,2023-03-13 15:32:37,0.298s,PASSED
+"tap(findTestObject(""Production/Home - Login/Profil""), 5)",,,,2023-03-13 15:32:37,2023-03-13 15:32:41,3.314s,PASSED
+"setText(findTestObject(""Production/Home - Login/Masukkan nomor handphone Anda""), """", 0)",,,,2023-03-13 15:32:41,2023-03-13 15:32:44,3.666s,PASSED
+hideKeyboard(),,,,2023-03-13 15:32:44,2023-03-13 15:32:46,1.937s,PASSED
+"setText(findTestObject(""Production/Home - Login/Ketik kata sandi Anda""), """", 0)",,,,2023-03-13 15:32:46,2023-03-13 15:32:48,2.144s,PASSED
+hideKeyboard(),,,,2023-03-13 15:32:48,2023-03-13 15:32:50,1.349s,PASSED
+"tap(findTestObject(""Production/Home - Login/Button - Masuk""), 0)",,,,2023-03-13 15:32:50,2023-03-13 15:32:50,0.445s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-03-13 15:32:50,2023-03-13 15:32:55,5.017s,PASSED
+"waitForElementPresent(findTestObject(""Production/Home - Login/Mohon masukkan nomor handphone Anda""), 0, STOP_ON_FAILURE)",,,,2023-03-13 15:32:55,2023-03-13 15:32:56,0.392s,PASSED
+"waitForElementPresent(findTestObject(""Production/Home - Login/Masukkan kata sandi Anda yang benar""), 0)",,,,2023-03-13 15:32:56,2023-03-13 15:32:56,0.375s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-03-13 15:32:56,2023-03-13 15:32:59,3.005s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-03-13 15:32:59,2023-03-13 15:32:59,0.020s,PASSED
+,,,,,,,
+Test Cases/Production/Login KFCKU Apps/Login Failed - Phone Number Not Registered,,,,2023-03-13 15:32:59,2023-03-13 15:33:44,44.771s,PASSED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-03-13 15:32:59,2023-03-13 15:33:16,16.239s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-03-13 15:33:16,2023-03-13 15:33:21,5.016s,PASSED
+pressBack(),,,,2023-03-13 15:33:21,2023-03-13 15:33:21,0.187s,PASSED
+"tap(findTestObject(""Production/Home - Login/Profil""), 5)",,,,2023-03-13 15:33:21,2023-03-13 15:33:23,2.428s,PASSED
+"setText(findTestObject(""Production/Home - Login/Masukkan nomor handphone Anda""), ""081211287388"", 0)",,,,2023-03-13 15:33:23,2023-03-13 15:33:27,3.611s,PASSED
+hideKeyboard(),,,,2023-03-13 15:33:27,2023-03-13 15:33:28,1.344s,PASSED
+"setText(findTestObject(""Production/Home - Login/Ketik kata sandi Anda""), ""pass123"", 0)",,,,2023-03-13 15:33:28,2023-03-13 15:33:30,1.558s,PASSED
+hideKeyboard(),,,,2023-03-13 15:33:30,2023-03-13 15:33:31,1.347s,PASSED
+"tap(findTestObject(""Production/Home - Login/Button - Masuk""), 0)",,,,2023-03-13 15:33:31,2023-03-13 15:33:32,0.441s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-03-13 15:33:32,2023-03-13 15:33:37,5.013s,PASSED
+"waitForElementPresent(findTestObject(""Production/Home - Login/Error - Nomor handphone Anda belum terdaftar""), 3)",,,,2023-03-13 15:33:37,2023-03-13 15:33:38,0.950s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-03-13 15:33:38,2023-03-13 15:33:43,5.012s,PASSED
+closeApplication(),,,,2023-03-13 15:33:43,2023-03-13 15:33:44,1.289s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-03-13 15:33:44,2023-03-13 15:33:44,0.002s,PASSED
