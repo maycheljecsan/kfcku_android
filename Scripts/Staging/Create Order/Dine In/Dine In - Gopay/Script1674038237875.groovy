@@ -110,5 +110,15 @@ Mobile.tap(findTestObject('Order Dine In/Order/Revamp/android.widget.Button - Pe
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
+//WebUI.waitForElementPresent(findTestObject('Gopay Page/GoPay - Web'), 3)
+//
+//Mobile.setText(findTestObject('Gopay Page/Input PIN'), '654321', 0)
+//
+//Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+//
+//Mobile.tap(findTestObject('Gopay Page/Button Submit'), 5)
+//
+//Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.closeApplication()
 

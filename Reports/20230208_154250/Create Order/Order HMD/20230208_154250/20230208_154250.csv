@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Order HMD,,,,2023-02-08 15:43:00,2023-02-08 15:43:39,38.490s,FAILED
-,,,,,,,
-Test Cases/Create Order/HMD/HMD - Gopay,,,,2023-02-08 15:43:00,2023-02-08 15:43:28,27.597s,FAILED
-"startExistingApplication(""com.kfc.mobile.hkStaging"", STOP_ON_FAILURE)",,,,2023-02-08 15:43:01,2023-02-08 15:43:28,27.119s,FAILED
-,,,,,,,
-Test Cases/Create Order/HMD/HMD - Dana,,,,2023-02-08 15:43:28,2023-02-08 15:43:39,10.580s,FAILED
-"startExistingApplication(""com.kfc.mobile.hkStaging"", STOP_ON_FAILURE)",,,,2023-02-08 15:43:29,2023-02-08 15:43:39,10.099s,FAILED

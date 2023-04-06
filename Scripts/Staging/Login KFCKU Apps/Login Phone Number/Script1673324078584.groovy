@@ -33,7 +33,7 @@ Mobile.setText(findTestObject('Login/android.widget.EditText - Masukkan nomor ha
 
 Mobile.hideKeyboard()
 
-Mobile.setText(findTestObject('Login/android.widget.EditText - Ketik kata sandi Anda'), 'pass123', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditText - Ketik kata sandi Anda'), 'pass111', 0)
 
 Mobile.hideKeyboard()
 

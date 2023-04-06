@@ -137,7 +137,17 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 //Mobile.swipe(281, 500, 434, 161)
 Mobile.tap(findTestObject('Order Dine In/Order/Revamp/android.widget.Button - Pesan Sekarang'), 5)
 
-Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+//WebUI.waitForElementPresent(findTestObject('DANA Page/Button Pay DANA'), 3)
+//
+//Mobile.tap(findTestObject('DANA Page/Button Pay DANA'), 5)
+//
+//Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.waitForElementPresent(findTestObject('DANA Page/Payment Success'), 3)
+//
+//Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 //Mobile.waitForElementPresent(findTestObject('Order Dine In/Payment/imgPayment/android.view.View'), 5)
 //
