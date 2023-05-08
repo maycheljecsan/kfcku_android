@@ -26,15 +26,17 @@ Mobile.waitForElementPresent(findTestObject('Profile/android.widget.TextView - P
 
 Mobile.tap(findTestObject('Profile/android.widget.TextView - Profil'), 5)
 
-Mobile.verifyElementVisible(findTestObject('Profile/Header Profile/android.widget.ImageView'), 0)
+Mobile.verifyElementVisible(findTestObject('Profile/Header Profile/Photo Profile'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Profile/Header Profile/android.widget.TextView - 081211287377'), 0)
+Mobile.verifyElementVisible(findTestObject('Profile/Header Profile/Phone Number'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Profile/Header Profile/android.widget.TextView - MIKE'), 0)
+Mobile.verifyElementVisible(findTestObject('Profile/Header Profile/Username'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Profile/Header Profile/android.widget.TextView - Terdaftar sejak'), 0)
+Mobile.verifyElementVisible(findTestObject('Profile/Header Profile/Tanggal Terdaftar'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Profile/Informasi Pribadi/android.widget.ImageView'), 0)
+
+Mobile.waitForElementPresent(findTestObject('Profile/Header Profile/Section Referral Code'), 5)
 
 Mobile.verifyElementVisible(findTestObject('Profile/Informasi Pribadi/android.widget.TextView - INFORMASI PRIBADI'), 0)
 

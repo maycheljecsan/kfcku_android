@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.callTestCase(findTestCase('Staging/Login KFCKU Apps/Login Social Media'), [:], FailureHandling.STOP_ON_FAILURE)
-Mobile.waitForElementPresent(findTestObject('Order Dine In/android.widget.TextView - Beranda'), 5)
+Mobile.waitForElementPresent(findTestObject('Order Dine In/android.widget.TextView - Beranda'), 10)
 
 Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - Beranda'), 5)
 
@@ -44,12 +44,12 @@ Mobile.tap(findTestObject('Order Dine In/Order/android.widget.Button - Pilih Ger
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Order Dine In/android.widget.FrameLayout'), 5)
-
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.pressBack()
-
+//
+//Mobile.tap(findTestObject('Order Dine In/android.widget.FrameLayout'), 5)
+//
+//Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+//
+//Mobile.pressBack()
 Mobile.waitForElementPresent(findTestObject('Order Dine In/android.widget.Button - Add'), 5)
 
 Mobile.tap(findTestObject('Order Dine In/android.widget.Button - Add'), 5)
@@ -134,12 +134,14 @@ Mobile.tap(findTestObject('Order Dine In/Order/Revamp/android.widget.Button - Si
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.swipe(281, 500, 434, 161)
+
 //Mobile.swipe(281, 500, 434, 161)
 Mobile.tap(findTestObject('Order Dine In/Order/Revamp/android.widget.Button - Pesan Sekarang'), 5)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.waitForElementPresent(findTestObject('DANA Page/Button Pay DANA'), 3)
+//WebUI.waitForElementPresent(findTestObject('DANA Page/Button Pay DANA'), 5)
 //
 //Mobile.tap(findTestObject('DANA Page/Button Pay DANA'), 5)
 //
@@ -148,7 +150,6 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 //WebUI.waitForElementPresent(findTestObject('DANA Page/Payment Success'), 3)
 //
 //Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
 //Mobile.waitForElementPresent(findTestObject('Order Dine In/Payment/imgPayment/android.view.View'), 5)
 //
 //Mobile.tap(findTestObject('Order Dine In/Payment/android.view.View'), 10)

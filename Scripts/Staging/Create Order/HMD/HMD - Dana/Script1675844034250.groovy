@@ -63,6 +63,12 @@ Mobile.tap(findTestObject('Order Dine In/Order/android.widget.LinearLayout'), 5)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis'), 5)
+
+Mobile.tap(findTestObject('Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis'), 5)
+
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+
 //Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis'), 5)
 //
 //Mobile.tap(findTestObject('Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis'), 5)

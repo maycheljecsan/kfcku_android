@@ -138,13 +138,13 @@ Mobile.tap(findTestObject('Order Dine In/Order/Revamp/android.widget.Button - Pe
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.waitForElementPresent(findTestObject('DANA Page/Button Pay DANA'), 3)
+//Mobile.waitForElementPresent(findTestObject('DANA Page/Button Pay DANA (1)'), 0)
 //
-//Mobile.tap(findTestObject('DANA Page/Button Pay DANA'), 5)
+//Mobile.tap(findTestObject('DANA Page/Button Pay DANA (1)'), 5)
 //
 //Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 //
-//WebUI.waitForElementPresent(findTestObject('DANA Page/Payment Success'), 3)
+//Mobile.pressBack()
 //
 //Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 

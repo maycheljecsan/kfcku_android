@@ -21,7 +21,7 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.callTestCase(findTestCase('Staging/Login KFCKU Apps/Login Social Media'), [:], FailureHandling.STOP_ON_FAILURE)
-Mobile.waitForElementPresent(findTestObject('Order Dine In/android.widget.TextView - Beranda'), 5)
+Mobile.waitForElementPresent(findTestObject('Order Dine In/android.widget.TextView - Beranda'), 10)
 
 Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - Beranda'), 5)
 
@@ -106,6 +106,8 @@ Mobile.tap(findTestObject('Order Dine In/Order/Revamp/android.widget.Button - Si
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.swipe(281, 500, 434, 161)
+
 Mobile.tap(findTestObject('Order Dine In/Order/Revamp/android.widget.Button - Pesan Sekarang'), 5)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
@@ -119,6 +121,5 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 //Mobile.tap(findTestObject('Gopay Page/Button Submit'), 5)
 //
 //Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
 Mobile.closeApplication()
 

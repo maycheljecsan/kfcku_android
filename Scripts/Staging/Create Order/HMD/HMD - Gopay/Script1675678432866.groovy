@@ -64,30 +64,34 @@ Mobile.tap(findTestObject('Order Dine In/Order/android.widget.LinearLayout'), 5)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-//Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis'), 5)
-//
-//Mobile.tap(findTestObject('Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis'), 5)
-//
-//Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
-//
-//Mobile.swipe(281, 500, 434, 161)
-//
-////Mobile.swipe(281, 655, 434, 161)
-//Mobile.waitForElementPresent(findTestObject('Order HMD/rev-HMD/android.widget.Button - Pilih Sekarang'), 10)
-//
-//Mobile.tap(findTestObject('Order HMD/rev-HMD/android.widget.Button - Pilih Sekarang'), 10)
-//
-//Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-//
-//Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/Revamp/android.widget.Button - Tambah'), 10)
-//
-//Mobile.tap(findTestObject('Order Dine In/Order/Revamp/android.widget.Button - Tambah'), 5)
-//
-//Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-//
-//Mobile.tap(findTestObject('Order Dine In/Order/Revamp/android.widget.Button - Lanjutkan'), 5)
-//Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis'), 5)
+
+Mobile.tap(findTestObject('Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis'), 5)
+
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.swipe(281, 500, 434, 161)
+
+//Mobile.swipe(281, 655, 434, 161)
+Mobile.waitForElementPresent(findTestObject('Order HMD/rev-HMD/android.widget.Button - Pilih Sekarang'), 10)
+
+Mobile.tap(findTestObject('Order HMD/rev-HMD/android.widget.Button - Pilih Sekarang'), 10)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/Revamp/android.widget.Button - Tambah'), 10)
+
+Mobile.tap(findTestObject('Order Dine In/Order/Revamp/android.widget.Button - Tambah'), 5)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Order Dine In/Order/Revamp/android.widget.Button - Lanjutkan'), 5)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.swipe(281, 500, 434, 161)
+
+Mobile.scrollToText('Metode', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.waitForElementPresent(findTestObject('Order HMD/rev-HMD/android.widget.EditText - notes'), 10)
 
@@ -157,28 +161,23 @@ Mobile.tap(findTestObject('Order Dine In/Order/Revamp/android.widget.Button - Si
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.swipe(281, 500, 434, 161)
+
 //Mobile.swipe(281, 500, 434, 161)
 Mobile.tap(findTestObject('Order Dine In/Order/Revamp/android.widget.Button - Pesan Sekarang'), 5)
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-//Mobile.waitForElementPresent(findTestObject('Order Dine In/Payment/imgPayment/android.view.View'), 5)
+//WebUI.waitForElementPresent(findTestObject('Gopay Page/GoPay - Web'), 5)
 //
-//Mobile.tap(findTestObject('Order Dine In/Payment/android.view.View'), 10)
+//Mobile.setText(findTestObject('Gopay Page/Input PIN'), '654321', 0)
 //
-//Mobile.waitForElementPresent(findTestObject('Order Dine In/Payment/android.widget.TextView - Konfirmasi pembayaran Anda'), 
-//    10)
+//Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 //
-//Mobile.tap(findTestObject('Order Dine In/Payment/android.widget.ImageButton'), 10)
-//Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.TextView - OKE'), 5)
-//TestObject popup = new TestObject().addProperty('xpath', ConditionType.EQUALS, "Order Dine In/Order/android.widget.TextView - OKE]")
-//if (Mobile.verifyElementExist(popup, 5))
-//	Mobile.tap(popup, 0)
-//	
-//Mobile.tap(findTestObject('Order Dine In/Order/android.widget.TextView - OKE'), 10)
-//TestObject scroll = new TestObject().addProperty('xpath', ConditionType.EQUALS, "")
-//if (Mobile.verifyElementExist(scroll, 5))
-//	Mobile.scrollToText('TOTAL')
-//Mobile.scrollToText('TOTAL', FailureHandling.STOP_ON_FAILURE)
+//Mobile.tap(findTestObject('Gopay Page/Button Submit'), 5)
+//
+//Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.verifyTextPresent('ANDA TELAH BERHASIL MELAKUKAN PEMESANAN', false)
 Mobile.closeApplication()
 

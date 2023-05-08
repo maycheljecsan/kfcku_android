@@ -25,29 +25,41 @@ Mobile.waitForElementPresent(findTestObject('Profile/android.widget.TextView - P
 
 Mobile.tap(findTestObject('Profile/android.widget.TextView - Profil'), 5)
 
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Profile/Informasi Pribadi/android.widget.TextView - Ubah Kata Sandi'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Profile/android.widget.TextView - Profil'), 5)
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Profile/Informasi Pribadi/Change Password/android.widget.EditText-pass'), 5)
 
-Mobile.setText(findTestObject('Profile/Informasi Pribadi/Change Password/android.widget.EditText-pass'), 'pass123', 0)
+Mobile.setText(findTestObject('Profile/Informasi Pribadi/Change Password/android.widget.EditText-pass'), 'pass111', 0)
 
-Mobile.hideKeyboard()
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Profile/Informasi Pribadi/Change Password/android.widget.EditText-nu'), 5)
+Mobile.pressBack()
 
-Mobile.setText(findTestObject('Profile/Informasi Pribadi/Change Password/android.widget.EditText-nu'), 'pass123', 0)
+Mobile.tap(findTestObject('Profile/Informasi Pribadi/Change Password/Kata Sandi Baru'), 5)
 
-Mobile.hideKeyboard()
+Mobile.setText(findTestObject('Profile/Informasi Pribadi/Change Password/Kata Sandi Baru'), 'pass123', 0)
 
-Mobile.tap(findTestObject('Profile/Informasi Pribadi/Change Password/android.widget.EditText-conf'), 5)
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Profile/Informasi Pribadi/Change Password/android.widget.EditText-conf'), 'pass123', 0)
+Mobile.pressBack()
 
-Mobile.hideKeyboard()
+Mobile.tap(findTestObject('Profile/Informasi Pribadi/Change Password/Konfirm Kata Sandi Baru'), 5)
+
+Mobile.setText(findTestObject('Profile/Informasi Pribadi/Change Password/Konfirm Kata Sandi Baru'), 'pass123', 0)
+
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Profile/Informasi Pribadi/Change Password/android.widget.Button-save'), 5)
 
-Mobile.comment(null)
+Mobile.tap(findTestObject('Profile/Informasi Pribadi/Change Password/android.widget.Button - Okay'), 0)
+
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.closeApplication()
 

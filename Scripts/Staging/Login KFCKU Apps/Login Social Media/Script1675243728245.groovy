@@ -9,7 +9,6 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
-
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
@@ -23,7 +22,6 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
 
 //Mobile.startExistingApplication(GlobalVariable.appPackage, FailureHandling.STOP_ON_FAILURE)
-
 Mobile.delay(10)
 
 //Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
@@ -57,7 +55,9 @@ Mobile.tap(findTestObject('Profile/Perangkat/android.widget.TextView - Keluar'),
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Profile/Perangkat/android.widget.TextView - Ya'), 5)
+Mobile.tap(findTestObject('Login/Keluar - Ya'), 5)
+
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 
