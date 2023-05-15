@@ -1,0 +1,64 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. startExistingApplication("com.kfc.mobile", STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+5. delay(5, STOP_ON_FAILURE)
+
+3
+00:00:00,000 --> 00:00:00,000
+9. tap(findTestObject("Productions/Menu/Profile"), 5)
+
+4
+00:00:00,000 --> 00:00:00,000
+13. waitForElementPresent(findTestObject("Productions/Login/Button - Sign in with Google"), 0)
+
+5
+00:00:00,000 --> 00:00:00,000
+17. tap(findTestObject("Productions/Login/Button - Sign in with Google"), 0)
+
+6
+00:00:00,000 --> 00:00:00,000
+21. delay(5, STOP_ON_FAILURE)
+
+7
+00:00:00,000 --> 00:00:00,000
+25. tap(findTestObject("Productions/Login/jecsanmaychelgmail.com"), 0, STOP_ON_FAILURE)
+
+8
+00:00:00,000 --> 00:00:00,000
+29. delay(5, STOP_ON_FAILURE)
+
+9
+00:00:00,000 --> 00:00:00,000
+33. waitForElementPresent(findTestObject("Productions/Login/Profile Info"), 0)
+
+10
+00:00:00,000 --> 00:00:00,000
+37. delay(3, STOP_ON_FAILURE)
+
+11
+00:00:00,000 --> 00:00:00,000
+41. tap(findTestObject("Productions/Login/Log Out"), 0)
+
+12
+00:00:00,000 --> 00:00:00,000
+45. tap(findTestObject("Productions/Login/Logout - Yes"), 0)
+
+13
+00:00:00,000 --> 00:00:00,000
+49. delay(3, STOP_ON_FAILURE)
+
+14
+00:00:00,000 --> 00:00:00,000
+53. closeApplication()
+
+15
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+16
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+

@@ -18,50 +18,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Start application on current selected android device'
 Mobile.startExistingApplication('com.kfc.mobile', FailureHandling.STOP_ON_FAILURE)
 
-//Mobile.startExistingApplication(GlobalVariable.appPackage, FailureHandling.STOP_ON_FAILURE)
-Mobile.delay(5)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.pressBack()
+Mobile.tap(findTestObject('Productions/Menu/Profile'), 5)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Productions/Login/Button - Sign in with Google'), 0)
 
-Mobile.tap(findTestObject('Production/Home - Login/Beranda'), 5)
-
-//Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
-//
-//Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
-//
-//Mobile.tap(findTestObject('Login/android.widget.TextView - Lewati'), 0)
-//
-//Mobile.delay(3)
-Mobile.tap(findTestObject('Production/Home - Login/Profil'), 0)
-
-Mobile.tap(findTestObject('Production/Home - Login/Button - Masuk dengan Google'), 0)
-
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Production/Home - Login/jecsanmaychelgmail.com'), 0)
+Mobile.tap(findTestObject('Productions/Login/Button - Sign in with Google'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.tap(findTestObject('Productions/Login/jecsanmaychelgmail.com'), 0, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Production/Home - Login/Profil'), 5)
+Mobile.waitForElementPresent(findTestObject('Productions/Login/Profile Info'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(281, 500, 434, 161)
+Mobile.tap(findTestObject('Productions/Login/Log Out'), 0)
+
+Mobile.tap(findTestObject('Productions/Login/Logout - Yes'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Production/Setting - Keluar Apps/Keluar'), 5)
-
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Production/Setting - Keluar Apps/Ya'), 5)
 
 Mobile.closeApplication()
 

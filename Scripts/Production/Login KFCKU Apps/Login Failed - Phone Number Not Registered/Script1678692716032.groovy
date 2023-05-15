@@ -21,34 +21,25 @@ import io.appium.java_client.AppiumDriver as AppiumDriver
 
 Mobile.startExistingApplication('com.kfc.mobile', FailureHandling.STOP_ON_FAILURE)
 
-//Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
-//
-//Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
-//
-//Mobile.tap(findTestObject('Login/android.widget.TextView - Lewati'), 0)
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Productions/Menu/Profile'), 5)
+
+Mobile.tap(findTestObject('Productions/Login/Enter your phone number'), 0)
+
+Mobile.setText(findTestObject('Productions/Login/Enter your phone number'), '081211287366', 0)
 
 Mobile.pressBack()
 
+Mobile.setText(findTestObject('Productions/Login/Type your password'), 'Pass123', 0)
+
+Mobile.tap(findTestObject('Productions/Login/Button - Sign In'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.waitForElementPresent(findTestObject('Productions/Login/Your phone number has not been registered'), 0, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Production/Home - Login/Profil'), 5)
-
-Mobile.setText(findTestObject('Production/Home - Login/Masukkan nomor handphone Anda'), '081211287388', 0)
-
-Mobile.hideKeyboard()
-
-Mobile.setText(findTestObject('Production/Home - Login/Ketik kata sandi Anda'), 'pass123', 0)
-
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Production/Home - Login/Button - Masuk'), 0)
-
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.waitForElementPresent(findTestObject('Production/Home - Login/Error - Nomor handphone Anda belum terdaftar'), 3)
-
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 

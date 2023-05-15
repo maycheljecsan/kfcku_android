@@ -1,0 +1,76 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Production,,,,2023-05-15 14:19:36,2023-05-15 14:23:40,4m - 4.098s,PASSED
+,,,,,,,
+Test Cases/Production/Login KFCKU Apps/Login Failed - Empty Phone Number and Password,,,,2023-05-15 14:19:36,2023-05-15 14:20:40,1m - 3.263s,PASSED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-05-15 14:19:37,2023-05-15 14:20:19,41.863s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-05-15 14:20:19,2023-05-15 14:20:24,5.073s,PASSED
+"tap(findTestObject(""Productions/Menu/Profile""), 5)",,,,2023-05-15 14:20:24,2023-05-15 14:20:26,2.433s,PASSED
+"tap(findTestObject(""Productions/Login/Button - Sign In""), 0)",,,,2023-05-15 14:20:26,2023-05-15 14:20:29,2.632s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-05-15 14:20:29,2023-05-15 14:20:34,5.011s,PASSED
+"waitForElementPresent(findTestObject(""Productions/Login/Please enter your phone number""), 0, STOP_ON_FAILURE)",,,,2023-05-15 14:20:34,2023-05-15 14:20:35,1.267s,PASSED
+"waitForElementPresent(findTestObject(""Productions/Login/Please type your correct password""), 0)",,,,2023-05-15 14:20:35,2023-05-15 14:20:36,0.682s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-05-15 14:20:36,2023-05-15 14:20:39,3.020s,PASSED
+closeApplication(),,,,2023-05-15 14:20:39,2023-05-15 14:20:40,0.509s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-05-15 14:20:40,2023-05-15 14:20:40,0.050s,PASSED
+,,,,,,,
+Test Cases/Production/Login KFCKU Apps/Login Failed - Phone Number Not Registered,,,,2023-05-15 14:20:40,2023-05-15 14:21:23,43.544s,PASSED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-05-15 14:20:40,2023-05-15 14:20:59,19.068s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-05-15 14:20:59,2023-05-15 14:21:04,5.018s,PASSED
+"tap(findTestObject(""Productions/Menu/Profile""), 5)",,,,2023-05-15 14:21:04,2023-05-15 14:21:06,2.245s,PASSED
+"tap(findTestObject(""Productions/Login/Enter your phone number""), 0)",,,,2023-05-15 14:21:06,2023-05-15 14:21:09,2.367s,PASSED
+"setText(findTestObject(""Productions/Login/Enter your phone number""), ""081211287366"", 0)",,,,2023-05-15 14:21:09,2023-05-15 14:21:11,2.203s,PASSED
+pressBack(),,,,2023-05-15 14:21:11,2023-05-15 14:21:11,0.542s,PASSED
+"setText(findTestObject(""Productions/Login/Type your password""), ""Pass123"", 0)",,,,2023-05-15 14:21:11,2023-05-15 14:21:13,1.693s,PASSED
+"tap(findTestObject(""Productions/Login/Button - Sign In""), 0)",,,,2023-05-15 14:21:13,2023-05-15 14:21:14,0.992s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-05-15 14:21:14,2023-05-15 14:21:19,5.018s,PASSED
+"waitForElementPresent(findTestObject(""Productions/Login/Your phone number has not been registered""), 0, STOP_ON_FAILURE)",,,,2023-05-15 14:21:19,2023-05-15 14:21:20,0.542s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-05-15 14:21:20,2023-05-15 14:21:23,3.022s,PASSED
+closeApplication(),,,,2023-05-15 14:21:23,2023-05-15 14:21:23,0.389s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-05-15 14:21:23,2023-05-15 14:21:23,0.012s,PASSED
+,,,,,,,
+Test Cases/Production/Login KFCKU Apps/Login Failed - Wrong Password,,,,2023-05-15 14:21:23,2023-05-15 14:22:07,44.150s,PASSED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-05-15 14:21:24,2023-05-15 14:21:42,18.591s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-05-15 14:21:42,2023-05-15 14:21:47,5.013s,PASSED
+"tap(findTestObject(""Productions/Menu/Profile""), 5)",,,,2023-05-15 14:21:47,2023-05-15 14:21:49,2.241s,PASSED
+"tap(findTestObject(""Productions/Login/Enter your phone number""), 0)",,,,2023-05-15 14:21:49,2023-05-15 14:21:52,2.440s,PASSED
+"setText(findTestObject(""Productions/Login/Enter your phone number""), ""081211287377"", 0)",,,,2023-05-15 14:21:52,2023-05-15 14:21:55,2.704s,PASSED
+pressBack(),,,,2023-05-15 14:21:55,2023-05-15 14:21:55,0.540s,PASSED
+"setText(findTestObject(""Productions/Login/Type your password""), ""passk209"", 0)",,,,2023-05-15 14:21:55,2023-05-15 14:21:57,2.219s,PASSED
+"tap(findTestObject(""Productions/Login/Button - Sign In""), 0)",,,,2023-05-15 14:21:57,2023-05-15 14:21:58,0.976s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-05-15 14:21:58,2023-05-15 14:22:03,5.018s,PASSED
+"waitForElementPresent(findTestObject(""Productions/Login/The password you entered is incorrect""), 0, STOP_ON_FAILURE)",,,,2023-05-15 14:22:03,2023-05-15 14:22:04,0.581s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-05-15 14:22:04,2023-05-15 14:22:07,3.010s,PASSED
+closeApplication(),,,,2023-05-15 14:22:07,2023-05-15 14:22:07,0.371s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-05-15 14:22:07,2023-05-15 14:22:07,0.007s,PASSED
+,,,,,,,
+Test Cases/Production/Login KFCKU Apps/Login Social Media,,,,2023-05-15 14:22:07,2023-05-15 14:22:57,49.838s,PASSED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-05-15 14:22:08,2023-05-15 14:22:27,18.619s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-05-15 14:22:27,2023-05-15 14:22:32,5.011s,PASSED
+"tap(findTestObject(""Productions/Menu/Profile""), 5)",,,,2023-05-15 14:22:32,2023-05-15 14:22:34,2.325s,PASSED
+"waitForElementPresent(findTestObject(""Productions/Login/Button - Sign in with Google""), 0)",,,,2023-05-15 14:22:34,2023-05-15 14:22:36,2.428s,PASSED
+"tap(findTestObject(""Productions/Login/Button - Sign in with Google""), 0)",,,,2023-05-15 14:22:36,2023-05-15 14:22:37,0.746s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-05-15 14:22:37,2023-05-15 14:22:42,5.017s,PASSED
+"tap(findTestObject(""Productions/Login/jecsanmaychelgmail.com""), 0, STOP_ON_FAILURE)",,,,2023-05-15 14:22:42,2023-05-15 14:22:43,0.634s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-05-15 14:22:43,2023-05-15 14:22:48,5.006s,PASSED
+"waitForElementPresent(findTestObject(""Productions/Login/Profile Info""), 0)",,,,2023-05-15 14:22:48,2023-05-15 14:22:48,0.717s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-05-15 14:22:48,2023-05-15 14:22:51,3.014s,PASSED
+"tap(findTestObject(""Productions/Login/Log Out""), 0)",,,,2023-05-15 14:22:51,2023-05-15 14:22:53,1.332s,PASSED
+"tap(findTestObject(""Productions/Login/Logout - Yes""), 0)",,,,2023-05-15 14:22:53,2023-05-15 14:22:54,1.006s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-05-15 14:22:54,2023-05-15 14:22:57,3.014s,PASSED
+closeApplication(),,,,2023-05-15 14:22:57,2023-05-15 14:22:57,0.323s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-05-15 14:22:57,2023-05-15 14:22:57,0.007s,PASSED
+,,,,,,,
+Test Cases/Production/Login KFCKU Apps/Login Phone Number,,,,2023-05-15 14:22:57,2023-05-15 14:23:40,42.674s,PASSED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-05-15 14:22:58,2023-05-15 14:23:16,18.120s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-05-15 14:23:16,2023-05-15 14:23:21,5.014s,PASSED
+"tap(findTestObject(""Productions/Menu/Profile""), 5)",,,,2023-05-15 14:23:21,2023-05-15 14:23:23,2.162s,PASSED
+"tap(findTestObject(""Productions/Login/Enter your phone number""), 0)",,,,2023-05-15 14:23:23,2023-05-15 14:23:26,2.703s,PASSED
+"setText(findTestObject(""Productions/Login/Enter your phone number""), ""081211287377"", 0)",,,,2023-05-15 14:23:26,2023-05-15 14:23:28,2.192s,PASSED
+pressBack(),,,,2023-05-15 14:23:28,2023-05-15 14:23:28,0.548s,PASSED
+"setText(findTestObject(""Productions/Login/Type your password""), ""pass123"", 0)",,,,2023-05-15 14:23:28,2023-05-15 14:23:30,1.713s,PASSED
+"tap(findTestObject(""Productions/Login/Button - Sign In""), 0)",,,,2023-05-15 14:23:30,2023-05-15 14:23:31,0.978s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-05-15 14:23:31,2023-05-15 14:23:36,5.008s,PASSED
+"waitForElementPresent(findTestObject(""Productions/Login/Profile Info""), 0, STOP_ON_FAILURE)",,,,2023-05-15 14:23:36,2023-05-15 14:23:37,0.581s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-05-15 14:23:37,2023-05-15 14:23:40,3.011s,PASSED
+closeApplication(),,,,2023-05-15 14:23:40,2023-05-15 14:23:40,0.282s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-05-15 14:23:40,2023-05-15 14:23:40,0.005s,PASSED

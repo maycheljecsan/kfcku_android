@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Production" time="244.098" tests="5" failures="0" errors="0">
+   <testsuite name="Login Production" tests="5" failures="0" errors="0" time="244.098" skipped="0" timestamp="2023-05-15 14:19:36" hostname="Ahadian Rifky - NKC-23" id="Test Suites/Production/Login Production">
+      <properties>
+         <property name="deviceName" value="OPPO CPH1803 (Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ahadian Rifky\\Downloads\\Katalon_Studio_Windows_64-8.5.5\\Katalon_Studio_Windows_64-8.5.5\\git.github.com\\maycheljecsan\\kfckuapps_katalon.git\\kfcku_android\\Reports\\20230515_141921\\Production\\Login Production\\20230515_141921"/>
+         <property name="logFiles" value="C:\\Users\\Ahadian Rifky\\Downloads\\Katalon_Studio_Windows_64-8.5.5\\Katalon_Studio_Windows_64-8.5.5\\git.github.com\\maycheljecsan\\kfckuapps_katalon.git\\kfcku_android\\Reports\\20230515_141921\\Production\\Login Production\\20230515_141921\\appium.log, C:\\Users\\Ahadian Rifky\\Downloads\\Katalon_Studio_Windows_64-8.5.5\\Katalon_Studio_Windows_64-8.5.5\\git.github.com\\maycheljecsan\\kfckuapps_katalon.git\\kfcku_android\\Reports\\20230515_141921\\Production\\Login Production\\20230515_141921\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ahadian Rifky - NKC-23"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="CPH1803"/>
+         <property name="hostAddress" value="172.10.13.174"/>
+         <property name="deviceManufacturer" value="OPPO"/>
+         <property name="deviceId" value="cefdc881"/>
+         <property name="deviceName" value="OPPO CPH1803 (Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Production/Login KFCKU Apps/Login Failed - Empty Phone Number and Password" time="63.263" classname="Test Cases/Production/Login KFCKU Apps/Login Failed - Empty Phone Number and Password" status="PASSED">
+         <system-out><![CDATA[2023-05-15 14:19:36 - [TEST_CASE][PASSED] - Test Cases/Production/Login KFCKU Apps/Login Failed - Empty Phone Number and Password: Test Cases/Production/Login KFCKU Apps/Login Failed - Empty Phone Number and Password
+
+2023-05-15 14:19:37 - [TEST_STEP][PASSED] - startExistingApplication("com.kfc.mobile", STOP_ON_FAILURE): Starting app with application ID: 'com.kfc.mobile'
+
+2023-05-15 14:19:38 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.kfc.mobile']
+
+2023-05-15 14:19:38 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.kfc.mobile.presentation.splash.SplashActivity']
+
+2023-05-15 14:19:38 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-05-15 14:19:38 - [MESSAGE][INFO] - User set preference: ['deviceId', 'cefdc881']
+
+2023-05-15 14:19:38 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-05-15 14:19:41 - [MESSAGE][INFO] - Appium server started on port 49,930
+
+2023-05-15 14:20:19 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfc.mobile'
+
+2023-05-15 14:20:19 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-05-15 14:20:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-05-15 14:20:24 - [TEST_STEP][PASSED] - tap(findTestObject("Productions/Menu/Profile"), 5): Tapped on element 'Object Repository/Productions/Menu/Profile'
+
+2023-05-15 14:20:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Productions/Menu/Profile'
+
+2023-05-15 14:20:26 - [TEST_STEP][PASSED] - tap(findTestObject("Productions/Login/Button - Sign In"), 0): Tapped on element 'Object Repository/Productions/Login/Button - Sign In'
+
+2023-05-15 14:20:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:20:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Productions/Login/Button - Sign In'
+
+2023-05-15 14:20:29 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-05-15 14:20:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-05-15 14:20:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Productions/Login/Please enter your phone number"), 0, STOP_ON_FAILURE): Element 'Object Repository/Productions/Login/Please enter your phone number' is present
+
+2023-05-15 14:20:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:20:35 - [MESSAGE][PASSED] - Element 'Object Repository/Productions/Login/Please enter your phone number' is present
+
+2023-05-15 14:20:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Productions/Login/Please type your correct password"), 0): Element 'Object Repository/Productions/Login/Please type your correct password' is present
+
+2023-05-15 14:20:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:20:36 - [MESSAGE][PASSED] - Element 'Object Repository/Productions/Login/Please type your correct password' is present
+
+2023-05-15 14:20:36 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-05-15 14:20:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-15 14:20:39 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-05-15 14:20:40 - [MESSAGE][PASSED] - Close app successfully
+
+2023-05-15 14:20:40 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-15 14:20:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-05-15 14:20:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Production/Login KFCKU Apps/Login Failed - Phone Number Not Registered" time="43.544" classname="Test Cases/Production/Login KFCKU Apps/Login Failed - Phone Number Not Registered" status="PASSED">
+         <system-out><![CDATA[2023-05-15 14:20:40 - [TEST_CASE][PASSED] - Test Cases/Production/Login KFCKU Apps/Login Failed - Phone Number Not Registered: Test Cases/Production/Login KFCKU Apps/Login Failed - Phone Number Not Registered
+
+2023-05-15 14:20:40 - [TEST_STEP][PASSED] - startExistingApplication("com.kfc.mobile", STOP_ON_FAILURE): Starting app with application ID: 'com.kfc.mobile'
+
+2023-05-15 14:20:40 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.kfc.mobile']
+
+2023-05-15 14:20:40 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.kfc.mobile.presentation.splash.SplashActivity']
+
+2023-05-15 14:20:40 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-05-15 14:20:40 - [MESSAGE][INFO] - User set preference: ['deviceId', 'cefdc881']
+
+2023-05-15 14:20:40 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-05-15 14:20:42 - [MESSAGE][INFO] - Appium server started on port 50,264
+
+2023-05-15 14:20:59 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfc.mobile'
+
+2023-05-15 14:20:59 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-05-15 14:21:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-05-15 14:21:04 - [TEST_STEP][PASSED] - tap(findTestObject("Productions/Menu/Profile"), 5): Tapped on element 'Object Repository/Productions/Menu/Profile'
+
+2023-05-15 14:21:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Productions/Menu/Profile'
+
+2023-05-15 14:21:06 - [TEST_STEP][PASSED] - tap(findTestObject("Productions/Login/Enter your phone number"), 0): Tapped on element 'Object Repository/Productions/Login/Enter your phone number'
+
+2023-05-15 14:21:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:21:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Productions/Login/Enter your phone number'
+
+2023-05-15 14:21:09 - [TEST_STEP][PASSED] - setText(findTestObject("Productions/Login/Enter your phone number"), "081211287366", 0): Text '081211287366' has been set to element 'Object Repository/Productions/Login/Enter your phone number'
+
+2023-05-15 14:21:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:21:11 - [MESSAGE][PASSED] - Text '081211287366' has been set to element 'Object Repository/Productions/Login/Enter your phone number'
+
+2023-05-15 14:21:11 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-05-15 14:21:11 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-05-15 14:21:11 - [TEST_STEP][PASSED] - setText(findTestObject("Productions/Login/Type your password"), "Pass123", 0): Text 'Pass123' has been set to element 'Object Repository/Productions/Login/Type your password'
+
+2023-05-15 14:21:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:21:13 - [MESSAGE][PASSED] - Text 'Pass123' has been set to element 'Object Repository/Productions/Login/Type your password'
+
+2023-05-15 14:21:13 - [TEST_STEP][PASSED] - tap(findTestObject("Productions/Login/Button - Sign In"), 0): Tapped on element 'Object Repository/Productions/Login/Button - Sign In'
+
+2023-05-15 14:21:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:21:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Productions/Login/Button - Sign In'
+
+2023-05-15 14:21:14 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-05-15 14:21:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-05-15 14:21:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Productions/Login/Your phone number has not been registered"), 0, STOP_ON_FAILURE): Element 'Object Repository/Productions/Login/Your phone number has not been registered' is present
+
+2023-05-15 14:21:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:21:20 - [MESSAGE][PASSED] - Element 'Object Repository/Productions/Login/Your phone number has not been registered' is present
+
+2023-05-15 14:21:20 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-05-15 14:21:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-15 14:21:23 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-05-15 14:21:23 - [MESSAGE][PASSED] - Close app successfully
+
+2023-05-15 14:21:23 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-15 14:21:23 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-05-15 14:21:23 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Production/Login KFCKU Apps/Login Failed - Wrong Password" time="44.15" classname="Test Cases/Production/Login KFCKU Apps/Login Failed - Wrong Password" status="PASSED">
+         <system-out><![CDATA[2023-05-15 14:21:23 - [TEST_CASE][PASSED] - Test Cases/Production/Login KFCKU Apps/Login Failed - Wrong Password: Test Cases/Production/Login KFCKU Apps/Login Failed - Wrong Password
+
+2023-05-15 14:21:24 - [TEST_STEP][PASSED] - startExistingApplication("com.kfc.mobile", STOP_ON_FAILURE): Starting app with application ID: 'com.kfc.mobile'
+
+2023-05-15 14:21:24 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.kfc.mobile']
+
+2023-05-15 14:21:24 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.kfc.mobile.presentation.splash.SplashActivity']
+
+2023-05-15 14:21:24 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-05-15 14:21:24 - [MESSAGE][INFO] - User set preference: ['deviceId', 'cefdc881']
+
+2023-05-15 14:21:24 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-05-15 14:21:26 - [MESSAGE][INFO] - Appium server started on port 50,519
+
+2023-05-15 14:21:42 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfc.mobile'
+
+2023-05-15 14:21:42 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-05-15 14:21:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-05-15 14:21:47 - [TEST_STEP][PASSED] - tap(findTestObject("Productions/Menu/Profile"), 5): Tapped on element 'Object Repository/Productions/Menu/Profile'
+
+2023-05-15 14:21:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Productions/Menu/Profile'
+
+2023-05-15 14:21:49 - [TEST_STEP][PASSED] - tap(findTestObject("Productions/Login/Enter your phone number"), 0): Tapped on element 'Object Repository/Productions/Login/Enter your phone number'
+
+2023-05-15 14:21:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:21:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Productions/Login/Enter your phone number'
+
+2023-05-15 14:21:52 - [TEST_STEP][PASSED] - setText(findTestObject("Productions/Login/Enter your phone number"), "081211287377", 0): Text '081211287377' has been set to element 'Object Repository/Productions/Login/Enter your phone number'
+
+2023-05-15 14:21:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:21:55 - [MESSAGE][PASSED] - Text '081211287377' has been set to element 'Object Repository/Productions/Login/Enter your phone number'
+
+2023-05-15 14:21:55 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-05-15 14:21:55 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-05-15 14:21:55 - [TEST_STEP][PASSED] - setText(findTestObject("Productions/Login/Type your password"), "passk209", 0): Text 'passk209' has been set to element 'Object Repository/Productions/Login/Type your password'
+
+2023-05-15 14:21:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:21:57 - [MESSAGE][PASSED] - Text 'passk209' has been set to element 'Object Repository/Productions/Login/Type your password'
+
+2023-05-15 14:21:57 - [TEST_STEP][PASSED] - tap(findTestObject("Productions/Login/Button - Sign In"), 0): Tapped on element 'Object Repository/Productions/Login/Button - Sign In'
+
+2023-05-15 14:21:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:21:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Productions/Login/Button - Sign In'
+
+2023-05-15 14:21:58 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-05-15 14:22:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-05-15 14:22:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Productions/Login/The password you entered is incorrect"), 0, STOP_ON_FAILURE): Element 'Object Repository/Productions/Login/The password you entered is incorrect' is present
+
+2023-05-15 14:22:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:22:04 - [MESSAGE][PASSED] - Element 'Object Repository/Productions/Login/The password you entered is incorrect' is present
+
+2023-05-15 14:22:04 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-05-15 14:22:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-15 14:22:07 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-05-15 14:22:07 - [MESSAGE][PASSED] - Close app successfully
+
+2023-05-15 14:22:07 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-15 14:22:07 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-05-15 14:22:07 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Production/Login KFCKU Apps/Login Social Media" time="49.838" classname="Test Cases/Production/Login KFCKU Apps/Login Social Media" status="PASSED">
+         <system-out><![CDATA[2023-05-15 14:22:07 - [TEST_CASE][PASSED] - Test Cases/Production/Login KFCKU Apps/Login Social Media: Test Cases/Production/Login KFCKU Apps/Login Social Media
+
+2023-05-15 14:22:08 - [TEST_STEP][PASSED] - startExistingApplication("com.kfc.mobile", STOP_ON_FAILURE): Starting app with application ID: 'com.kfc.mobile'
+
+2023-05-15 14:22:08 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.kfc.mobile']
+
+2023-05-15 14:22:08 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.kfc.mobile.presentation.splash.SplashActivity']
+
+2023-05-15 14:22:08 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-05-15 14:22:08 - [MESSAGE][INFO] - User set preference: ['deviceId', 'cefdc881']
+
+2023-05-15 14:22:08 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-05-15 14:22:10 - [MESSAGE][INFO] - Appium server started on port 50,779
+
+2023-05-15 14:22:27 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfc.mobile'
+
+2023-05-15 14:22:27 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-05-15 14:22:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-05-15 14:22:32 - [TEST_STEP][PASSED] - tap(findTestObject("Productions/Menu/Profile"), 5): Tapped on element 'Object Repository/Productions/Menu/Profile'
+
+2023-05-15 14:22:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Productions/Menu/Profile'
+
+2023-05-15 14:22:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Productions/Login/Button - Sign in with Google"), 0): Element 'Object Repository/Productions/Login/Button - Sign in with Google' is present
+
+2023-05-15 14:22:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:22:36 - [MESSAGE][PASSED] - Element 'Object Repository/Productions/Login/Button - Sign in with Google' is present
+
+2023-05-15 14:22:36 - [TEST_STEP][PASSED] - tap(findTestObject("Productions/Login/Button - Sign in with Google"), 0): Tapped on element 'Object Repository/Productions/Login/Button - Sign in with Google'
+
+2023-05-15 14:22:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:22:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Productions/Login/Button - Sign in with Google'
+
+2023-05-15 14:22:37 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-05-15 14:22:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-05-15 14:22:42 - [TEST_STEP][PASSED] - tap(findTestObject("Productions/Login/jecsanmaychelgmail.com"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Productions/Login/jecsanmaychelgmail.com'
+
+2023-05-15 14:22:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:22:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Productions/Login/jecsanmaychelgmail.com'
+
+2023-05-15 14:22:43 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-05-15 14:22:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-05-15 14:22:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Productions/Login/Profile Info"), 0): Element 'Object Repository/Productions/Login/Profile Info' is present
+
+2023-05-15 14:22:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:22:48 - [MESSAGE][PASSED] - Element 'Object Repository/Productions/Login/Profile Info' is present
+
+2023-05-15 14:22:48 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-05-15 14:22:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-15 14:22:51 - [TEST_STEP][PASSED] - tap(findTestObject("Productions/Login/Log Out"), 0): Tapped on element 'Object Repository/Productions/Login/Log Out'
+
+2023-05-15 14:22:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:22:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Productions/Login/Log Out'
+
+2023-05-15 14:22:53 - [TEST_STEP][PASSED] - tap(findTestObject("Productions/Login/Logout - Yes"), 0): Tapped on element 'Object Repository/Productions/Login/Logout - Yes'
+
+2023-05-15 14:22:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:22:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Productions/Login/Logout - Yes'
+
+2023-05-15 14:22:54 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-05-15 14:22:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-15 14:22:57 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-05-15 14:22:57 - [MESSAGE][PASSED] - Close app successfully
+
+2023-05-15 14:22:57 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-15 14:22:57 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-05-15 14:22:57 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Production/Login KFCKU Apps/Login Phone Number" time="42.674" classname="Test Cases/Production/Login KFCKU Apps/Login Phone Number" status="PASSED">
+         <system-out><![CDATA[2023-05-15 14:22:57 - [TEST_CASE][PASSED] - Test Cases/Production/Login KFCKU Apps/Login Phone Number: Test Cases/Production/Login KFCKU Apps/Login Phone Number
+
+2023-05-15 14:22:58 - [TEST_STEP][PASSED] - startExistingApplication("com.kfc.mobile", STOP_ON_FAILURE): Starting app with application ID: 'com.kfc.mobile'
+
+2023-05-15 14:22:58 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.kfc.mobile']
+
+2023-05-15 14:22:58 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.kfc.mobile.presentation.splash.SplashActivity']
+
+2023-05-15 14:22:58 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-05-15 14:22:58 - [MESSAGE][INFO] - User set preference: ['deviceId', 'cefdc881']
+
+2023-05-15 14:22:58 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-05-15 14:22:59 - [MESSAGE][INFO] - Appium server started on port 51,027
+
+2023-05-15 14:23:16 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfc.mobile'
+
+2023-05-15 14:23:16 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-05-15 14:23:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-05-15 14:23:21 - [TEST_STEP][PASSED] - tap(findTestObject("Productions/Menu/Profile"), 5): Tapped on element 'Object Repository/Productions/Menu/Profile'
+
+2023-05-15 14:23:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Productions/Menu/Profile'
+
+2023-05-15 14:23:23 - [TEST_STEP][PASSED] - tap(findTestObject("Productions/Login/Enter your phone number"), 0): Tapped on element 'Object Repository/Productions/Login/Enter your phone number'
+
+2023-05-15 14:23:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:23:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Productions/Login/Enter your phone number'
+
+2023-05-15 14:23:26 - [TEST_STEP][PASSED] - setText(findTestObject("Productions/Login/Enter your phone number"), "081211287377", 0): Text '081211287377' has been set to element 'Object Repository/Productions/Login/Enter your phone number'
+
+2023-05-15 14:23:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:23:28 - [MESSAGE][PASSED] - Text '081211287377' has been set to element 'Object Repository/Productions/Login/Enter your phone number'
+
+2023-05-15 14:23:28 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-05-15 14:23:28 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-05-15 14:23:28 - [TEST_STEP][PASSED] - setText(findTestObject("Productions/Login/Type your password"), "pass123", 0): Text 'pass123' has been set to element 'Object Repository/Productions/Login/Type your password'
+
+2023-05-15 14:23:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:23:30 - [MESSAGE][PASSED] - Text 'pass123' has been set to element 'Object Repository/Productions/Login/Type your password'
+
+2023-05-15 14:23:30 - [TEST_STEP][PASSED] - tap(findTestObject("Productions/Login/Button - Sign In"), 0): Tapped on element 'Object Repository/Productions/Login/Button - Sign In'
+
+2023-05-15 14:23:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:23:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Productions/Login/Button - Sign In'
+
+2023-05-15 14:23:31 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-05-15 14:23:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-05-15 14:23:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Productions/Login/Profile Info"), 0, STOP_ON_FAILURE): Element 'Object Repository/Productions/Login/Profile Info' is present
+
+2023-05-15 14:23:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-15 14:23:37 - [MESSAGE][PASSED] - Element 'Object Repository/Productions/Login/Profile Info' is present
+
+2023-05-15 14:23:37 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-05-15 14:23:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-15 14:23:40 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-05-15 14:23:40 - [MESSAGE][PASSED] - Close app successfully
+
+2023-05-15 14:23:40 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-05-15 14:23:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-05-15 14:23:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-15 14:19:36 - [TEST_SUITE][PASSED] - Login Production: Test Cases/Production/Login KFCKU Apps/Login Phone Number]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

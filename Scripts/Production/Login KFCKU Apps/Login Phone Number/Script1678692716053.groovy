@@ -20,34 +20,23 @@ import org.openqa.selenium.Keys as Keys
 //'Start application on current selected android device'
 Mobile.startExistingApplication('com.kfc.mobile', FailureHandling.STOP_ON_FAILURE)
 
-//Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
-//
-//Mobile.tap(findTestObject('Login/android.widget.Button - Izinkan'), 0)
-//
-//Mobile.tap(findTestObject('Login/android.widget.TextView - Lewati'), 0)
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Productions/Menu/Profile'), 5)
+
+Mobile.tap(findTestObject('Productions/Login/Enter your phone number'), 0)
+
+Mobile.setText(findTestObject('Productions/Login/Enter your phone number'), '081211287377', 0)
 
 Mobile.pressBack()
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.setText(findTestObject('Productions/Login/Type your password'), 'pass123', 0)
 
-Mobile.tap(findTestObject('Production/Home - Login/Beranda'), 5)
-
-Mobile.tap(findTestObject('Production/Home - Login/Profil'), 5)
-
-Mobile.setText(findTestObject('Production/Home - Login/Masukkan nomor handphone Anda'), '081211287377', 0)
-
-Mobile.hideKeyboard()
-
-Mobile.setText(findTestObject('Production/Home - Login/Ketik kata sandi Anda'), 'password111', 0)
-
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Production/Home - Login/Button - Masuk'), 0)
+Mobile.tap(findTestObject('Productions/Login/Button - Sign In'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Production/Home - Login/Beranda'), 5)
+Mobile.waitForElementPresent(findTestObject('Productions/Login/Profile Info'), 0, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 

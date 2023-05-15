@@ -21,27 +21,17 @@ Mobile.startExistingApplication('com.kfc.mobile', FailureHandling.STOP_ON_FAILUR
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.pressBack()
+Mobile.tap(findTestObject('Productions/Menu/Profile'), 5)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Production/Home - Login/Profil'), 5)
-
-Mobile.setText(findTestObject('Production/Home - Login/Masukkan nomor handphone Anda'), '', 0)
-
-Mobile.hideKeyboard()
-
-Mobile.setText(findTestObject('Production/Home - Login/Ketik kata sandi Anda'), '', 0)
-
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Production/Home - Login/Button - Masuk'), 0)
+Mobile.tap(findTestObject('Productions/Login/Button - Sign In'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('Production/Home - Login/Mohon masukkan nomor handphone Anda'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Productions/Login/Please enter your phone number'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('Production/Home - Login/Masukkan kata sandi Anda yang benar'), 0)
+Mobile.waitForElementPresent(findTestObject('Productions/Login/Please type your correct password'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.closeApplication()
 
