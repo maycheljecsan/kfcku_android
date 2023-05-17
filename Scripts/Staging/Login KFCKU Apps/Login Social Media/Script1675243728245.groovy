@@ -37,6 +37,8 @@ Mobile.tap(findTestObject('Login Social Media/android.widget.Button - Masuk deng
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.takeAreaScreenshot('', findTestObject('Login Social Media/android.widget.TextView - jecsanmaychelgmail.com'))
+
 Mobile.tap(findTestObject('Login Social Media/android.widget.TextView - jecsanmaychelgmail.com'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)

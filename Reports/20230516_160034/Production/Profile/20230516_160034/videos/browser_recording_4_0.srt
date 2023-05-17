@@ -1,0 +1,88 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. startExistingApplication("com.kfc.mobile", STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+5. delay(5, STOP_ON_FAILURE)
+
+3
+00:00:00,000 --> 00:00:00,000
+9. tap(findTestObject("Productions/Menu/Profile"), 0)
+
+4
+00:00:00,000 --> 00:00:00,000
+13. tap(findTestObject("Productions/General/Change Language/Menu - Language"), 3)
+
+5
+00:00:00,000 --> 00:00:00,000
+17. verifyElementVisible(findTestObject("Productions/General/Change Language/SELECT LANGUAGE"), 3)
+
+6
+00:00:00,000 --> 00:00:00,000
+21. verifyElementVisible(findTestObject("Productions/General/Change Language/Bahasa Indonesia"), 3)
+
+7
+00:00:00,000 --> 00:00:00,000
+25. verifyElementVisible(findTestObject("Productions/General/Change Language/English (United States)"), 3)
+
+8
+00:00:00,000 --> 00:00:00,000
+29. tap(findTestObject("Productions/General/Change Language/Bahasa Indonesia"), 3)
+
+9
+00:00:00,000 --> 00:00:00,000
+33. tap(findTestObject("Productions/General/Change Language/Save"), 3)
+
+10
+00:00:00,000 --> 00:00:00,000
+37. delay(5, STOP_ON_FAILURE)
+
+11
+00:00:00,000 --> 00:00:00,000
+41. verifyElementText(findTestObject("Productions/General/Change Language/Manu - Bahasa"), "Bahasa")
+
+12
+00:00:00,000 --> 00:00:00,000
+45. tap(findTestObject("Productions/General/Change Language/Manu - Bahasa"), 3)
+
+13
+00:00:00,000 --> 00:00:00,000
+49. verifyElementVisible(findTestObject("Productions/General/Change Language/PILIH BAHASA"), 3)
+
+14
+00:00:00,000 --> 00:00:00,000
+53. verifyElementVisible(findTestObject("Productions/General/Change Language/Bahasa Indonesia"), 3)
+
+15
+00:00:00,000 --> 00:00:00,000
+57. verifyElementVisible(findTestObject("Productions/General/Change Language/English (United States)"), 3)
+
+16
+00:00:00,000 --> 00:00:00,000
+61. tap(findTestObject("Productions/General/Change Language/English (United States)"), 3)
+
+17
+00:00:00,000 --> 00:00:00,000
+65. tap(findTestObject("Productions/General/Change Language/Simpan"), 3)
+
+18
+00:00:00,000 --> 00:00:00,000
+69. delay(5, STOP_ON_FAILURE)
+
+19
+00:00:00,000 --> 00:00:00,000
+73. verifyElementText(findTestObject("Productions/General/Change Language/Menu - Language"), "Language")
+
+20
+00:00:00,000 --> 00:00:00,000
+77. closeApplication()
+
+21
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+22
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+

@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. startExistingApplication("com.kfc.mobile", STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+5. delay(5, STOP_ON_FAILURE)
+
+3
+00:00:00,000 --> 00:00:00,000
+9. tap(findTestObject("Productions/Menu/Profile"), 0)
+
+4
+00:00:00,000 --> 00:00:00,000
+13. tap(findTestObject("Productions/General/Linked Account/Menu - Linked Account"), 3)
+
+5
+00:00:00,000 --> 00:00:00,000
+17. verifyElementVisible(findTestObject("Productions/General/Linked Account/Payment Account"), 3)
+
+6
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+7
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+
