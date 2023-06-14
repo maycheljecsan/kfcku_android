@@ -1,0 +1,180 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. startExistingApplication("com.kfc.mobile", STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+5. delay(5, STOP_ON_FAILURE)
+
+3
+00:00:00,000 --> 00:00:00,000
+9. swipe(281, 600, 434, 90)
+
+4
+00:00:00,000 --> 00:00:00,000
+15. Get Device Height and Store in to device_height variable
+
+5
+00:00:00,000 --> 00:00:00,000
+21. Get Width Height and Store in to device_Width variable
+
+6
+00:00:00,000 --> 00:00:00,000
+27. Storing the value in startY variable by dividing device height by 2 Because Y coordinates are constant
+
+7
+00:00:00,000 --> 00:00:00,000
+33. Here startY and endY values are equal for Horizontal Swiping for that assigning startX value to endX
+
+8
+00:00:00,000 --> 00:00:00,000
+39. Storing the value in startX variable
+
+9
+00:00:00,000 --> 00:00:00,000
+45. Storing the value in endX variable
+
+10
+00:00:00,000 --> 00:00:00,000
+51. Here Y constant for Swipe Horizontal Right to Left
+
+11
+00:00:00,000 --> 00:00:00,000
+55. tap(findTestObject("Productions/Create Order/Drive Thru/android.widget.TextView - DRIVE-THRU"), 5)
+
+12
+00:00:00,000 --> 00:00:00,000
+59. verifyElementVisible(findTestObject("Productions/Create Order/PNP/Dine In/Search KFC Outlet"), 5)
+
+13
+00:00:00,000 --> 00:00:00,000
+63. tap(findTestObject("Productions/Create Order/PNP/Dine In/Search KFC Outlet"), 0, STOP_ON_FAILURE)
+
+14
+00:00:00,000 --> 00:00:00,000
+67. setText(findTestObject("Productions/Create Order/PNP/Dine In/EditText - Search KFC Outlet"), "Kemang", 5)
+
+15
+00:00:00,000 --> 00:00:00,000
+71. hideKeyboard()
+
+16
+00:00:00,000 --> 00:00:00,000
+75. delay(5, STOP_ON_FAILURE)
+
+17
+00:00:00,000 --> 00:00:00,000
+79. waitForElementPresent(findTestObject("Productions/Create Order/PNP/Dine In/Button - Select Outlet"), 5)
+
+18
+00:00:00,000 --> 00:00:00,000
+83. tap(findTestObject("Productions/Create Order/PNP/Dine In/Button - Select Outlet"), 0)
+
+19
+00:00:00,000 --> 00:00:00,000
+87. delay(5, STOP_ON_FAILURE)
+
+20
+00:00:00,000 --> 00:00:00,000
+91. verifyElementVisible(findTestObject("Productions/Create Order/PNP/Dine In/List Menu Group"), 5)
+
+21
+00:00:00,000 --> 00:00:00,000
+95. tap(findTestObject("Productions/Create Order/PNP/Dine In/List Menu Group"), 5)
+
+22
+00:00:00,000 --> 00:00:00,000
+99. delay(3, STOP_ON_FAILURE)
+
+23
+00:00:00,000 --> 00:00:00,000
+103. tap(findTestObject("Productions/Create Order/PNP/Dine In/Breakfast"), 3)
+
+24
+00:00:00,000 --> 00:00:00,000
+107. tap(findTestObject("Productions/Create Order/PNP/Dine In/List Menu Group"), 3)
+
+25
+00:00:00,000 --> 00:00:00,000
+111. delay(3, STOP_ON_FAILURE)
+
+26
+00:00:00,000 --> 00:00:00,000
+115. tap(findTestObject("Productions/Create Order/PNP/Dine In/Spesial"), 3)
+
+27
+00:00:00,000 --> 00:00:00,000
+119. tap(findTestObject("Productions/Create Order/PNP/Dine In/Button - Add"), 3)
+
+28
+00:00:00,000 --> 00:00:00,000
+123. delay(3, STOP_ON_FAILURE)
+
+29
+00:00:00,000 --> 00:00:00,000
+127. verifyElementVisible(findTestObject("Productions/Create Order/PNP/Dine In/List Item Costum"), 5)
+
+30
+00:00:00,000 --> 00:00:00,000
+131. tap(findTestObject("Productions/Create Order/PNP/Dine In/Button - Continue Custom"), 5)
+
+31
+00:00:00,000 --> 00:00:00,000
+135. tap(findTestObject("Productions/Create Order/PNP/Dine In/Next Button Order"), 5)
+
+32
+00:00:00,000 --> 00:00:00,000
+139. verifyElementVisible(findTestObject("Productions/Create Order/PNP/Dine In/You Got Free GOCENG"), 5)
+
+33
+00:00:00,000 --> 00:00:00,000
+143. verifyElementVisible(findTestObject("Productions/Create Order/PNP/Dine In/Continue Choose Reward"), 5)
+
+34
+00:00:00,000 --> 00:00:00,000
+147. tap(findTestObject("Productions/Create Order/PNP/Dine In/Continue Choose Reward"), 5)
+
+35
+00:00:00,000 --> 00:00:00,000
+151. setText(findTestObject("Productions/Create Order/Drive Thru/Plat Number"), "B 4020 VYO", 0)
+
+36
+00:00:00,000 --> 00:00:00,000
+155. delay(5, STOP_ON_FAILURE)
+
+37
+00:00:00,000 --> 00:00:00,000
+159. tap(findTestObject("Productions/Create Order/PNP/Dine In/Button - Choose Now Reward"), 5)
+
+38
+00:00:00,000 --> 00:00:00,000
+163. tap(findTestObject("Productions/Create Order/PNP/Dine In/Button - Add Reward"), 5)
+
+39
+00:00:00,000 --> 00:00:00,000
+167. tap(findTestObject("Productions/Create Order/PNP/Dine In/Button - Confirm Reward"), 5)
+
+40
+00:00:00,000 --> 00:00:00,000
+171. swipe(281, 500, 434, 161)
+
+41
+00:00:00,000 --> 00:00:00,000
+175. tap(findTestObject("Productions/Create Order/PNP/Dine In/Select Payment Method"), 5)
+
+42
+00:00:00,000 --> 00:00:00,000
+179. verifyElementVisible(findTestObject("Productions/Create Order/PNP/Dine In/Group Payment Method"), 5)
+
+43
+00:00:00,000 --> 00:00:00,000
+183. tap(findTestObject("Productions/Create Order/Payment Method/Debit Card"), 5)
+
+44
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+45
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+

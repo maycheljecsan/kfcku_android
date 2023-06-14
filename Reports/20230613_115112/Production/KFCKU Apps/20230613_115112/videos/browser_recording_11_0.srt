@@ -1,0 +1,148 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. startExistingApplication("com.kfc.mobile", STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+5. delay(5, STOP_ON_FAILURE)
+
+3
+00:00:00,000 --> 00:00:00,000
+9. swipe(281, 500, 434, 170)
+
+4
+00:00:00,000 --> 00:00:00,000
+13. tap(findTestObject("Productions/Create Order/PNP/Dine In/Menu - DINE-IN"), 5)
+
+5
+00:00:00,000 --> 00:00:00,000
+17. verifyElementVisible(findTestObject("Productions/Create Order/PNP/Dine In/Search KFC Outlet"), 5)
+
+6
+00:00:00,000 --> 00:00:00,000
+21. tap(findTestObject("Productions/Create Order/PNP/Dine In/Search KFC Outlet"), 0, STOP_ON_FAILURE)
+
+7
+00:00:00,000 --> 00:00:00,000
+25. setText(findTestObject("Productions/Create Order/PNP/Dine In/EditText - Search KFC Outlet"), "Kemang", 5)
+
+8
+00:00:00,000 --> 00:00:00,000
+29. hideKeyboard()
+
+9
+00:00:00,000 --> 00:00:00,000
+33. delay(5, STOP_ON_FAILURE)
+
+10
+00:00:00,000 --> 00:00:00,000
+37. waitForElementPresent(findTestObject("Productions/Create Order/PNP/Dine In/Button - Select Outlet"), 5)
+
+11
+00:00:00,000 --> 00:00:00,000
+41. tap(findTestObject("Productions/Create Order/PNP/Dine In/Button - Select Outlet"), 0)
+
+12
+00:00:00,000 --> 00:00:00,000
+45. delay(5, STOP_ON_FAILURE)
+
+13
+00:00:00,000 --> 00:00:00,000
+49. verifyElementVisible(findTestObject("Productions/Create Order/PNP/Dine In/List Menu Group"), 5)
+
+14
+00:00:00,000 --> 00:00:00,000
+53. tap(findTestObject("Productions/Create Order/PNP/Dine In/List Menu Group"), 5)
+
+15
+00:00:00,000 --> 00:00:00,000
+57. delay(3, STOP_ON_FAILURE)
+
+16
+00:00:00,000 --> 00:00:00,000
+61. tap(findTestObject("Productions/Create Order/PNP/Dine In/Breakfast"), 3)
+
+17
+00:00:00,000 --> 00:00:00,000
+65. tap(findTestObject("Productions/Create Order/PNP/Dine In/List Menu Group"), 3)
+
+18
+00:00:00,000 --> 00:00:00,000
+69. delay(3, STOP_ON_FAILURE)
+
+19
+00:00:00,000 --> 00:00:00,000
+73. tap(findTestObject("Productions/Create Order/PNP/Dine In/Spesial"), 3)
+
+20
+00:00:00,000 --> 00:00:00,000
+77. tap(findTestObject("Productions/Create Order/PNP/Dine In/Button - Add"), 3)
+
+21
+00:00:00,000 --> 00:00:00,000
+81. delay(3, STOP_ON_FAILURE)
+
+22
+00:00:00,000 --> 00:00:00,000
+85. verifyElementVisible(findTestObject("Productions/Create Order/PNP/Dine In/List Item Costum"), 5)
+
+23
+00:00:00,000 --> 00:00:00,000
+89. tap(findTestObject("Productions/Create Order/PNP/Dine In/Button - Continue Custom"), 5)
+
+24
+00:00:00,000 --> 00:00:00,000
+93. tap(findTestObject("Productions/Create Order/PNP/Dine In/Next Button Order"), 5)
+
+25
+00:00:00,000 --> 00:00:00,000
+97. verifyElementVisible(findTestObject("Productions/Create Order/PNP/Dine In/You Got Free GOCENG"), 5)
+
+26
+00:00:00,000 --> 00:00:00,000
+101. verifyElementVisible(findTestObject("Productions/Create Order/PNP/Dine In/Continue Choose Reward"), 5)
+
+27
+00:00:00,000 --> 00:00:00,000
+105. tap(findTestObject("Productions/Create Order/PNP/Dine In/Continue Choose Reward"), 5)
+
+28
+00:00:00,000 --> 00:00:00,000
+109. delay(5, STOP_ON_FAILURE)
+
+29
+00:00:00,000 --> 00:00:00,000
+113. tap(findTestObject("Productions/Create Order/PNP/Dine In/Button - Choose Now Reward"), 5)
+
+30
+00:00:00,000 --> 00:00:00,000
+117. tap(findTestObject("Productions/Create Order/PNP/Dine In/Button - Add Reward"), 5)
+
+31
+00:00:00,000 --> 00:00:00,000
+121. tap(findTestObject("Productions/Create Order/PNP/Dine In/Button - Confirm Reward"), 5)
+
+32
+00:00:00,000 --> 00:00:00,000
+125. swipe(281, 500, 434, 161)
+
+33
+00:00:00,000 --> 00:00:00,000
+129. tap(findTestObject("Productions/Create Order/PNP/Dine In/Select Payment Method"), 5)
+
+34
+00:00:00,000 --> 00:00:00,000
+133. verifyElementVisible(findTestObject("Productions/Create Order/PNP/Dine In/Group Payment Method"), 5)
+
+35
+00:00:00,000 --> 00:00:00,000
+137. tap(findTestObject("Productions/Create Order/Payment Method/Credit Card"), 5)
+
+36
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+37
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+

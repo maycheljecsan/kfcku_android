@@ -25,6 +25,8 @@ Mobile.tap(findTestObject('Productions/Menu/Profile'), 0)
 
 Mobile.tap(findTestObject('Productions/General/Linked Account/Menu - Linked Account'), 3)
 
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.verifyElementVisible(findTestObject('Productions/General/Linked Account/Payment Account'), 3)
 
 Mobile.verifyElementVisible(findTestObject('Productions/General/Linked Account/Note'), 3)

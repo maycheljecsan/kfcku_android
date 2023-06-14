@@ -1,14 +1,14 @@
 [35m[Appium][39m Welcome to Appium v1.22.3
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 54685
+[35m[Appium][39m   port: 59432
 [35m[Appium][39m   loglevel: info
-[35m[Appium][39m   tmpDir: C:\Users\AHADIA~1\AppData\Local\Temp\\Katalon\Appium\Temp1684481863009
-[35m[Appium][39m   chromedriverPort: 54687
+[35m[Appium][39m   tmpDir: C:\Users\AHADIA~1\AppData\Local\Temp\\Katalon\Appium\Temp1686633558443
+[35m[Appium][39m   chromedriverPort: 59433
 [35m[Appium][39m Deprecated server args:
 [35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
-[35m[Appium][39m   chromedriverPort: 54687
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:54685
+[35m[Appium][39m   chromedriverPort: 59433
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:59432
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 68[39m
@@ -18,7 +18,7 @@
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"appPackage":"com.kfc.mobile","noReset":true,"deviceId":"cefdc881","deviceName":"OPPO CPH1803 (Android 8.1.0)","platform":"ANDROID","appActivity":"com.kfc.mobile.presentation.splash.SplashActivity","newCommandTimeout":1800,"platformVersion":"8.1.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"cefdc881","systemPort":8222},"capabilities":{"firstMatch":[{"appium:appActivity":"com.kfc.mobile.presentation.splash.SplashActivity","appium:appPackage":"com.kfc.mobile","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"cefdc881","appium:deviceName":"OPPO CPH1803 (Android 8.1.0)","appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"8.1.0","appium:systemPort":8222,"appium:udid":"cefdc881"}]}}[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"appPackage":"com.kfc.mobile","noReset":true,"deviceId":"cefdc881","deviceName":"OPPO CPH1803 (Android 8.1.0)","platform":"ANDROID","appActivity":"com.kfc.mobile.presentation.splash.SplashActivity","newCommandTimeout":1800,"platformVersion":"8.1.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"cefdc881","systemPort":8212},"capabilities":{"firstMatch":[{"appium:appActivity":"com.kfc.mobile.presentation.splash.SplashActivity","appium:appPackage":"com.kfc.mobile","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"cefdc881","appium:deviceName":"OPPO CPH1803 (Android 8.1.0)","appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"8.1.0","appium:systemPort":8212,"appium:udid":"cefdc881"}]}}[39m
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   deviceId
 [35m[BaseDriver][39m   platform
@@ -27,7 +27,7 @@
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   deviceId
 [35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m Session created with session id: 526c7213-419a-4116-b0cc-08ddc54befd7
+[35m[BaseDriver][39m Session created with session id: eba27208-aa55-4ea9-b35e-9c3d1d598455
 [35m[UiAutomator2][39m Starting 'com.kfc.mobile' directly on the device
 [35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\Ahadian Rifky\.katalon\tools\android_sdk' (newest first):
 [35m[ADB][39m     C:/Users/Ahadian Rifky/.katalon/tools/android_sdk/build-tools/29.0.3
@@ -67,77 +67,98 @@
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
 [35m[UiAutomator2][39m Starting 'com.kfc.mobile/com.kfc.mobile.presentation.splash.SplashActivity and waiting for 'com.kfc.mobile/com.kfc.mobile.presentation.splash.SplashActivity'
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 526c7213-419a-4116-b0cc-08ddc54befd7 added to master session list
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m13711 ms - 1283[39m
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session eba27208-aa55-4ea9-b35e-9c3d1d598455 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m13848 ms - 1283[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7 [39m[32m200[39m [90m22 ms - 1237[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455 [39m[32m200[39m [90m28 ms - 1237[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7 [39m[32m200[39m [90m24 ms - 1237[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455 [39m[32m200[39m [90m25 ms - 1237[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/timeouts [39m[32m200[39m [90m2 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/screenshot [39m[32m200[39m [90m750 ms - 249326[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/screenshot [39m[32m200[39m [90m957 ms - 248258[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/window/rect[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/window/rect[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/window/rect [39m[32m200[39m [90m33 ms - 49[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/window/rect [39m[32m200[39m [90m33 ms - 49[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/appium/device/system_bars[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/appium/device/system_bars[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/appium/device/system_bars [39m[32m200[39m [90m99 ms - 148[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/appium/device/system_bars [39m[32m200[39m [90m126 ms - 148[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/appium/device/activate_app[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/appium/device/activate_app[39m
 [35m[HTTP][39m [90m{"bundleId":"com.kfc.mobile"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/appium/device/activate_app [39m[32m200[39m [90m849 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/appium/device/activate_app [39m[32m200[39m [90m1254 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (526c7213)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId cd50b10e-c136-4536-a8c2-b02158550b2f with 526c7213-419a-4116-b0cc-08ddc54befd7
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/source [39m[32m200[39m [90m1912 ms - 19791[39m
+[35m[W3C (eba27208)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ca395f1f-cba3-4d94-9906-602e8ebd46d6 with eba27208-aa55-4ea9-b35e-9c3d1d598455
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/source [39m[32m200[39m [90m1178 ms - 33775[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/screenshot [39m[32m200[39m [90m1198 ms - 762574[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/screenshot [39m[32m200[39m [90m1489 ms - 794612[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (526c7213)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId cd50b10e-c136-4536-a8c2-b02158550b2f with 526c7213-419a-4116-b0cc-08ddc54befd7
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/source [39m[32m200[39m [90m660 ms - 33025[39m
+[35m[W3C (eba27208)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ca395f1f-cba3-4d94-9906-602e8ebd46d6 with eba27208-aa55-4ea9-b35e-9c3d1d598455
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/source [39m[32m200[39m [90m1385 ms - 13990[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/screenshot [39m[32m200[39m [90m1178 ms - 769102[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/screenshot [39m[32m200[39m [90m836 ms - 64666[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Review Order' or . = 'Review Order') and @resource-id = 'com.kfc.mobile:id/buttonReviewOrder']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/elements [39m[32m200[39m [90m1709 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (526c7213)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId cd50b10e-c136-4536-a8c2-b02158550b2f with 526c7213-419a-4116-b0cc-08ddc54befd7
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/source [39m[32m200[39m [90m811 ms - 29123[39m
+[35m[W3C (eba27208)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ca395f1f-cba3-4d94-9906-602e8ebd46d6 with eba27208-aa55-4ea9-b35e-9c3d1d598455
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/source [39m[32m200[39m [90m603 ms - 30103[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7/screenshot [39m[32m200[39m [90m690 ms - 173190[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/screenshot [39m[32m200[39m [90m887 ms - 232896[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Delivery Order' or . = 'Delivery Order') and @resource-id = 'com.kfc.mobile:id/text_view_order_type']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/elements [39m[32m200[39m [90m2096 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Dine In' or . = 'Dine In') and @resource-id = 'com.kfc.mobile:id/text_view_order_type']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/elements [39m[32m200[39m [90m814 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.kfc.mobile:id/text_view_order_type"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/elements [39m[32m200[39m [90m5155 ms - 395[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Dine In\").resourceId(\"com.kfc.mobile:id/text_view_order_type\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/elements [39m[32m200[39m [90m10775 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Take Away' or . = 'Take Away') and @resource-id = 'com.kfc.mobile:id/text_view_order_type']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455/elements [39m[32m200[39m [90m633 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session 'eba27208-aa55-4ea9-b35e-9c3d1d598455' from our master session list
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[35m[UiAutomator2][39m Unable to remove system port forward: Error executing adbExec. Original error: 'Command ''C:\\Users\\Ahadian Rifky\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe' -P 5037 -s cefdc881 forward --remove tcp\:8212' exited with code 1'; Command output: adb.exe: error: listener 'tcp:8212' not found
+[35m[UiAutomator2][39m 
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[Appium][39m Removing session 526c7213-419a-4116-b0cc-08ddc54befd7 from our master session list
-[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/526c7213-419a-4116-b0cc-08ddc54befd7 [39m[32m200[39m [90m334 ms - 14[39m
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/eba27208-aa55-4ea9-b35e-9c3d1d598455 [39m[33m404[39m [90m118 ms - 2524[39m
 [35m[HTTP][39m [90m[39m

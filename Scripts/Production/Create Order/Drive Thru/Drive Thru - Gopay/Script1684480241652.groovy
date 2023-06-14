@@ -109,7 +109,7 @@ Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Select Payment M
 
 Mobile.verifyElementVisible(findTestObject('Productions/Create Order/PNP/Dine In/Group Payment Method'), 5)
 
-Mobile.tap(findTestObject('Productions/Create Order/Payment Method/Debit Card'), 5)
+Mobile.tap(findTestObject('Productions/Create Order/Payment Method/Gopay'), 5)
 
 Mobile.tap(findTestObject('Productions/Create Order/Payment Method/Button - Save Payment'), 5)
 
@@ -121,6 +121,5 @@ Mobile.swipe(281, 500, 434, 161)
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 //Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Button - Order Now'), 5)
-
 Mobile.closeApplication()
 

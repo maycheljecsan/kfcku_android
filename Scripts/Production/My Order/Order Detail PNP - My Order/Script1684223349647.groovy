@@ -25,7 +25,11 @@ Mobile.tap(findTestObject('Productions/Menu/My Order'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Productions/My Order/Title - MY ORDER'), 0)
 
-Mobile.tap(findTestObject('Productions/My Order/Order Detail - PNP/Dine In'), 0)
+Mobile.scrollToText('Dine In', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Productions/My Order/Order Type - Dine In'), 0)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementVisible(findTestObject('Productions/My Order/Order Detail - PNP/Pick Number'), 0)
 

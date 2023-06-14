@@ -1,0 +1,1244 @@
+[35m[Appium][39m Welcome to Appium v1.22.3
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 52566
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\AHADIA~1\AppData\Local\Temp\\Katalon\Appium\Temp1686638597617
+[35m[Appium][39m   chromedriverPort: 52567
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 52567
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:52566
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"appPackage":"com.kfc.mobile","noReset":true,"deviceId":"cefdc881","deviceName":"OPPO CPH1803 (Android 8.1.0)","platform":"ANDROID","appActivity":"com.kfc.mobile.presentation.splash.SplashActivity","newCommandTimeout":1800,"platformVersion":"8.1.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"cefdc881","systemPort":8230},"capabilities":{"firstMatch":[{"appium:appActivity":"com.kfc.mobile.presentation.splash.SplashActivity","appium:appPackage":"com.kfc.mobile","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"cefdc881","appium:deviceName":"OPPO CPH1803 (Android 8.1.0)","appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"8.1.0","appium:systemPort":8230,"appium:udid":"cefdc881"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 58b8e00f-55ea-4f03-b848-ca84198dfbb3
+[35m[UiAutomator2][39m Starting 'com.kfc.mobile' directly on the device
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\Ahadian Rifky\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/Ahadian Rifky/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Ahadian Rifky\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: cefdc881
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Ahadian Rifky\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m No app sent in, not parsing package/activity
+[35m[AndroidDriver][39m Unable to set mock location for app 'io.appium.settings': Error executing adbExec. Original error: 'Command ''C:\\Users\\Ahadian Rifky\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe' -P 5037 -s cefdc881 shell appops set io.appium.settings android\:mock_location allow' exited with code 255'; Command output: Security exception: uid 2000 does not have android.permission.UPDATE_APP_OPS_STATS.
+[35m[AndroidDriver][39m 
+[35m[AndroidDriver][39m java.lang.SecurityException: uid 2000 does not have android.permission.UPDATE_APP_OPS_STATS.
+[35m[AndroidDriver][39m 	at android.app.ContextImpl.enforce(ContextImpl.java:1831)
+[35m[AndroidDriver][39m 	at android.app.ContextImpl.enforcePermission(ContextImpl.java:1844)
+[35m[AndroidDriver][39m 	at com.android.server.AppOpsService.setMode(AppOpsService.java:674)
+[35m[AndroidDriver][39m 	at com.android.server.AppOpsService.onShellCommand(AppOpsService.java:2026)
+[35m[AndroidDriver][39m 	at com.android.server.AppOpsService$Shell.onCommand(AppOpsService.java:1800)
+[35m[AndroidDriver][39m 	at android.os.ShellCommand.exec(ShellCommand.java:96)
+[35m[AndroidDriver][39m 	at com.android.server.AppOpsService.onShellCommand(AppOpsService.java:1974)
+[35m[AndroidDriver][39m 	at android.os.Binder.shellCommand(Binder.java:594)
+[35m[AndroidDriver][39m 	at android.os.Binder.onTransact(Binder.java:492)
+[35m[AndroidDriver][39m 	at com.android.internal.app.IAppOpsService$Stub.onTransact(IAppOpsService.java:341)
+[35m[AndroidDriver][39m 	at android.os.Binder.execTransact(Binder.java:697)
+[35m[AndroidDriver][39m 
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\Ahadian Rifky\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\Ahadian Rifky\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\Ahadian Rifky\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Ahadian Rifky\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\Ahadian Rifky\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.kfc.mobile/com.kfc.mobile.presentation.splash.SplashActivity and waiting for 'com.kfc.mobile/com.kfc.mobile.presentation.splash.SplashActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 58b8e00f-55ea-4f03-b848-ca84198dfbb3 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m15201 ms - 1283[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3 [39m[32m200[39m [90m29 ms - 1237[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3 [39m[32m200[39m [90m26 ms - 1237[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/screenshot [39m[32m200[39m [90m968 ms - 248130[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/window/rect [39m[32m200[39m [90m42 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/appium/device/system_bars [39m[32m200[39m [90m97 ms - 148[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/appium/device/activate_app[39m
+[35m[HTTP][39m [90m{"bundleId":"com.kfc.mobile"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/appium/device/activate_app [39m[32m200[39m [90m1163 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/window/rect [39m[32m200[39m [90m42 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Profile' or . = 'Profile') and @resource-id = 'com.kfc.mobile:id/tvBottomProfile']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m2820 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/element/00000000-0000-037d-ffff-ffff00000081/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (58b8e00f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId cac71d9d-fd1f-44d9-a9ac-c9a7866cbc46 with 58b8e00f-55ea-4f03-b848-ca84198dfbb3
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/element/00000000-0000-037d-ffff-ffff00000081/location [39m[32m200[39m [90m57 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/element/00000000-0000-037d-ffff-ffff00000081/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-037d-ffff-ffff00000081"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/element/00000000-0000-037d-ffff-ffff00000081/click [39m[32m200[39m [90m94 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/window/rect [39m[32m200[39m [90m31 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m1025 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m1439 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m678 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m599 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m514 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m496 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m523 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m488 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m587 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m399 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m345 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m334 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m313 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m311 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m278 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m286 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m267 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m287 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m578 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m268 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m256 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m242 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m240 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m241 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m225 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m245 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m235 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m239 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m217 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m235 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m217 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m229 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m216 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m221 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m223 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m224 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m216 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m222 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m214 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m229 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m213 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m212 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m206 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m218 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m219 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m222 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m216 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m228 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m203 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m259 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m210 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m217 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m204 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m216 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m214 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m213 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m205 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m210 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m198 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m207 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m202 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m217 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m198 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m217 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m209 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m201 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m203 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m219 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m196 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m202 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m191 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m207 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m201 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m207 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m208 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m199 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m204 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m211 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m199 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m203 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m188 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m209 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m193 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m193 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m191 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m203 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m769 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m223 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m192 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m204 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m188 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m200 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m193 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m199 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m201 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m206 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m202 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m208 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m200 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m190 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m195 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m202 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m196 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m194 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m196 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m198 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.kfc.mobile:id/button_login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/elements [39m[32m200[39m [90m208 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/contexts [39m[32m200[39m [90m117 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/screenshot [39m[32m200[39m [90m880 ms - 192858[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/58b8e00f-55ea-4f03-b848-ca84198dfbb3/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"appPackage":"com.kfc.mobile","noReset":true,"deviceId":"cefdc881","deviceName":"OPPO CPH1803 (Android 8.1.0)","platform":"ANDROID","appActivity":"com.kfc.mobile.presentation.splash.SplashActivity","newCommandTimeout":1800,"platformVersion":"8.1.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"cefdc881","systemPort":8240},"capabilities":{"firstMatch":[{"appium:appActivity":"com.kfc.mobile.presentation.splash.SplashActivity","appium:appPackage":"com.kfc.mobile","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"cefdc881","appium:deviceName":"OPPO CPH1803 (Android 8.1.0)","appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"8.1.0","appium:systemPort":8240,"appium:udid":"cefdc881"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 27d63eb1-f970-460e-8a45-f12c8ead999d
+[35m[UiAutomator2][39m Starting 'com.kfc.mobile' directly on the device
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Ahadian Rifky\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: cefdc881
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Ahadian Rifky\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m No app sent in, not parsing package/activity
+[35m[AndroidDriver][39m Unable to set mock location for app 'io.appium.settings': Error executing adbExec. Original error: 'Command ''C:\\Users\\Ahadian Rifky\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe' -P 5037 -s cefdc881 shell appops set io.appium.settings android\:mock_location allow' exited with code 255'; Command output: Security exception: uid 2000 does not have android.permission.UPDATE_APP_OPS_STATS.
+[35m[AndroidDriver][39m 
+[35m[AndroidDriver][39m java.lang.SecurityException: uid 2000 does not have android.permission.UPDATE_APP_OPS_STATS.
+[35m[AndroidDriver][39m 	at android.app.ContextImpl.enforce(ContextImpl.java:1831)
+[35m[AndroidDriver][39m 	at android.app.ContextImpl.enforcePermission(ContextImpl.java:1844)
+[35m[AndroidDriver][39m 	at com.android.server.AppOpsService.setMode(AppOpsService.java:674)
+[35m[AndroidDriver][39m 	at com.android.server.AppOpsService.onShellCommand(AppOpsService.java:2026)
+[35m[AndroidDriver][39m 	at com.android.server.AppOpsService$Shell.onCommand(AppOpsService.java:1800)
+[35m[AndroidDriver][39m 	at android.os.ShellCommand.exec(ShellCommand.java:96)
+[35m[AndroidDriver][39m 	at com.android.server.AppOpsService.onShellCommand(AppOpsService.java:1974)
+[35m[AndroidDriver][39m 	at android.os.Binder.shellCommand(Binder.java:594)
+[35m[AndroidDriver][39m 	at android.os.Binder.onTransact(Binder.java:492)
+[35m[AndroidDriver][39m 	at com.android.internal.app.IAppOpsService$Stub.onTransact(IAppOpsService.java:341)
+[35m[AndroidDriver][39m 	at android.os.Binder.execTransact(Binder.java:697)
+[35m[AndroidDriver][39m 
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Ahadian Rifky\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\Ahadian Rifky\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.kfc.mobile/com.kfc.mobile.presentation.splash.SplashActivity and waiting for 'com.kfc.mobile/com.kfc.mobile.presentation.splash.SplashActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 27d63eb1-f970-460e-8a45-f12c8ead999d added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m13337 ms - 1283[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d [39m[32m200[39m [90m26 ms - 1237[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d [39m[32m200[39m [90m26 ms - 1237[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/screenshot [39m[32m200[39m [90m1029 ms - 248152[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/window/rect [39m[32m200[39m [90m32 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/appium/device/system_bars [39m[32m200[39m [90m109 ms - 148[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/appium/device/activate_app[39m
+[35m[HTTP][39m [90m{"bundleId":"com.kfc.mobile"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/appium/device/activate_app [39m[32m200[39m [90m1118 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/window/rect [39m[32m200[39m [90m47 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Profile' or . = 'Profile') and @resource-id = 'com.kfc.mobile:id/tvBottomProfile']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m1519 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Profile' or . = 'Profile') and @resource-id = 'com.kfc.mobile:id/tvBottomProfile']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m373 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Profile' or . = 'Profile') and @resource-id = 'com.kfc.mobile:id/tvBottomProfile']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m369 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Profile' or . = 'Profile') and @resource-id = 'com.kfc.mobile:id/tvBottomProfile']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m347 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Profile' or . = 'Profile') and @resource-id = 'com.kfc.mobile:id/tvBottomProfile']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m347 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Profile' or . = 'Profile') and @resource-id = 'com.kfc.mobile:id/tvBottomProfile']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m318 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Profile' or . = 'Profile') and @resource-id = 'com.kfc.mobile:id/tvBottomProfile']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m324 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Profile' or . = 'Profile') and @resource-id = 'com.kfc.mobile:id/tvBottomProfile']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m2041 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/element/00000000-0000-0394-ffff-ffff00000039/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (27d63eb1)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 68f57547-5875-4bb0-a3c4-8c4d9fdee1da with 27d63eb1-f970-460e-8a45-f12c8ead999d
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/element/00000000-0000-0394-ffff-ffff00000039/location [39m[32m200[39m [90m712 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/element/00000000-0000-0394-ffff-ffff00000039/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0394-ffff-ffff00000039"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/element/00000000-0000-0394-ffff-ffff00000039/click [39m[32m200[39m [90m86 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/window/rect [39m[32m200[39m [90m37 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m849 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m1098 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m573 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m515 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m494 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m474 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m708 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m370 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m352 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m322 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m316 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m292 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m294 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m263 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m283 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m257 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m265 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m244 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m257 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m243 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m259 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m226 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m240 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m253 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m253 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m677 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m236 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m224 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m229 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m228 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m242 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m234 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m237 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m215 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m232 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m214 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m232 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m210 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m225 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m242 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m222 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m219 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m235 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m234 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m224 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m206 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m224 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m221 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m219 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m216 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m226 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m204 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m215 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m226 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m215 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m213 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m219 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m209 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m209 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m205 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m219 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m207 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m195 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m200 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m208 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m210 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m210 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m204 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m208 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m206 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m211 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m210 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m209 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m200 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m205 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m193 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m200 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m189 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m208 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m202 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m205 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m203 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m204 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m201 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m211 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m196 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m210 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m203 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m202 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m200 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m742 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m204 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m198 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m190 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m208 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m203 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m209 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m202 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m196 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m203 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m235 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m204 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m611 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m203 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m207 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m225 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m199 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m189 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter your phone number' or . = 'Enter your phone number') and @resource-id = 'com.kfc.mobile:id/edit_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/elements [39m[32m200[39m [90m208 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/contexts [39m[32m200[39m [90m116 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/screenshot [39m[32m200[39m [90m889 ms - 193346[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/27d63eb1-f970-460e-8a45-f12c8ead999d/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"appPackage":"com.kfc.mobile","noReset":true,"deviceId":"cefdc881","deviceName":"OPPO CPH1803 (Android 8.1.0)","platform":"ANDROID","appActivity":"com.kfc.mobile.presentation.splash.SplashActivity","newCommandTimeout":1800,"platformVersion":"8.1.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"cefdc881","systemPort":8264},"capabilities":{"firstMatch":[{"appium:appActivity":"com.kfc.mobile.presentation.splash.SplashActivity","appium:appPackage":"com.kfc.mobile","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"cefdc881","appium:deviceName":"OPPO CPH1803 (Android 8.1.0)","appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"8.1.0","appium:systemPort":8264,"appium:udid":"cefdc881"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: d9d9e81a-73fa-4909-90b6-a23043e0d5e7
+[35m[UiAutomator2][39m Starting 'com.kfc.mobile' directly on the device
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Ahadian Rifky\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: cefdc881
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Ahadian Rifky\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m No app sent in, not parsing package/activity
+[35m[AndroidDriver][39m Unable to set mock location for app 'io.appium.settings': Error executing adbExec. Original error: 'Command ''C:\\Users\\Ahadian Rifky\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe' -P 5037 -s cefdc881 shell appops set io.appium.settings android\:mock_location allow' exited with code 255'; Command output: Security exception: uid 2000 does not have android.permission.UPDATE_APP_OPS_STATS.
+[35m[AndroidDriver][39m 
+[35m[AndroidDriver][39m java.lang.SecurityException: uid 2000 does not have android.permission.UPDATE_APP_OPS_STATS.
+[35m[AndroidDriver][39m 	at android.app.ContextImpl.enforce(ContextImpl.java:1831)
+[35m[AndroidDriver][39m 	at android.app.ContextImpl.enforcePermission(ContextImpl.java:1844)
+[35m[AndroidDriver][39m 	at com.android.server.AppOpsService.setMode(AppOpsService.java:674)
+[35m[AndroidDriver][39m 	at com.android.server.AppOpsService.onShellCommand(AppOpsService.java:2026)
+[35m[AndroidDriver][39m 	at com.android.server.AppOpsService$Shell.onCommand(AppOpsService.java:1800)
+[35m[AndroidDriver][39m 	at android.os.ShellCommand.exec(ShellCommand.java:96)
+[35m[AndroidDriver][39m 	at com.android.server.AppOpsService.onShellCommand(AppOpsService.java:1974)
+[35m[AndroidDriver][39m 	at android.os.Binder.shellCommand(Binder.java:594)
+[35m[AndroidDriver][39m 	at android.os.Binder.onTransact(Binder.java:492)
+[35m[AndroidDriver][39m 	at com.android.internal.app.IAppOpsService$Stub.onTransact(IAppOpsService.java:341)
+[35m[AndroidDriver][39m 	at android.os.Binder.execTransact(Binder.java:697)
+[35m[AndroidDriver][39m 
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Ahadian Rifky\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\Ahadian Rifky\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.kfc.mobile/com.kfc.mobile.presentation.splash.SplashActivity and waiting for 'com.kfc.mobile/com.kfc.mobile.presentation.splash.SplashActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session d9d9e81a-73fa-4909-90b6-a23043e0d5e7 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m13400 ms - 1283[39m
+[35m[HTTP][39m [90m[39m

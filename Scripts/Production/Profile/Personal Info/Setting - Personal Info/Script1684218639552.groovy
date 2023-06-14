@@ -27,6 +27,8 @@ Mobile.tap(findTestObject('Productions/Personal Info/Edit Profile'), 0)
 
 Mobile.setText(findTestObject('Productions/Personal Info/Edit-Profile/Edit Name'), 'mike', 0)
 
+Mobile.hideKeyboard()
+
 Mobile.tap(findTestObject('Productions/Personal Info/Edit-Profile/Birthdate'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Productions/Personal Info/Edit-Profile/Edit Email'), 0)

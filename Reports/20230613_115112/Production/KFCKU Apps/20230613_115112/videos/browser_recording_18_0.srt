@@ -1,0 +1,56 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. startExistingApplication("com.kfc.mobile", STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+5. delay(5, STOP_ON_FAILURE)
+
+3
+00:00:00,000 --> 00:00:00,000
+9. tap(findTestObject("Productions/Menu/Profile"), 0)
+
+4
+00:00:00,000 --> 00:00:00,000
+13. tap(findTestObject("Productions/General/Customer-Service/Menu-Customer Service"), 3)
+
+5
+00:00:00,000 --> 00:00:00,000
+17. verifyElementVisible(findTestObject("Productions/General/Customer-Service/CUSTOMER SERVICE"), 3)
+
+6
+00:00:00,000 --> 00:00:00,000
+21. verifyElementVisible(findTestObject("Productions/General/Customer-Service/Call"), 3)
+
+7
+00:00:00,000 --> 00:00:00,000
+25. verifyElementVisible(findTestObject("Productions/General/Customer-Service/Whatsapp"), 3)
+
+8
+00:00:00,000 --> 00:00:00,000
+29. verifyElementVisible(findTestObject("Productions/General/Customer-Service/Email"), 3)
+
+9
+00:00:00,000 --> 00:00:00,000
+33. verifyElementVisible(findTestObject("Productions/General/Customer-Service/Image CS KFC"), 3)
+
+10
+00:00:00,000 --> 00:00:00,000
+37. tap(findTestObject("Productions/General/Customer-Service/Close Button"), 3)
+
+11
+00:00:00,000 --> 00:00:00,000
+41. delay(5, STOP_ON_FAILURE)
+
+12
+00:00:00,000 --> 00:00:00,000
+45. closeApplication()
+
+13
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+14
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+
