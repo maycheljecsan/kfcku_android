@@ -20,12 +20,14 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.kfc.mobile.hkStaging', FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.callTestCase(findTestCase('Staging/Login KFCKU Apps/Login Social Media'), [:], FailureHandling.STOP_ON_FAILURE)
-//Mobile.waitForElementPresent(findTestObject('Order Dine In/android.widget.TextView - Beranda'), 10)
-//
-//Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - Beranda'), 5)
-Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Order Dine In/android.widget.TextView - Beranda'), 5)
 
-//Mobile.swipe(281, 400, 434, 90)
+Mobile.tap(findTestObject('Object Repository/Order Dine In/android.widget.TextView - Beranda'), 5)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.swipe(281, 600, 434, 95)
+
 'Get Device Height and Store in to device_height variable'
 device_Height = Mobile.getDeviceHeight()
 
@@ -39,10 +41,13 @@ int startY = device_Height / 2
 int endY = startY
 
 'Storing the value in startX variable'
-int startX = device_Width * 0.40
+int startX = device_Width * 0.30
 
 'Storing the value in endX variable'
-int endX = device_Width * 0.60
+int endX = device_Width * 0.70
+
+'Here Y constant for Swipe Horizontal Right to Left'
+Mobile.swipe(endX, startY, startX, endY)
 
 'Here Y constant for Swipe Horizontal Right to Left'
 Mobile.swipe(endX, startY, startX, endY)
