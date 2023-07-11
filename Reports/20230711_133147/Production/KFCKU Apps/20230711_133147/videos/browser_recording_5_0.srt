@@ -1,0 +1,12 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. startExistingApplication("com.kfc.mobile", STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+3
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+

@@ -1,0 +1,52 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. startExistingApplication("com.kfc.mobile", STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+5. delay(5, STOP_ON_FAILURE)
+
+3
+00:00:00,000 --> 00:00:00,000
+9. tap(findTestObject("Productions/Menu/My Order"), 0)
+
+4
+00:00:00,000 --> 00:00:00,000
+13. tap(findTestObject("Productions/My Order/Order Detail - HMD/HMD - Kombo Crispy Burger"), 0)
+
+5
+00:00:00,000 --> 00:00:00,000
+17. delay(10, STOP_ON_FAILURE)
+
+6
+00:00:00,000 --> 00:00:00,000
+21. scrollToText("TOTAL", STOP_ON_FAILURE)
+
+7
+00:00:00,000 --> 00:00:00,000
+25. swipe(281, 500, 434, 161)
+
+8
+00:00:00,000 --> 00:00:00,000
+29. tap(findTestObject("Productions/Rebuy/Button - Re-Order"), 5)
+
+9
+00:00:00,000 --> 00:00:00,000
+33. delay(5, STOP_ON_FAILURE)
+
+10
+00:00:00,000 --> 00:00:00,000
+37. swipe(281, 500, 434, 161)
+
+11
+00:00:00,000 --> 00:00:00,000
+41. tap(findTestObject("Productions/Create Order/HMD/Select Delivery Method"), 5)
+
+12
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+13
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+

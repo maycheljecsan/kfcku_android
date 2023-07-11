@@ -1,0 +1,68 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. startExistingApplication("com.kfc.mobile", STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+5. delay(3, STOP_ON_FAILURE)
+
+3
+00:00:00,000 --> 00:00:00,000
+9. tap(findTestObject("Productions/Menu/My Order"), 0)
+
+4
+00:00:00,000 --> 00:00:00,000
+13. delay(3, STOP_ON_FAILURE)
+
+5
+00:00:00,000 --> 00:00:00,000
+17. verifyElementVisible(findTestObject("Productions/My Order/Title - MY ORDER"), 0)
+
+6
+00:00:00,000 --> 00:00:00,000
+21. tap(findTestObject("Productions/My Order/Order Detail - PNP/Snack Bucket Margheritta 1"), 0)
+
+7
+00:00:00,000 --> 00:00:00,000
+25. delay(3, STOP_ON_FAILURE)
+
+8
+00:00:00,000 --> 00:00:00,000
+29. verifyElementVisible(findTestObject("Productions/My Order/Order Detail - PNP/Pick Number"), 0)
+
+9
+00:00:00,000 --> 00:00:00,000
+33. verifyElementVisible(findTestObject("Productions/My Order/Order Detail - PNP/Order Type"), 0)
+
+10
+00:00:00,000 --> 00:00:00,000
+37. verifyElementVisible(findTestObject("Productions/My Order/Order Detail - PNP/Pick Up Outlet"), 0)
+
+11
+00:00:00,000 --> 00:00:00,000
+41. verifyElementVisible(findTestObject("Productions/My Order/Order Detail - PNP/Order Items"), 0)
+
+12
+00:00:00,000 --> 00:00:00,000
+45. scrollToText("Total", STOP_ON_FAILURE)
+
+13
+00:00:00,000 --> 00:00:00,000
+49. verifyElementVisible(findTestObject("Productions/My Order/Order Detail - HMD/Instant Reward"), 0)
+
+14
+00:00:00,000 --> 00:00:00,000
+53. verifyElementVisible(findTestObject("Productions/My Order/Order Detail - PNP/Order Summary"), 0)
+
+15
+00:00:00,000 --> 00:00:00,000
+57. closeApplication()
+
+16
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+17
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+

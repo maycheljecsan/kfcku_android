@@ -1,0 +1,52 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. startExistingApplication("com.kfc.mobile", STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+5. delay(5, STOP_ON_FAILURE)
+
+3
+00:00:00,000 --> 00:00:00,000
+9. swipe(281, 500, 434, 170)
+
+4
+00:00:00,000 --> 00:00:00,000
+13. tap(findTestObject("Productions/Create Order/HMD/Menu - DELIVERY"), 5)
+
+5
+00:00:00,000 --> 00:00:00,000
+17. verifyElementVisible(findTestObject("Productions/Create Order/HMD/Search Location - Search Bar"), 5)
+
+6
+00:00:00,000 --> 00:00:00,000
+21. tap(findTestObject("Productions/Create Order/HMD/Search Location - Search Bar"), 0, STOP_ON_FAILURE)
+
+7
+00:00:00,000 --> 00:00:00,000
+25. setText(findTestObject("Productions/Create Order/HMD/Input Location - Search Bar"), "Kemang", 5)
+
+8
+00:00:00,000 --> 00:00:00,000
+29. hideKeyboard()
+
+9
+00:00:00,000 --> 00:00:00,000
+33. delay(5, STOP_ON_FAILURE)
+
+10
+00:00:00,000 --> 00:00:00,000
+37. waitForElementPresent(findTestObject("Productions/Create Order/HMD/Outlet - Kemang Village"), 5)
+
+11
+00:00:00,000 --> 00:00:00,000
+41. tap(findTestObject("Productions/Create Order/HMD/Outlet - Kemang Village"), 0)
+
+12
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+13
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+

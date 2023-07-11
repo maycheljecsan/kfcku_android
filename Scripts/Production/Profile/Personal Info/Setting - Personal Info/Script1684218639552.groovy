@@ -25,7 +25,7 @@ Mobile.tap(findTestObject('Productions/Menu/Profile'), 0)
 
 Mobile.tap(findTestObject('Productions/Personal Info/Edit Profile'), 0)
 
-Mobile.setText(findTestObject('Productions/Personal Info/Edit-Profile/Edit Name'), 'mike', 0)
+Mobile.setText(findTestObject('Productions/Personal Info/Edit-Profile/Edit Name'), 'Mike', 0)
 
 Mobile.hideKeyboard()
 

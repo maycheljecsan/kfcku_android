@@ -1,0 +1,193 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KFCKU Apps,,,,2023-07-11 11:34:27,2023-07-11 11:42:59,8m - 32.259s,FAILED
+,,,,,,,
+Test Cases/Production/Login KFCKU Apps/Login Failed - Empty Phone Number and Password,,,,2023-07-11 11:34:27,2023-07-11 11:35:47,1m - 19.459s,PASSED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 11:34:28,2023-07-11 11:35:26,57.943s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-07-11 11:35:26,2023-07-11 11:35:31,5.060s,PASSED
+"tap(findTestObject(""Productions/Menu/Profile""), 5)",,,,2023-07-11 11:35:31,2023-07-11 11:35:34,2.863s,PASSED
+"tap(findTestObject(""Productions/Login/Button - Sign In""), 0)",,,,2023-07-11 11:35:34,2023-07-11 11:35:37,2.544s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-07-11 11:35:37,2023-07-11 11:35:42,5.005s,PASSED
+"waitForElementPresent(findTestObject(""Productions/Login/Please enter your phone number""), 0, STOP_ON_FAILURE)",,,,2023-07-11 11:35:42,2023-07-11 11:35:42,0.820s,PASSED
+"waitForElementPresent(findTestObject(""Productions/Login/Please type your correct password""), 0)",,,,2023-07-11 11:35:42,2023-07-11 11:35:43,0.749s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-11 11:35:43,2023-07-11 11:35:46,3.020s,PASSED
+closeApplication(),,,,2023-07-11 11:35:46,2023-07-11 11:35:47,0.510s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 11:35:47,2023-07-11 11:35:47,0.044s,PASSED
+,,,,,,,
+Test Cases/Production/Login KFCKU Apps/Login Failed - Phone Number Not Registered,,,,2023-07-11 11:35:47,2023-07-11 11:36:33,45.884s,PASSED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 11:35:47,2023-07-11 11:36:08,20.497s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-07-11 11:36:08,2023-07-11 11:36:13,5.013s,PASSED
+"tap(findTestObject(""Productions/Menu/Profile""), 5)",,,,2023-07-11 11:36:13,2023-07-11 11:36:15,2.560s,PASSED
+"tap(findTestObject(""Productions/Login/Enter your phone number""), 0)",,,,2023-07-11 11:36:15,2023-07-11 11:36:18,2.299s,PASSED
+"setText(findTestObject(""Productions/Login/Enter your phone number""), ""081211287366"", 0)",,,,2023-07-11 11:36:18,2023-07-11 11:36:20,2.576s,PASSED
+pressBack(),,,,2023-07-11 11:36:20,2023-07-11 11:36:21,0.534s,PASSED
+"setText(findTestObject(""Productions/Login/Type your password""), ""Pass123"", 0)",,,,2023-07-11 11:36:21,2023-07-11 11:36:23,1.713s,PASSED
+"tap(findTestObject(""Productions/Login/Button - Sign In""), 0)",,,,2023-07-11 11:36:23,2023-07-11 11:36:24,0.999s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-07-11 11:36:24,2023-07-11 11:36:29,5.008s,PASSED
+"waitForElementPresent(findTestObject(""Productions/Login/Your phone number has not been registered""), 0, STOP_ON_FAILURE)",,,,2023-07-11 11:36:29,2023-07-11 11:36:29,0.670s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-11 11:36:29,2023-07-11 11:36:32,3.008s,PASSED
+closeApplication(),,,,2023-07-11 11:36:32,2023-07-11 11:36:33,0.320s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 11:36:33,2023-07-11 11:36:33,0.007s,PASSED
+,,,,,,,
+Test Cases/Production/Login KFCKU Apps/Login Failed - Wrong Password,,,,2023-07-11 11:36:33,2023-07-11 11:37:19,46.417s,PASSED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 11:36:33,2023-07-11 11:36:53,20.404s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-07-11 11:36:53,2023-07-11 11:36:59,5.016s,PASSED
+"tap(findTestObject(""Productions/Menu/Profile""), 5)",,,,2023-07-11 11:36:59,2023-07-11 11:37:01,2.737s,PASSED
+"tap(findTestObject(""Productions/Login/Enter your phone number""), 0)",,,,2023-07-11 11:37:01,2023-07-11 11:37:04,2.408s,PASSED
+"setText(findTestObject(""Productions/Login/Enter your phone number""), ""081211287377"", 0)",,,,2023-07-11 11:37:04,2023-07-11 11:37:06,2.761s,PASSED
+pressBack(),,,,2023-07-11 11:37:06,2023-07-11 11:37:07,0.524s,PASSED
+"setText(findTestObject(""Productions/Login/Type your password""), ""passk209"", 0)",,,,2023-07-11 11:37:07,2023-07-11 11:37:09,1.965s,PASSED
+"tap(findTestObject(""Productions/Login/Button - Sign In""), 0)",,,,2023-07-11 11:37:09,2023-07-11 11:37:10,1.014s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-07-11 11:37:10,2023-07-11 11:37:15,5.021s,PASSED
+"waitForElementPresent(findTestObject(""Productions/Login/The password you entered is incorrect""), 0, STOP_ON_FAILURE)",,,,2023-07-11 11:37:15,2023-07-11 11:37:16,0.607s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-11 11:37:16,2023-07-11 11:37:19,3.010s,PASSED
+closeApplication(),,,,2023-07-11 11:37:19,2023-07-11 11:37:19,0.436s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 11:37:19,2023-07-11 11:37:19,0.009s,PASSED
+,,,,,,,
+Test Cases/Production/Login KFCKU Apps/Login Social Media,,,,2023-07-11 11:37:19,2023-07-11 11:38:13,54.316s,PASSED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 11:37:20,2023-07-11 11:37:41,20.591s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-07-11 11:37:41,2023-07-11 11:37:46,5.007s,PASSED
+"tap(findTestObject(""Productions/Menu/Profile""), 5)",,,,2023-07-11 11:37:46,2023-07-11 11:37:48,2.612s,PASSED
+"waitForElementPresent(findTestObject(""Productions/Login/Button - Sign in with Google""), 0)",,,,2023-07-11 11:37:48,2023-07-11 11:37:51,2.423s,PASSED
+"tap(findTestObject(""Productions/Login/Button - Sign in with Google""), 0)",,,,2023-07-11 11:37:51,2023-07-11 11:37:52,0.843s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-07-11 11:37:52,2023-07-11 11:37:57,5.011s,PASSED
+"tap(findTestObject(""Productions/Login/jecsanmaychelgmail.com""), 0, STOP_ON_FAILURE)",,,,2023-07-11 11:37:57,2023-07-11 11:37:57,0.679s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-07-11 11:37:57,2023-07-11 11:38:02,5.014s,PASSED
+"waitForElementPresent(findTestObject(""Productions/Login/Profile Info""), 0)",,,,2023-07-11 11:38:02,2023-07-11 11:38:05,2.358s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-11 11:38:05,2023-07-11 11:38:08,3.118s,PASSED
+"tap(findTestObject(""Productions/Login/Log Out""), 0)",,,,2023-07-11 11:38:08,2023-07-11 11:38:09,1.448s,PASSED
+"tap(findTestObject(""Productions/Login/Logout - Yes""), 0)",,,,2023-07-11 11:38:09,2023-07-11 11:38:10,0.861s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-11 11:38:10,2023-07-11 11:38:13,3.009s,PASSED
+closeApplication(),,,,2023-07-11 11:38:13,2023-07-11 11:38:13,0.319s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 11:38:13,2023-07-11 11:38:13,0.008s,PASSED
+,,,,,,,
+Test Cases/Production/Login KFCKU Apps/Login Phone Number,,,,2023-07-11 11:38:13,2023-07-11 11:38:59,45.645s,PASSED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 11:38:14,2023-07-11 11:38:34,20.060s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-07-11 11:38:34,2023-07-11 11:38:39,5.011s,PASSED
+"tap(findTestObject(""Productions/Menu/Profile""), 5)",,,,2023-07-11 11:38:39,2023-07-11 11:38:42,2.676s,PASSED
+"tap(findTestObject(""Productions/Login/Enter your phone number""), 0)",,,,2023-07-11 11:38:42,2023-07-11 11:38:44,2.279s,PASSED
+"setText(findTestObject(""Productions/Login/Enter your phone number""), ""081211287377"", 0)",,,,2023-07-11 11:38:44,2023-07-11 11:38:46,2.339s,PASSED
+pressBack(),,,,2023-07-11 11:38:46,2023-07-11 11:38:47,0.546s,PASSED
+"setText(findTestObject(""Productions/Login/Type your password""), ""pass123"", 0)",,,,2023-07-11 11:38:47,2023-07-11 11:38:49,1.787s,PASSED
+"tap(findTestObject(""Productions/Login/Button - Sign In""), 0)",,,,2023-07-11 11:38:49,2023-07-11 11:38:50,1.063s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-07-11 11:38:50,2023-07-11 11:38:55,5.009s,PASSED
+"waitForElementPresent(findTestObject(""Productions/Login/Profile Info""), 0, STOP_ON_FAILURE)",,,,2023-07-11 11:38:55,2023-07-11 11:38:56,0.781s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-11 11:38:56,2023-07-11 11:38:59,3.016s,PASSED
+closeApplication(),,,,2023-07-11 11:38:59,2023-07-11 11:38:59,0.317s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 11:38:59,2023-07-11 11:38:59,0.006s,PASSED
+,,,,,,,
+Test Cases/Production/Home Page/Promotion,,,,2023-07-11 11:38:59,2023-07-11 11:39:41,41.781s,PASSED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 11:38:59,2023-07-11 11:39:19,19.221s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-11 11:39:19,2023-07-11 11:39:22,3.006s,PASSED
+"verifyElementVisible(findTestObject(""Productions/Home Page/Promotion/Banner""), 0)",,,,2023-07-11 11:39:22,2023-07-11 11:39:24,2.757s,PASSED
+"swipe(281, 800, 434, 61)",,,,2023-07-11 11:39:24,2023-07-11 11:39:26,1.266s,PASSED
+"verifyElementVisible(findTestObject(""Productions/Home Page/Promotion/Title - PROMOS AND REWARDS""), 0)",,,,2023-07-11 11:39:26,2023-07-11 11:39:27,1.180s,PASSED
+device_Height = getDeviceHeight(),,Get Device Height and Store in to device_height variable,,2023-07-11 11:39:27,2023-07-11 11:39:27,0.232s,PASSED
+device_Width = getDeviceWidth(),,Get Width Height and Store in to device_Width variable,,2023-07-11 11:39:27,2023-07-11 11:39:27,0.203s,PASSED
+startY = device_Height / 2,,Storing the value in startY variable by dividing device height by 2 Because Y coordinates are constant,,2023-07-11 11:39:27,2023-07-11 11:39:27,0.006s,PASSED
+endY = startY,,Here startY and endY values are equal for Horizontal Swiping for that assigning startX value to endX,,2023-07-11 11:39:27,2023-07-11 11:39:27,0.004s,PASSED
+startX = device_Width * 0.30,,Storing the value in startX variable,,2023-07-11 11:39:27,2023-07-11 11:39:27,0.007s,PASSED
+endX = device_Width * 0.70,,Storing the value in endX variable,,2023-07-11 11:39:27,2023-07-11 11:39:27,0.004s,PASSED
+"swipe(endX, startY, startX, endY)",,Here Y constant for Swipe Horizontal Right to Left,,2023-07-11 11:39:27,2023-07-11 11:39:29,1.239s,PASSED
+"tap(findTestObject(""Productions/Home Page/Promotion/View All""), 3)",,,,2023-07-11 11:39:29,2023-07-11 11:39:30,1.098s,PASSED
+"verifyElementVisible(findTestObject(""Productions/Home Page/Promotion/Title - ONGOING PROMO""), 0)",,,,2023-07-11 11:39:30,2023-07-11 11:39:32,1.957s,PASSED
+"verifyElementVisible(findTestObject(""Productions/Home Page/Promotion/Promo List 1""), 0)",,,,2023-07-11 11:39:32,2023-07-11 11:39:32,0.638s,PASSED
+"verifyElementVisible(findTestObject(""Productions/Home Page/Promotion/Promo List 2""), 0)",,,,2023-07-11 11:39:32,2023-07-11 11:39:33,0.553s,PASSED
+"verifyElementVisible(findTestObject(""Productions/Home Page/Promotion/Promo List 3""), 0)",,,,2023-07-11 11:39:33,2023-07-11 11:39:33,0.544s,PASSED
+"tap(findTestObject(""Productions/Home Page/Promotion/Promo List 1""), 3)",,,,2023-07-11 11:39:33,2023-07-11 11:39:34,0.531s,PASSED
+"tap(findTestObject(""Productions/Home Page/Promotion/Button Back Promo Detail""), 3)",,,,2023-07-11 11:39:34,2023-07-11 11:39:37,3.012s,PASSED
+"tap(findTestObject(""Productions/Home Page/Promotion/Button Back""), 3)",,,,2023-07-11 11:39:37,2023-07-11 11:39:37,0.522s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-11 11:39:37,2023-07-11 11:39:40,3.009s,PASSED
+closeApplication(),,,,2023-07-11 11:39:40,2023-07-11 11:39:41,0.338s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 11:39:41,2023-07-11 11:39:41,0.006s,PASSED
+,,,,,,,
+Test Cases/Production/My Order/Order Detail HMD - My Order,,,,2023-07-11 11:39:41,2023-07-11 11:40:24,43.437s,PASSED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 11:39:41,2023-07-11 11:40:00,19.165s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-11 11:40:00,2023-07-11 11:40:03,3.010s,PASSED
+"tap(findTestObject(""Productions/Menu/My Order""), 0)",,,,2023-07-11 11:40:03,2023-07-11 11:40:07,3.753s,PASSED
+"verifyElementVisible(findTestObject(""Productions/My Order/Title - MY ORDER""), 0)",,,,2023-07-11 11:40:07,2023-07-11 11:40:09,2.284s,PASSED
+"scrollToText(""Delivery Order"", STOP_ON_FAILURE)",,,,2023-07-11 11:40:09,2023-07-11 11:40:10,0.879s,PASSED
+"tap(findTestObject(""Productions/My Order/Order Type - Delivery Order""), 0)",,,,2023-07-11 11:40:10,2023-07-11 11:40:11,1.134s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-11 11:40:11,2023-07-11 11:40:15,3.018s,PASSED
+"verifyElementVisible(findTestObject(""Productions/My Order/Order Detail - HMD/Title - ORDER DETAIL""), 0)",,,,2023-07-11 11:40:15,2023-07-11 11:40:16,1.423s,PASSED
+"verifyElementVisible(findTestObject(""Productions/My Order/Order Detail - HMD/Delivery Number""), 0)",,,,2023-07-11 11:40:16,2023-07-11 11:40:17,0.694s,PASSED
+"verifyElementVisible(findTestObject(""Productions/My Order/Order Detail - HMD/Order Type""), 0)",,,,2023-07-11 11:40:17,2023-07-11 11:40:17,0.761s,PASSED
+"verifyElementVisible(findTestObject(""Productions/My Order/Order Detail - HMD/Delivery Detail""), 0)",,,,2023-07-11 11:40:17,2023-07-11 11:40:18,0.659s,PASSED
+"scrollToText(""Tax"", STOP_ON_FAILURE)",,,,2023-07-11 11:40:18,2023-07-11 11:40:22,3.893s,PASSED
+"verifyElementVisible(findTestObject(""Productions/My Order/Order Detail - HMD/Order Items""), 0)",,,,2023-07-11 11:40:22,2023-07-11 11:40:23,1.312s,PASSED
+"verifyElementVisible(findTestObject(""Productions/My Order/Order Detail - HMD/Order Summary""), 0)",,,,2023-07-11 11:40:23,2023-07-11 11:40:24,0.612s,PASSED
+closeApplication(),,,,2023-07-11 11:40:24,2023-07-11 11:40:24,0.358s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 11:40:24,2023-07-11 11:40:24,0.006s,PASSED
+,,,,,,,
+Test Cases/Production/My Order/Order Detail PNP - My Order,,,,2023-07-11 11:40:24,2023-07-11 11:41:30,1m - 6.262s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 11:40:25,2023-07-11 11:40:44,19.411s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-11 11:40:44,2023-07-11 11:40:47,3.006s,PASSED
+"tap(findTestObject(""Productions/Menu/My Order""), 0)",,,,2023-07-11 11:40:47,2023-07-11 11:40:50,3.301s,PASSED
+"verifyElementVisible(findTestObject(""Productions/My Order/Title - MY ORDER""), 0)",,,,2023-07-11 11:40:50,2023-07-11 11:40:53,2.177s,PASSED
+"scrollToText(""Dine In"", STOP_ON_FAILURE)",,,,2023-07-11 11:40:53,2023-07-11 11:40:53,0.852s,PASSED
+"tap(findTestObject(""Productions/My Order/Order Type - Dine In""), 0)",,,,2023-07-11 11:40:53,2023-07-11 11:40:54,0.903s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-11 11:40:54,2023-07-11 11:40:57,3.018s,PASSED
+"verifyElementVisible(findTestObject(""Productions/My Order/Order Detail - PNP/Pick Number""), 0)",,,,2023-07-11 11:40:57,2023-07-11 11:40:58,1.056s,PASSED
+"verifyElementVisible(findTestObject(""Productions/My Order/Order Detail - PNP/Order Type""), 0)",,,,2023-07-11 11:40:58,2023-07-11 11:40:59,0.819s,PASSED
+"verifyElementVisible(findTestObject(""Productions/My Order/Order Detail - PNP/Pick Up Outlet""), 0)",,,,2023-07-11 11:40:59,2023-07-11 11:41:30,31.201s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 11:41:30,2023-07-11 11:41:30,0.005s,PASSED
+,,,,,,,
+Test Cases/Production/My Order/View All Status Order - My Order,,,,2023-07-11 11:41:30,2023-07-11 11:42:21,50.451s,PASSED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 11:41:31,2023-07-11 11:41:47,15.777s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-11 11:41:47,2023-07-11 11:41:50,3.006s,PASSED
+"tap(findTestObject(""Productions/Menu/My Order""), 0)",,,,2023-07-11 11:41:50,2023-07-11 11:41:53,3.338s,PASSED
+"verifyElementVisible(findTestObject(""Productions/My Order/Title - MY ORDER""), 0)",,,,2023-07-11 11:41:53,2023-07-11 11:41:56,2.964s,PASSED
+"tap(findTestObject(""Productions/My Order/Get List Status""), 0)",,,,2023-07-11 11:41:56,2023-07-11 11:41:57,1.066s,PASSED
+"verifyElementVisible(findTestObject(""Productions/My Order/Status Order List""), 0)",,,,2023-07-11 11:41:57,2023-07-11 11:42:01,3.826s,PASSED
+"tap(findTestObject(""Productions/My Order/Awaiting Payment""), 0)",,,,2023-07-11 11:42:01,2023-07-11 11:42:02,0.653s,PASSED
+"tap(findTestObject(""Productions/My Order/Get List Status""), 0)",,,,2023-07-11 11:42:02,2023-07-11 11:42:04,1.774s,PASSED
+"tap(findTestObject(""Productions/My Order/Cancelled""), 0)",,,,2023-07-11 11:42:04,2023-07-11 11:42:05,1.299s,PASSED
+"tap(findTestObject(""Productions/My Order/Get List Status""), 0)",,,,2023-07-11 11:42:05,2023-07-11 11:42:07,2.182s,PASSED
+"tap(findTestObject(""Productions/My Order/Completed""), 0)",,,,2023-07-11 11:42:07,2023-07-11 11:42:11,3.991s,PASSED
+"tap(findTestObject(""Productions/My Order/Get List Status""), 0)",,,,2023-07-11 11:42:11,2023-07-11 11:42:13,2.186s,PASSED
+"tap(findTestObject(""Productions/My Order/In Progress""), 0)",,,,2023-07-11 11:42:13,2023-07-11 11:42:15,1.318s,PASSED
+"tap(findTestObject(""Productions/My Order/Get List Status""), 0)",,,,2023-07-11 11:42:15,2023-07-11 11:42:16,1.852s,PASSED
+"tap(findTestObject(""Productions/My Order/Rejected""), 0)",,,,2023-07-11 11:42:16,2023-07-11 11:42:18,1.283s,PASSED
+"tap(findTestObject(""Productions/My Order/Get List Status""), 0)",,,,2023-07-11 11:42:18,2023-07-11 11:42:20,2.439s,PASSED
+"tap(findTestObject(""Productions/My Order/All""), 0)",,,,2023-07-11 11:42:20,2023-07-11 11:42:21,0.517s,PASSED
+closeApplication(),,,,2023-07-11 11:42:21,2023-07-11 11:42:21,0.317s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 11:42:21,2023-07-11 11:42:21,0.006s,PASSED
+,,,,,,,
+Test Cases/Production/Profile/Personal Info/User Profile,,,,2023-07-11 11:42:21,2023-07-11 11:42:55,34.220s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 11:42:21,2023-07-11 11:42:41,19.882s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-07-11 11:42:41,2023-07-11 11:42:46,5.011s,PASSED
+"tap(findTestObject(""Productions/Menu/Profile""), 0)",,,,2023-07-11 11:42:46,2023-07-11 11:42:49,2.656s,PASSED
+"verifyElementVisible(findTestObject(""Productions/Personal Info/Profile/Photo Profile""), 3)",,,,2023-07-11 11:42:49,2023-07-11 11:42:51,1.655s,PASSED
+"verifyElementVisible(findTestObject(""Productions/Personal Info/Profile/Username""), 3)",,,,2023-07-11 11:42:51,2023-07-11 11:42:55,4.533s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 11:42:55,2023-07-11 11:42:55,0.001s,PASSED
+,,,,,,,
+Test Cases/Production/Profile/Personal Info/Setting - Personal Info,,,,2023-07-11 11:42:55,2023-07-11 11:42:56,0.474s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 11:42:56,2023-07-11 11:42:56,0.015s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 11:42:56,2023-07-11 11:42:56,0.000s,PASSED
+,,,,,,,
+Test Cases/Production/Profile/General/Change Language,,,,2023-07-11 11:42:56,2023-07-11 11:42:56,0.457s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 11:42:56,2023-07-11 11:42:56,0.000s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 11:42:56,2023-07-11 11:42:56,0.000s,PASSED
+,,,,,,,
+Test Cases/Production/Profile/General/Customer Service,,,,2023-07-11 11:42:56,2023-07-11 11:42:57,0.466s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 11:42:57,2023-07-11 11:42:57,0.011s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 11:42:57,2023-07-11 11:42:57,0.000s,PASSED
+,,,,,,,
+Test Cases/Production/Profile/General/Privacy Policy,,,,2023-07-11 11:42:57,2023-07-11 11:42:57,0.529s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 11:42:57,2023-07-11 11:42:57,0.010s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 11:42:57,2023-07-11 11:42:57,0.000s,PASSED
+,,,,,,,
+Test Cases/Production/Profile/General/Term and Condition,,,,2023-07-11 11:42:57,2023-07-11 11:42:58,0.442s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 11:42:58,2023-07-11 11:42:58,0.017s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 11:42:58,2023-07-11 11:42:58,0.000s,PASSED
+,,,,,,,
+Test Cases/Production/Profile/Device/Linked Account,,,,2023-07-11 11:42:58,2023-07-11 11:42:58,0.471s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 11:42:58,2023-07-11 11:42:58,0.000s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 11:42:58,2023-07-11 11:42:58,0.016s,PASSED
+,,,,,,,
+Test Cases/Production/Profile/Device/App Version,,,,2023-07-11 11:42:58,2023-07-11 11:42:58,0.444s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 11:42:58,2023-07-11 11:42:58,0.005s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 11:42:58,2023-07-11 11:42:58,0.000s,PASSED
+,,,,,,,
+Test Cases/Production/Profile/Device/Logout,,,,2023-07-11 11:42:58,2023-07-11 11:42:59,0.468s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 11:42:59,2023-07-11 11:42:59,0.012s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 11:42:59,2023-07-11 11:42:59,0.000s,PASSED

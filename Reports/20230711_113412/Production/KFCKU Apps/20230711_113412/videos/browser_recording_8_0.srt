@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. startExistingApplication("com.kfc.mobile", STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+5. delay(3, STOP_ON_FAILURE)
+
+3
+00:00:00,000 --> 00:00:00,000
+9. tap(findTestObject("Productions/Menu/My Order"), 0)
+
+4
+00:00:00,000 --> 00:00:00,000
+13. verifyElementVisible(findTestObject("Productions/My Order/Title - MY ORDER"), 0)
+
+5
+00:00:00,000 --> 00:00:00,000
+17. scrollToText("Dine In", STOP_ON_FAILURE)
+
+6
+00:00:00,000 --> 00:00:00,000
+21. tap(findTestObject("Productions/My Order/Order Type - Dine In"), 0)
+
+7
+00:00:00,000 --> 00:00:00,000
+25. delay(3, STOP_ON_FAILURE)
+
+8
+00:00:00,000 --> 00:00:00,000
+29. verifyElementVisible(findTestObject("Productions/My Order/Order Detail - PNP/Pick Number"), 0)
+
+9
+00:00:00,000 --> 00:00:00,000
+33. verifyElementVisible(findTestObject("Productions/My Order/Order Detail - PNP/Order Type"), 0)
+
+10
+00:00:00,000 --> 00:00:00,000
+37. verifyElementVisible(findTestObject("Productions/My Order/Order Detail - PNP/Pick Up Outlet"), 0)
+
+11
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+12
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+

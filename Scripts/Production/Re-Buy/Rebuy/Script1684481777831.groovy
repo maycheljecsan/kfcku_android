@@ -21,25 +21,27 @@ Mobile.startExistingApplication('com.kfc.mobile', FailureHandling.STOP_ON_FAILUR
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('Productions/Rebuy/Review Order'), 3)
+Mobile.tap(findTestObject('Productions/Menu/My Order'), 0)
 
-Mobile.tap(findTestObject('Productions/Rebuy/Review Order'), 0)
+Mobile.tap(findTestObject('Productions/My Order/Order Detail - HMD/HMD - Kombo Crispy Burger'), 0)
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Button - Choose Now Reward'), 5)
+Mobile.scrollToText('TOTAL', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Button - Add Reward'), 5)
+Mobile.swipe(281, 500, 434, 161)
 
-Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Button - Confirm Reward'), 5)
+Mobile.tap(findTestObject('Productions/Rebuy/Button - Re-Order'), 5)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.swipe(281, 500, 434, 161)
 
 Mobile.scrollToText('TOTAL', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Productions/Create Order/HMD/Add notes for your driver'), 'Rumah depan POS satpam', 0)
-
 Mobile.tap(findTestObject('Productions/Create Order/HMD/Select Delivery Method'), 5)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Productions/Create Order/HMD/GrabExpress'), 5)
 
@@ -53,7 +55,7 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementVisible(findTestObject('Productions/Create Order/PNP/Dine In/Group Payment Method'), 5)
 
-Mobile.tap(findTestObject('Productions/Create Order/Payment Method/QRIS'), 5)
+Mobile.tap(findTestObject('Productions/Create Order/Payment Method/Payment QRIS'), 5)
 
 Mobile.tap(findTestObject('Productions/Create Order/Payment Method/Button - Save Payment'), 5)
 

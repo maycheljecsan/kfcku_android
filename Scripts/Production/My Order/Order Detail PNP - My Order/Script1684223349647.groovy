@@ -23,11 +23,12 @@ Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Productions/Menu/My Order'), 0)
 
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.verifyElementVisible(findTestObject('Productions/My Order/Title - MY ORDER'), 0)
 
-Mobile.scrollToText('Dine In', FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Productions/My Order/Order Type - Dine In'), 0)
+//Mobile.scrollToText('Dine In', FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Productions/My Order/Order Detail - PNP/Snack Bucket Margheritta 1'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
@@ -39,7 +40,7 @@ Mobile.verifyElementVisible(findTestObject('Productions/My Order/Order Detail - 
 
 Mobile.verifyElementVisible(findTestObject('Productions/My Order/Order Detail - PNP/Order Items'), 0)
 
-Mobile.scrollToText('Tax', FailureHandling.STOP_ON_FAILURE)
+Mobile.scrollToText('Total', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementVisible(findTestObject('Productions/My Order/Order Detail - HMD/Instant Reward'), 0)
 

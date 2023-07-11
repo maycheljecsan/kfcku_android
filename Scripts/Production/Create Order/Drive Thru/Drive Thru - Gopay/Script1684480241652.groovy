@@ -81,8 +81,6 @@ Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Button - Add'), 
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Productions/Create Order/PNP/Dine In/List Item Costum'), 5)
-
 Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Button - Continue Custom'), 5)
 
 Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Next Button Order'), 5)

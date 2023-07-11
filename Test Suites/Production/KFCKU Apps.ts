@@ -61,13 +61,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8ba2d461-2aa0-4d26-88ae-70470ca75f05</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Production/My Order/Order Detail PNP - My Order</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>7e93349c-b381-4a41-942e-78511f52f4ac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -75,24 +68,31 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e4b1ad8a-9bdd-48f6-99ad-1f6adf12c27b</guid>
+      <guid>8ba2d461-2aa0-4d26-88ae-70470ca75f05</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Production/Create Order/PNP/Dine In/Dine In - Debit Card</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>566ae231-7164-4315-ad32-72f1fc944e25</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Production/Create Order/PNP/Take Away/Take Away - Credit Card</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Production/My Order/Order Detail PNP - My Order</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>8afb3db1-5d46-462d-9e93-e003817e0717</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Production/Create Order/HMD/HMD - QR</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>566ae231-7164-4315-ad32-72f1fc944e25</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Production/Create Order/PNP/Take Away/Take Away - Credit Card</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e4b1ad8a-9bdd-48f6-99ad-1f6adf12c27b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Production/Create Order/PNP/Dine In/Dine In - Debit Card</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -105,7 +105,7 @@
    <testCaseLink>
       <guid>9450e6d1-69b7-4c6b-8ef6-77bca8f32e27</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Production/Re-Buy/Rebuy</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

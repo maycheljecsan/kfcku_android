@@ -56,3 +56,27 @@ Mobile.waitForElementPresent(findTestObject('Order Type/android.widget.TextView 
 
 Mobile.tap(findTestObject('Order Type/android.widget.TextView - CATERING'), 5)
 
+Mobile.tap(findTestObject('Catering/Search Outlet Catering'), 0)
+
+Mobile.setText(findTestObject('Catering/Masukkan Lokasi'), 'MT Haryono', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Catering/Pilih Lokasi - Jalan Letjen M.T. Haryono'), 0, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Catering/Pilih Outlet - MT HARYONO JAKARTA'), 0, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Catering/Add First Menu'), 0, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementText(findTestObject('Catering/Quantity - 100'), '100', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Catering/Pilih Menu/Button - Lanjut'), 0, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.scrollToText('French Fries')
+
+Mobile.tap(findTestObject('Catering/Pilih Menu/Tambah - Menu Kedua'), 0, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Catering/Pilih Menu/Tambah QTY Menu Kedua'), 0, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Catering/Pilih Menu/Button Cekout'), 0, FailureHandling.STOP_ON_FAILURE)
+

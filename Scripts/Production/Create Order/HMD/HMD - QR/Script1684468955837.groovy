@@ -36,39 +36,38 @@ Mobile.hideKeyboard()
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('Productions/Create Order/HMD/Outlet - Kemang Village'), 5)
-
-Mobile.tap(findTestObject('Productions/Create Order/HMD/Outlet - Kemang Village'), 0)
+Mobile.tap(findTestObject('Productions/Create Order/HMD/kemang village'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Productions/Create Order/HMD/KEMANG'), 0)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.verifyElementVisible(findTestObject('Productions/Create Order/PNP/Dine In/List Menu Group'), 5)
-
-Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/List Menu Group'), 5)
-
+//Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+//
+//Mobile.verifyElementVisible(findTestObject('Productions/Create Order/PNP/Dine In/List Menu Group'), 5)
+//
+//Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/List Menu Group'), 5)
+//
+//Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+//
+//Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Breakfast'), 3)
+//
+//Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/List Menu Group'), 3)
+//
+//Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+//
+//Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Spesial'), 3)
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Breakfast'), 3)
-
-Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/List Menu Group'), 3)
-
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Spesial'), 3)
 
 Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Button - Add'), 3)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Productions/Create Order/PNP/Dine In/List Item Costum'), 5)
-
 Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Button - Continue Custom'), 5)
 
 Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Next Button Order'), 5)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementVisible(findTestObject('Productions/Create Order/PNP/Dine In/You Got Free GOCENG'), 5)
 
@@ -79,6 +78,8 @@ Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Continue Choose 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Button - Choose Now Reward'), 5)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Button - Add Reward'), 5)
 
@@ -92,6 +93,8 @@ Mobile.setText(findTestObject('Productions/Create Order/HMD/Add notes for your d
 
 Mobile.tap(findTestObject('Productions/Create Order/HMD/Select Delivery Method'), 5)
 
+Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Productions/Create Order/HMD/GrabExpress'), 5)
 
 Mobile.tap(findTestObject('Productions/Create Order/HMD/Button - Select'), 5)
@@ -104,16 +107,13 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementVisible(findTestObject('Productions/Create Order/PNP/Dine In/Group Payment Method'), 5)
 
-Mobile.tap(findTestObject('Productions/Create Order/Payment Method/QRIS'), 5)
+Mobile.tap(findTestObject('Productions/Create Order/Payment Method/Payment QRIS'), 5)
 
 Mobile.tap(findTestObject('Productions/Create Order/Payment Method/Button - Save Payment'), 5)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.swipe(281, 500, 434, 161)
-
-//Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Button - Order Now'), 5)
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 //Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Button - Order Now'), 5)
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)

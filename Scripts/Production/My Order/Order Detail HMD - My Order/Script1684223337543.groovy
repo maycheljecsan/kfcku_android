@@ -23,11 +23,11 @@ Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Productions/Menu/My Order'), 0)
 
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.verifyElementVisible(findTestObject('Productions/My Order/Title - MY ORDER'), 0)
 
-Mobile.scrollToText('Delivery Order', FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Productions/My Order/Order Type - Delivery Order'), 0)
+Mobile.tap(findTestObject('Productions/My Order/Order Detail - HMD/HMD - Kombo Crispy Burger'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,80 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. startExistingApplication("com.kfc.mobile", STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+5. delay(3, STOP_ON_FAILURE)
+
+3
+00:00:00,000 --> 00:00:00,000
+9. tap(findTestObject("Productions/Menu/My Order"), 0)
+
+4
+00:00:00,000 --> 00:00:00,000
+13. verifyElementVisible(findTestObject("Productions/My Order/Title - MY ORDER"), 0)
+
+5
+00:00:00,000 --> 00:00:00,000
+17. tap(findTestObject("Productions/My Order/Get List Status"), 0)
+
+6
+00:00:00,000 --> 00:00:00,000
+21. verifyElementVisible(findTestObject("Productions/My Order/Status Order List"), 0)
+
+7
+00:00:00,000 --> 00:00:00,000
+25. tap(findTestObject("Productions/My Order/Awaiting Payment"), 0)
+
+8
+00:00:00,000 --> 00:00:00,000
+29. tap(findTestObject("Productions/My Order/Get List Status"), 0)
+
+9
+00:00:00,000 --> 00:00:00,000
+33. tap(findTestObject("Productions/My Order/Cancelled"), 0)
+
+10
+00:00:00,000 --> 00:00:00,000
+37. tap(findTestObject("Productions/My Order/Get List Status"), 0)
+
+11
+00:00:00,000 --> 00:00:00,000
+41. tap(findTestObject("Productions/My Order/Completed"), 0)
+
+12
+00:00:00,000 --> 00:00:00,000
+45. tap(findTestObject("Productions/My Order/Get List Status"), 0)
+
+13
+00:00:00,000 --> 00:00:00,000
+49. tap(findTestObject("Productions/My Order/In Progress"), 0)
+
+14
+00:00:00,000 --> 00:00:00,000
+53. tap(findTestObject("Productions/My Order/Get List Status"), 0)
+
+15
+00:00:00,000 --> 00:00:00,000
+57. tap(findTestObject("Productions/My Order/Rejected"), 0)
+
+16
+00:00:00,000 --> 00:00:00,000
+61. tap(findTestObject("Productions/My Order/Get List Status"), 0)
+
+17
+00:00:00,000 --> 00:00:00,000
+65. tap(findTestObject("Productions/My Order/All"), 0)
+
+18
+00:00:00,000 --> 00:00:00,000
+69. closeApplication()
+
+19
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+20
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+

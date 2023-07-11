@@ -1,0 +1,90 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KFCKU Apps,,,,2023-07-11 14:40:58,2023-07-11 14:44:19,3m - 20.228s,FAILED
+,,,,,,,
+Test Cases/Production/Login KFCKU Apps/Login Failed - Empty Phone Number and Password,,,,2023-07-11 14:40:59,2023-07-11 14:41:19,20.322s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 14:40:59,2023-07-11 14:41:19,19.733s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 14:41:19,2023-07-11 14:41:19,0.055s,PASSED
+,,,,,,,
+Test Cases/Production/Login KFCKU Apps/Login Failed - Phone Number Not Registered,,,,2023-07-11 14:41:19,2023-07-11 14:41:26,7.310s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 14:41:20,2023-07-11 14:41:26,6.722s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 14:41:26,2023-07-11 14:41:26,0.008s,PASSED
+,,,,,,,
+Test Cases/Production/Login KFCKU Apps/Login Failed - Wrong Password,,,,2023-07-11 14:41:26,2023-07-11 14:41:51,24.273s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 14:41:27,2023-07-11 14:41:51,23.827s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 14:41:51,2023-07-11 14:41:51,0.008s,PASSED
+,,,,,,,
+Test Cases/Production/Login KFCKU Apps/Login Social Media,,,,2023-07-11 14:41:51,2023-07-11 14:41:58,7.206s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 14:41:51,2023-07-11 14:41:58,6.867s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 14:41:58,2023-07-11 14:41:58,0.006s,PASSED
+,,,,,,,
+Test Cases/Production/Login KFCKU Apps/Login Phone Number,,,,2023-07-11 14:41:58,2023-07-11 14:42:05,6.927s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 14:41:58,2023-07-11 14:42:05,6.585s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 14:42:05,2023-07-11 14:42:05,0.005s,PASSED
+,,,,,,,
+Test Cases/Production/Home Page/Promotion,,,,2023-07-11 14:42:05,2023-07-11 14:42:12,6.853s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 14:42:05,2023-07-11 14:42:12,6.510s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 14:42:12,2023-07-11 14:42:12,0.005s,PASSED
+,,,,,,,
+Test Cases/Production/My Order/Order Detail HMD - My Order,,,,2023-07-11 14:42:12,2023-07-11 14:42:19,6.848s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 14:42:12,2023-07-11 14:42:19,6.510s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 14:42:19,2023-07-11 14:42:19,0.004s,PASSED
+,,,,,,,
+Test Cases/Production/My Order/View All Status Order - My Order,,,,2023-07-11 14:42:19,2023-07-11 14:42:25,6.962s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 14:42:19,2023-07-11 14:42:25,6.599s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 14:42:25,2023-07-11 14:42:25,0.004s,PASSED
+,,,,,,,
+Test Cases/Production/My Order/Order Detail PNP - My Order,,,,2023-07-11 14:42:25,2023-07-11 14:42:32,6.898s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 14:42:26,2023-07-11 14:42:32,6.466s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 14:42:32,2023-07-11 14:42:32,0.005s,PASSED
+,,,,,,,
+Test Cases/Production/Create Order/HMD/HMD - QR,,,,2023-07-11 14:42:32,2023-07-11 14:42:56,24.017s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 14:42:33,2023-07-11 14:42:56,23.653s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 14:42:56,2023-07-11 14:42:56,0.006s,PASSED
+,,,,,,,
+Test Cases/Production/Create Order/PNP/Take Away/Take Away - Credit Card,,,,2023-07-11 14:42:56,2023-07-11 14:43:04,7.224s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 14:42:57,2023-07-11 14:43:04,6.825s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 14:43:04,2023-07-11 14:43:04,0.005s,PASSED
+,,,,,,,
+Test Cases/Production/Create Order/PNP/Dine In/Dine In - Debit Card,,,,2023-07-11 14:43:04,2023-07-11 14:43:10,6.806s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 14:43:04,2023-07-11 14:43:10,6.429s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 14:43:10,2023-07-11 14:43:10,0.004s,PASSED
+,,,,,,,
+Test Cases/Production/Re-Buy/Rebuy,,,,2023-07-11 14:43:10,2023-07-11 14:43:17,6.760s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 14:43:11,2023-07-11 14:43:17,6.399s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 14:43:17,2023-07-11 14:43:17,0.004s,PASSED
+,,,,,,,
+Test Cases/Production/Profile/Personal Info/User Profile,,,,2023-07-11 14:43:17,2023-07-11 14:43:24,6.959s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 14:43:18,2023-07-11 14:43:24,6.602s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 14:43:24,2023-07-11 14:43:24,0.004s,PASSED
+,,,,,,,
+Test Cases/Production/Profile/Personal Info/Setting - Personal Info,,,,2023-07-11 14:43:24,2023-07-11 14:43:31,7.000s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 14:43:25,2023-07-11 14:43:31,6.578s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 14:43:31,2023-07-11 14:43:31,0.005s,PASSED
+,,,,,,,
+Test Cases/Production/Profile/General/Change Language,,,,2023-07-11 14:43:31,2023-07-11 14:43:38,6.803s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 14:43:31,2023-07-11 14:43:38,6.482s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 14:43:38,2023-07-11 14:43:38,0.005s,PASSED
+,,,,,,,
+Test Cases/Production/Profile/General/Customer Service,,,,2023-07-11 14:43:38,2023-07-11 14:43:45,6.691s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 14:43:38,2023-07-11 14:43:45,6.363s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 14:43:45,2023-07-11 14:43:45,0.004s,PASSED
+,,,,,,,
+Test Cases/Production/Profile/General/Privacy Policy,,,,2023-07-11 14:43:45,2023-07-11 14:43:52,6.891s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 14:43:45,2023-07-11 14:43:52,6.567s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 14:43:52,2023-07-11 14:43:52,0.006s,PASSED
+,,,,,,,
+Test Cases/Production/Profile/General/Term and Condition,,,,2023-07-11 14:43:52,2023-07-11 14:43:58,6.800s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 14:43:52,2023-07-11 14:43:58,6.481s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 14:43:58,2023-07-11 14:43:58,0.004s,PASSED
+,,,,,,,
+Test Cases/Production/Profile/Device/Linked Account,,,,2023-07-11 14:43:58,2023-07-11 14:44:05,6.814s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 14:43:59,2023-07-11 14:44:05,6.468s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 14:44:05,2023-07-11 14:44:05,0.006s,PASSED
+,,,,,,,
+Test Cases/Production/Profile/Device/App Version,,,,2023-07-11 14:44:05,2023-07-11 14:44:12,6.713s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 14:44:06,2023-07-11 14:44:12,6.400s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 14:44:12,2023-07-11 14:44:12,0.005s,PASSED
+,,,,,,,
+Test Cases/Production/Profile/Device/Logout,,,,2023-07-11 14:44:12,2023-07-11 14:44:19,6.727s,FAILED
+"startExistingApplication(""com.kfc.mobile"", STOP_ON_FAILURE)",,,,2023-07-11 14:44:12,2023-07-11 14:44:19,6.418s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-07-11 14:44:19,2023-07-11 14:44:19,0.005s,PASSED

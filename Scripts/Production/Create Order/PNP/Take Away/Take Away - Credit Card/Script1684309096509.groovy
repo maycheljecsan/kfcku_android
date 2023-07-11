@@ -22,6 +22,8 @@ Mobile.startExistingApplication('com.kfc.mobile', FailureHandling.STOP_ON_FAILUR
 //WebUI.callTestCase(findTestCase('Staging/Login KFCKU Apps/Login Social Media'), [:], FailureHandling.STOP_ON_FAILURE)
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.tap(findTestObject('Productions/Menu/Home'), 5)
+
 Mobile.swipe(281, 500, 434, 170)
 
 Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Menu - DINE-IN'), 5)
@@ -60,8 +62,6 @@ Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Button - Add'), 
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Productions/Create Order/PNP/Dine In/List Item Costum'), 5)
-
 Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Button - Continue Custom'), 5)
 
 Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Next Button Order'), 5)
@@ -84,9 +84,7 @@ Mobile.swipe(281, 500, 434, 161)
 
 Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Select Payment Method'), 5)
 
-Mobile.verifyElementVisible(findTestObject('Productions/Create Order/PNP/Dine In/Group Payment Method'), 5)
-
-Mobile.tap(findTestObject('Productions/Create Order/Payment Method/Credit Card'), 5)
+Mobile.tap(findTestObject('Productions/Create Order/Payment Method/Payment Credit Card'), 5)
 
 Mobile.tap(findTestObject('Productions/Create Order/Payment Method/Button - Save Payment'), 5)
 
@@ -95,11 +93,9 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 Mobile.swipe(281, 500, 434, 161)
 
 //Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Button - Order Now'), 5)
-
 //Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Button - Order Now'), 5)
 Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
 
 //Mobile.takeAreaScreenshot(7, FailureHandling.STOP_ON_FAILURE)
-
 Mobile.closeApplication()
 

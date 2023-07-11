@@ -1,0 +1,44 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. startExistingApplication("com.kfc.mobile", STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+5. delay(5, STOP_ON_FAILURE)
+
+3
+00:00:00,000 --> 00:00:00,000
+9. tap(findTestObject("Productions/Menu/Profile"), 5)
+
+4
+00:00:00,000 --> 00:00:00,000
+13. tap(findTestObject("Productions/Login/Button - Sign In"), 0)
+
+5
+00:00:00,000 --> 00:00:00,000
+17. delay(5, STOP_ON_FAILURE)
+
+6
+00:00:00,000 --> 00:00:00,000
+21. waitForElementPresent(findTestObject("Productions/Login/Please enter your phone number"), 0, STOP_ON_FAILURE)
+
+7
+00:00:00,000 --> 00:00:00,000
+25. waitForElementPresent(findTestObject("Productions/Login/Please type your correct password"), 0)
+
+8
+00:00:00,000 --> 00:00:00,000
+29. delay(3, STOP_ON_FAILURE)
+
+9
+00:00:00,000 --> 00:00:00,000
+33. closeApplication()
+
+10
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+11
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+
