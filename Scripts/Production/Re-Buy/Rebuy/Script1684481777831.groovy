@@ -47,6 +47,8 @@ Mobile.tap(findTestObject('Productions/Create Order/HMD/GrabExpress'), 5)
 
 Mobile.tap(findTestObject('Productions/Create Order/HMD/Button - Select'), 5)
 
+Mobile.swipe(281, 500, 434, 161)
+
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Select Payment Method'), 5)

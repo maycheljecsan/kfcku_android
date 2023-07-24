@@ -29,11 +29,11 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Profile/android.widget.TextView - Profil'), 5)
 
-Mobile.setText(findTestObject('Login/android.widget.EditText - Masukkan nomor handphone Anda'), '081399674746', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditText - Masukkan nomor handphone Anda'), '081211287377', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.setText(findTestObject('Login/android.widget.EditText - Ketik kata sandi Anda'), 'pass111', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditText - Ketik kata sandi Anda'), 'pass123', 0)
 
 Mobile.hideKeyboard()
 

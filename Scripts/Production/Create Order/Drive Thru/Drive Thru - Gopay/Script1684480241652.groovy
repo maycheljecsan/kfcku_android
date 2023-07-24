@@ -19,10 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.kfc.mobile', FailureHandling.STOP_ON_FAILURE)
 
+Mobile.waitForElementPresent(findTestObject('Productions/Menu/Menu Home'), 5)
+
+Mobile.tap(findTestObject('Productions/Menu/Menu Home'), 5)
+
 //WebUI.callTestCase(findTestCase('Staging/Login KFCKU Apps/Login Social Media'), [:], FailureHandling.STOP_ON_FAILURE)
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(281, 600, 434, 90)
+Mobile.swipe(281, 500, 434, 80)
 
 'Get Device Height and Store in to device_height variable'
 device_Height = Mobile.getDeviceHeight()
@@ -37,10 +41,10 @@ int startY = device_Height / 2
 int endY = startY
 
 'Storing the value in startX variable'
-int startX = device_Width * 0.30
+int startX = device_Width * 0.50
 
 'Storing the value in endX variable'
-int endX = device_Width * 0.70
+int endX = device_Width * 0.50
 
 'Here Y constant for Swipe Horizontal Right to Left'
 Mobile.swipe(endX, startY, startX, endY)
@@ -103,11 +107,11 @@ Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Button - Confirm
 
 Mobile.swipe(281, 500, 434, 161)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Select Payment Method'), 5)
 
-Mobile.verifyElementVisible(findTestObject('Productions/Create Order/PNP/Dine In/Group Payment Method'), 5)
-
-Mobile.tap(findTestObject('Productions/Create Order/Payment Method/Gopay'), 5)
+Mobile.tap(findTestObject('Productions/Create Order/Payment Method/Payment QRIS'), 5)
 
 Mobile.tap(findTestObject('Productions/Create Order/Payment Method/Button - Save Payment'), 5)
 

@@ -99,6 +99,12 @@ Mobile.tap(findTestObject('Order Dine In/Order/android.widget.LinearLayout'), 5)
 //Mobile.tap(findTestObject('Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis'), 5)
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis'), 5)
+
+Mobile.tap(findTestObject('Order Dine In/Order/android.widget.TextView - Pilih Menu Gratis'), 5)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.waitForElementPresent(findTestObject('DRT Payment/Field NoPol'), 5)
 
 Mobile.tap(findTestObject('DRT Payment/Field NoPol'), 5)
@@ -108,6 +114,18 @@ Mobile.setText(findTestObject('DRT Payment/Field NoPol'), 'B 1223 YTH', 5)
 Mobile.hideKeyboard()
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.waitForElementPresent(findTestObject('Order HMD/rev-HMD/android.widget.Button - Pilih Sekarang'), 10)
+
+Mobile.tap(findTestObject('Order HMD/rev-HMD/android.widget.Button - Pilih Sekarang'), 10)
+
+Mobile.waitForElementPresent(findTestObject('Order Dine In/Order/Revamp/android.widget.Button - Tambah'), 10)
+
+Mobile.tap(findTestObject('Order Dine In/Order/Revamp/android.widget.Button - Tambah'), 5)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Order Dine In/Order/Revamp/android.widget.Button - Lanjutkan'), 5)
 
 Mobile.swipe(281, 500, 434, 161)
 
@@ -159,7 +177,7 @@ Mobile.tap(findTestObject('Order Dine In/Order/android.widget.LinearLayout-payme
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 //Mobile.swipe(281, 500, 434, 161)
-Mobile.tap(findTestObject('Order Dine In/Order/Revamp/android.view.ViewGroup - dana'), 5)
+Mobile.tap(findTestObject('Staging Payment/DEBIT-CC'), 5)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 

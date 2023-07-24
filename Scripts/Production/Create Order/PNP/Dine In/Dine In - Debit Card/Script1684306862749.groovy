@@ -82,6 +82,8 @@ Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Button - Confirm
 
 Mobile.swipe(281, 500, 434, 161)
 
+Mobile.scrollToText('TOTAL', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Productions/Create Order/PNP/Dine In/Select Payment Method'), 5)
 
 Mobile.tap(findTestObject('Productions/Create Order/Payment Method/Payment Credit Card'), 5)

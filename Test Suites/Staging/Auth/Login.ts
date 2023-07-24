@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>3e8bc78c-7b56-41cf-803f-1866206fbea9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Staging/Login KFCKU Apps/Login Failed - Empty Phone Number and Password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -35,7 +35,7 @@
    <testCaseLink>
       <guid>4530221f-64a8-4341-abc6-f8a54c758d9b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Staging/Login KFCKU Apps/Login Social Media</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

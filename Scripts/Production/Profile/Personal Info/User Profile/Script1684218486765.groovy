@@ -25,7 +25,7 @@ Mobile.tap(findTestObject('Productions/Menu/Profile'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Productions/Personal Info/Profile/Photo Profile'), 3)
 
-Mobile.verifyElementVisible(findTestObject('Productions/Personal Info/Profile/Username'), 3)
+Mobile.verifyElementVisible(findTestObject('Productions/Personal Info/Profile/username (1)'), 3)
 
 Mobile.verifyElementVisible(findTestObject('Productions/Personal Info/Profile/Phone Number'), 3)
 

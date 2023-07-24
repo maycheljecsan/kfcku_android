@@ -159,7 +159,7 @@ Mobile.tap(findTestObject('Order Dine In/Order/android.widget.LinearLayout-payme
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 //Mobile.swipe(281, 500, 434, 161)
-Mobile.tap(findTestObject('Order Dine In/Order/Revamp/android.view.ViewGroup - dana'), 5)
+Mobile.tap(findTestObject('Staging Payment/QRIS'), 5)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
